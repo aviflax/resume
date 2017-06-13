@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
     <!-- Thanks for checking out my HTML and CSS skillz! Clearly you should totally hire me. What are you waiting for? avi@aviflax.com -->
     <title>Avi Flax » Résumé</title>
     <style>
@@ -40,6 +40,15 @@
             padding-right: 15%;
         }
 
+        #objective {
+          font-weight: normal;
+          font-size: 160%
+        }
+
+        i > i {
+          font-style: normal;
+        }
+
         #additional-skills-list {
             -column-count: 2;
             -column-gap: 10px;
@@ -54,7 +63,7 @@
             margin-left: 0.1em;
         }
 
-        h1, h2, h3, h4, h5, h6, details {
+        h2, h3, h4, h5, h6, details {
             margin-top: 1.25em;
             margin-bottom: 0.5em;
         }
@@ -83,12 +92,27 @@
           text-decoration: none;
         }
 
+        .time-frame {
+          font-style: italic;
+          font-weight: normal;
+          display: block;
+        }
+
         footer {
           font-size: small;
         }
 
         .experience > section > ul {
-            margin-top: 0.5em;
+          margin-top: 0.5em;
+        }
+
+        @media print {
+          body {
+            font-size: 12pt;
+            margin: 0 auto;
+            padding-left: 5%;
+            padding-right: 5%;
+          }
         }
     </style>
 </head>
@@ -124,7 +148,10 @@
   <summary><h2>Current Position</h2></summary>
 
   <section id="park-assist">
-      <h3>2016–present: Principal Software Architect at <a href="http://parkassist.com/">Park Assist</a></h3>
+      <h3>
+        <span class="time-frame">2016–Present</span>
+        Principal Software Architect at <a href="http://parkassist.com/">Park Assist</a>
+      </h3>
       <ul>
           <li>Helping to design and build the next generation of the Park Assist platform</li>
           <li><strong>FLESH THIS OUT</strong></li>
