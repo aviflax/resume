@@ -127,6 +127,18 @@
           }
         }
     </style>
+
+    <script type="text/javascript">
+      "use strict"; // Is this thing on?
+
+      // Expand all the details elements when printing. So far this seems to work in latest Chrome
+      // but I haven’t managed to get it to work in Safari.
+      window.matchMedia("print").addListener(event => {
+        if (!event.matches) return null; // guard clause FTW!
+        let details = document.getElementsByTagName('details'); // node list gives me a sad 😞
+        Array.prototype.forEach.call(details, elem => elem.open = true);
+      });
+    </script>
 </head>
 <body>
 
