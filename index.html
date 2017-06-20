@@ -136,33 +136,6 @@
           }
         }
     </style>
-
-    <script>
-      "use strict"; // Is this thing on?
-
-      const confirmMessage = "I noticed you’re trying to print. You might have more luck printing" +
-                             " the PDF version of this page." +
-                             "\n\n" +
-                             "Please click or tap OK if you’d like to open the PDF version, or" +
-                             " cancel to continue printing the page.";
-
-      window.matchMedia("print").addListener(event => {
-        if (!event.matches) {
-          return;
-        }
-
-        const result = window.confirm(confirmMessage);
-
-        if (!result) {
-          return;
-        }
-
-        event.preventDefault();
-        event.stopPropagation();
-        window.location = "Avi Flax’s Resume (CV).pdf";
-        return;
-      });
-    </script>
 </head>
 <body>
 
