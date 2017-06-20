@@ -140,29 +140,28 @@
     <script>
       "use strict"; // Is this thing on?
 
-      // As of 17 June this is all commented out because it doesn’t work well in Chrome (for some
-      // reason only the first two pages print) or at all in Safari 10.1. It’s just more hassle than
-      // it’s worth.
-      // // Expand all the details elements when printing. So far this seems to work in latest Chrome
-      // // but I haven’t managed to get it to work in Safari 10.1.
-      // // UPDATE: looks like this is a bug in Safari 10 and/or 10.1, because as of 17 June I this
-      // // works just fine in “Safari Technology Preview” which is basically a pre-alpha version of
-      // // Safari 11.
-      // window.matchMedia("print").addListener(event => {
-      //   let details = document.getElementsByTagName("details"); // node list gives me a sad 😞
-      //   Array.prototype.forEach.call(details, elem => elem.open = event.matches);
-      //
-      //   // After printing is completed, the above code will collapse all the details elements.
-      //   // However, we want to expand the #current-position element, which is the only one that is
-      //   // expanded by default when the page loads. It’s possible that the viewer had already
-      //   // collapsed this element and expects it to remains collapsed, but oh well. The only way to
-      //   // deal with that would be to note the state of every element before printing, save it
-      //   // somewhere outside the event handler, and then restore that state after printing. And,
-      //   // well, sorry, I just don’t have time for that. ¯\_(ツ)_/¯
-      //   if (!event.matches) {
-      //     document.getElementById("current-position").open = true;
-      //   }
-      // });
+      const confirmMessage = "I noticed you’re trying to print. You might have more luck printing" +
+                             " the PDF version of this page." +
+                             "\n\n" +
+                             "Please click or tap OK if you’d like to open the PDF version, or" +
+                             " cancel to continue printing the page.";
+
+      window.matchMedia("print").addListener(event => {
+        if (!event.matches) {
+          return;
+        }
+
+        const result = window.confirm(confirmMessage);
+
+        if (!result) {
+          return;
+        }
+
+        event.preventDefault();
+        event.stopPropagation();
+        window.location = "Avi Flax’s Resume (CV).pdf";
+        return;
+      });
     </script>
 </head>
 <body>
