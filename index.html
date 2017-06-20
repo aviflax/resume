@@ -113,6 +113,10 @@
           margin-top: 0.5em;
         }
 
+        ul.activities > li {
+          margin-bottom: 0.75em;
+        }
+
         /* I have no idea what I’m doing. */
         @media only screen and (min-width: 320px) and (max-width: 768px) {
           body {
@@ -202,20 +206,38 @@
         <span class="time-frame">2016–Present</span>
         Principal Software Architect at <a href="http://parkassist.com/">Park Assist</a>
       </h3>
-      <ul>
-          <li>Helping established company transition from execution phase to growth phase</li>
-          <li>Helping unify a once-balkanized team</li>
-          <li>Helping establish technical roadmaps for all systems</li>
-          <li>Designing, building, and operating streaming data pipelines conveying data from sites around the world to a central data center</li>
-          <li>Designing, building, and operating stream data topologies using <a href="https://kafka.apache.org">Kafka</a> and <a href="https://kafka.apache.org/documentation/streams">Kafka Streams</a> to effect high-throughput and low-latency data-centric applications</li>
-          <li>Driving adoption of infrastructure-as-code, configuration management, and immutable infrastructure with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://circleci.com">CircleCI</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a></li>
+      <ul class="activities">
+          <li>Facilitating the company’s transition from execution phase to growth phase</li>
+          <li>Increasing collaboration and cohesion of the engineering team</li>
+          <li>Establishing roadmaps for all systems</li>
+          <li>Designing, building, and operating:
+            <ul>
+              <li>streaming data pipelines conveying data from sites around the world to a central data center</li>
+              <li>stream data topologies using <a href="https://kafka.apache.org">Kafka</a> and <a href="https://kafka.apache.org/documentation/streams">Kafka Streams</a> to effect high-throughput and low-latency data-centric applications</li>
+            </ul>
+          </li>
+          <li>Driving adoption of:
+            <ul>
+              <li>infrastructure-as-code, configuration management, and immutable infrastructure with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://circleci.com">CircleCI</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a></li>
+              <li>consistent conventions around testing, documentation, code review, and continuous integration</li>
+            </ul>
+          </li>
           <li>Operating services with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a>, <a href="https://www.datadoghq.com">Datadog</a>, <a href="https://slack.com">Slack</a></li>
-          <li>Helping with team structure and hiring</li>
-          <li>Helping to define and execute a new approach to engineering support</li>
-          <li>Helping create a culture of caring about sustainability, documentation, and maintainability</li>
-          <li>Helping drive adoption of consistent conventions around testing, documentation, code review, and continuous integration</li>
-          <li>Introducing and championing new development tools: <a href="https://github.com">GitHub</a>, <a href="https://www.terraform.io">Terraform</a>, <a href="https://circleci.com">CircleCI</a></li>
-          <li>Introducing and championing new company-wide communication media: <a href="https://slack.com">Slack</a>, <a href="https://www.discourse.org">Discourse</a></li>
+          <li>Defining and executing new approaches to:
+            <ul>
+              <li>engineering support</li>
+              <li>team structure</li>
+              <li>hiring</li>
+            </ul>
+          </li>
+          <li>Create a culture of caring about sustainability, documentation, and maintainability</li>
+          <li>Introducing and championing new:
+            <ul>
+              <li>development tools: <a href="https://github.com">GitHub</a>, <a href="https://www.terraform.io">Terraform</a>, <a href="https://circleci.com">CircleCI</a></li>
+              <li>company-wide communication media: <a href="https://slack.com">Slack</a>, <a href="https://www.discourse.org">Discourse</a></li>
+            </ul>
+          </li>
+          <li>Mentoring those new to software engineering</li>
       </ul>
   </section>
 </details>
@@ -226,17 +248,16 @@
     <section id="timehop">
         <h3>2015: Timehop</h3>
         <ul>
-            <li>Refactored a critical, complex, tangled subsystem into a loosely-coupled stream-based system using Kinesis and Go. (<a href="https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop">slides</a>)</li>
+            <li>Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis and Go (<a href="https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop">slides</a>)</li>
             <li>Designed and implemented sophisticated integration with Twilio for SMS-based signup</li>
-            <li>Designed and implemented a large-scale data processing tool to process billions of records very quickly.</li>
+            <li>Designed and implemented a large-scale data processing tool to process billions of records very quickly</li>
         </ul>
     </section>
 
     <section id="thinkful">
         <h3>2014: Thinkful</h3>
         <ul>
-            <li>Designed and implemented a sophisticated system to automate Stripe subscription management, loosely-coupled with student lifecycle
-                changes occurring in the monolith via events reified as <a href="http://www.iron.io/worker/">IronWorker</a> tasks.</li>
+            <li>Designed and implemented an event-driven system to automate Stripe subscription management</li>
         </ul>
     </section>
 
