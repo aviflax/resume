@@ -32,7 +32,8 @@
 
         html, body {
             font-family: "Charter", "Palatino", "Helvetica Neue", "Helvetica";
-            font-size: 16pt;
+            font-size: 15pt;
+            line-height: 1.2;
         }
 
         body {
@@ -42,18 +43,41 @@
             padding-right: 15%;
         }
 
+        /* How cool is this‽
+            Found here: https://webdesign.tutsplus.com/articles/start-using-quotation-marks-the-correct-way--webdesign-16905 */
+        q, blockquote {
+            quotes: "\201C" "\201D" "\2018" "\2019";
+        }
+
+        p, li, blockquote {
+          margin-top: 0.75em;
+          margin-bottom: 0.75em;
+        }
+
         #name {
           font-size: 3em;
           margin: 0.5em 0 0.25em 0;
         }
 
-        #objective {
+        #tagline {
           font-weight: normal;
           font-size: 160%
         }
 
         i > i {
           font-style: normal;
+        }
+
+        .footnote_reference {
+          font-variant-position: super;
+        }
+
+        .statements > li {
+          list-style-type: none;
+        }
+
+        .statements > li::before {
+          content: "…";
         }
 
         #additional-skills > ul, #key-technologies > ul, #around-the-web > ul {
@@ -150,9 +174,9 @@
 </head>
 <body>
 
-<header>
+<header id="top">
     <h1 id="name">Avi Flax</h1>
-    <h2 id="objective">Seeking <b>Senior Software Architect</b> Role*</h2>
+    <h2 id="tagline">Developer&thinsp;/&thinsp;Designer<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a></sup>&thinsp;/&thinsp;Documentarian<a href="#footnote-2" class="footnote_reference"><sup>2</sup></a></sup>&thinsp;/&thinsp;Generalist&thinsp;/&thinsp;Problem&nbsp;Solver&thinsp;/&thinsp;Software&nbsp;Human</h2>
     <ul id="contact" class="contact">
         <li><a href="mailto:avi@aviflax.com">avi@aviflax.com</a></li>
         <li><a id="tel" href="tel:+1-347-426-7814">+1-347-426-7814</a></li>
@@ -165,68 +189,87 @@
 </header>
 
 <section id="statements">
-    <p id="what-i-do">I design, build, and operate <b>software systems and teams</b> that solve <b>real problems</b> and make a <b>positive difference</b> in the world.</p>
+    <p id="what-i-do">I design<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a>, build, document, and operate <b>software systems and teams</b> that solve <b>real problems</b> and make a <b>positive difference</b> in the world.</p>
     <p>I believe that <b>values matter</b>.</p>
 
     <details>
       <summary><h2>More Values</h2></summary>
-      <p>I believe that diversity and inclusion are crucial <i>and</i> create rich, healthy, sustainable, productive communities (companies).</p>
-      <p>I believe that <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> and <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">the Rule of Three</a> apply to docs just as much as code.</p>
-      <p>I believe that people can only do great work if they are healthy, growing, supported, and respected.</p>
-      <p>I believe that all great processes have one thing in common: they are regularly reviewed and refined.</p>
-      <p>I believe that the only thing that matters about any technology is its potential to solve problems.</p>
-      <p>I believe that technology is a phenomenally powerful tool that we humans have at our disposal to solve problems — if we so choose.</p>
-      <p>I believe that we humans do some of our best thinking while <i>communicating</i> — so let’s do more of that.</p>
-      <p>I believe that institutional/communal memory is critical to building sustainable organizations.</p>
+      <h3>I believe that:</h3>
+      <ul class="statements">
+        <li>diversity and inclusion are crucial <i>and</i> create rich, healthy, sustainable, productive communities (companies).</li>
+        <li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> and <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">the Rule of Three</a> apply to docs just as much as code.</li>
+        <li>people can only do great work if they are healthy, growing, supported, and respected.</li>
+        <li>all great processes have one thing in common: they are regularly reviewed and refined.</li>
+        <li>the only thing that matters about any technology is its potential to solve problems.</li>
+        <li>technology is a phenomenally powerful tool that we humans have at our disposal to solve problems — if we so choose.</li>
+        <li>we humans do some of our best thinking while <i>communicating</i> — so let’s do more of that.</li>
+        <li>institutional/communal memory is critical to building sustainable organizations.</li>
+      </ul>
     </details>
 </section>
 
 <details id="current-position" class="experience" open>
   <summary><h2>Current Position</h2></summary>
 
-  <section id="park-assist">
-      <h3>
-        <span class="time-frame">2016–Present</span>
-        Principal Software Architect at <a href="http://parkassist.com/">Park Assist</a>
-      </h3>
-      <ul class="activities">
-          <li>Facilitating the company’s transition from execution phase to growth phase</li>
-          <li>Increasing collaboration and cohesion of the engineering team</li>
-          <li>Establishing roadmaps for all systems</li>
-          <li>Designing, building, and operating:
-            <ul>
-              <li>streaming data pipelines conveying data from sites around the world to a central data center</li>
-              <li>stream data topologies using <a href="https://kafka.apache.org">Kafka</a> and <a href="https://kafka.apache.org/documentation/streams">Kafka Streams</a> to effect high-throughput and low-latency data-centric applications</li>
-            </ul>
-          </li>
-          <li>Driving adoption of:
-            <ul>
-              <li>infrastructure-as-code, configuration management, and immutable infrastructure with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://circleci.com">CircleCI</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a></li>
-              <li>consistent conventions around testing, documentation, code review, and continuous integration</li>
-            </ul>
-          </li>
-          <li>Operating services with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a>, <a href="https://www.datadoghq.com">Datadog</a>, <a href="https://slack.com">Slack</a></li>
-          <li>Defining and executing new approaches to:
-            <ul>
-              <li>engineering support</li>
-              <li>team structure</li>
-              <li>hiring</li>
-            </ul>
-          </li>
-          <li>Create a culture of caring about sustainability, documentation, and maintainability</li>
-          <li>Introducing and championing new:
-            <ul>
-              <li>development tools: <a href="https://github.com">GitHub</a>, <a href="https://www.terraform.io">Terraform</a>, <a href="https://circleci.com">CircleCI</a></li>
-              <li>company-wide communication media: <a href="https://slack.com">Slack</a>, <a href="https://www.discourse.org">Discourse</a></li>
-            </ul>
-          </li>
-          <li>Mentoring those new to software engineering</li>
-      </ul>
+  <section id="funding-circle">
+    <h3>
+      <span class="time-frame">2017–present</span>
+      Principal Software Engineer at <a href="https://fundingcircle.com/">Funding Circle</a>
+    </h3>
+    <ul class="activities">
+      <li>Leading a drive to level up the documentation and knowledge sharing culture/practices of a ~200-person product development group</li>
+      <li>Taken point on designing and implementing a useful information architecture for the corporate wiki</li>
+      <li>Conceived, developed, and released <a href="https://fundingcircle.github.io/fc4-framework/">FC4</a>, an open-source framework for authoring, publishing, and maintaining software architecture diagrams (<a href="https://github.com/FundingCircle/fc4-framework">repo</a>)</li>
+      <li>Released <a href="https://github.com/FundingCircle/fc4c">FC4C</a>, an open-source tool for working with FC4 diagrams. (Yeah, the name, I know. I’ll be renaming it soon.)</li>
+      <li>Built <a href="https://github.com/FundingCircle/github-tools">github-tools</a>, a toolset for working with GitHub in a large org with many repos.</li>
+      <li>Released <a href="https://github.com/FundingCircle/learn-you-some-kafka">Learn You Some Kafka!</a> — atomic, bite-size, highly-focused interactive tutorials that teach how to work with Kafka using Ruby or Clojure.</li>
+      <li>Working on improving organizational effectiveness; e.g. communication channels, practices, etc.</li>
+    </ul>
   </section>
 </details>
 
 <details id="prior-experience" class="experience">
     <summary><h2>Prior Experience</h2></summary>
+
+    <section id="park-assist">
+        <h3>
+          <span class="time-frame">2016–2017</span>
+          Principal Software Architect at <a href="http://parkassist.com/">Park Assist</a>
+        </h3>
+        <ul class="activities">
+            <li>Facilitating the company’s transition from execution phase to growth phase</li>
+            <li>Increasing collaboration and cohesion of the engineering team</li>
+            <li>Establishing roadmaps for all systems</li>
+            <li>Designing, building, and operating:
+              <ul>
+                <li>streaming data pipelines conveying data from sites around the world to a central data center</li>
+                <li>stream data topologies using <a href="https://kafka.apache.org">Kafka</a>, <a href="https://kafka.apache.org/documentation/streams">Kafka Streams</a>, <a href="https://kafka.apache.org/documentation.html#connect">Kafka Connect</a>, <a href="http://jruby.org">JRuby</a>, and <a href="https://www.clojure.org">Clojure</a> to effect high-throughput and low-latency data-centric applications</li>
+              </ul>
+            </li>
+            <li>Driving adoption of:
+              <ul>
+                <li>infrastructure-as-code, configuration management, and immutable infrastructure with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://circleci.com">CircleCI</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a></li>
+                <li>consistent conventions around testing, documentation, code review, and continuous integration</li>
+              </ul>
+            </li>
+            <li>Operating services with <a href="https://www.terraform.io">Terraform</a>, <a href="https://www.ansible.com">Ansible</a>, <a href="https://aws.amazon.com">AWS</a>, and <a href="https://kubernetes.io">Kubernetes</a>, <a href="https://www.datadoghq.com">Datadog</a>, <a href="https://slack.com">Slack</a></li>
+            <li>Defining and executing new approaches to:
+              <ul>
+                <li>engineering support</li>
+                <li>team structure</li>
+                <li>hiring</li>
+              </ul>
+            </li>
+            <li>Create a culture of caring about sustainability, documentation, and maintainability</li>
+            <li>Introducing and championing new:
+              <ul>
+                <li>development tools: <a href="https://github.com">GitHub</a>, <a href="https://www.terraform.io">Terraform</a>, <a href="https://circleci.com">CircleCI</a></li>
+                <li>company-wide communication media: <a href="https://slack.com">Slack</a>, <a href="https://www.discourse.org">Discourse</a></li>
+              </ul>
+            </li>
+            <li>Mentoring those new to software engineering</li>
+        </ul>
+    </section>
 
     <section id="timehop">
         <h3>2015: Timehop</h3>
@@ -322,13 +365,37 @@
 
 <details id="examples">
     <summary><h2>Examples</h2></summary>
+    <p>Most of my work is proprietary and private; this selection of things I’ve managed to release publicly doesn’t represent my full skillset.</p>
     <ul>
-        <li>My current (stalled) side project is <a href="https://github.com/aviflax/omnia">Omnia</a>, a system to search multiple document silos at once. Warning: under construction!</li>
-        <li>A prior (stalled) side project is <a href="https://github.com/aviflax/github-digests">GitHub Digests</a>, a system to aggregate GitHub notifications into daily email digests. (If you check it out, please keep in mind that it’s only 10% built and I was new to Ruby!)</li>
-        <li>Another prior side project was <a href="http://3things.aviflax.com/">Three Things</a>; I published <a href="http://aviflax.com/post/two-practices-three-things/">a post</a> telling its story.</li>
-        <li>I’ve been collecting <a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">resources for learning stream processing</a> since August 2014.</li>
+        <li>2018:
+          <ul>
+            <li>Presented <a href="https://www.youtube.com/watch?v=Vl4KFEJwPPQ">Concurrency via Communication — Large and Small</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)</li>
+            <li>Released <a href="https://fundingcircle.github.io/fc4-framework/">FC4</a>, an open-source framework for authoring, publishing, and maintaining software architecture diagrams (<a href="https://github.com/FundingCircle/fc4-framework">repo</a>)</li>
+            <li>Released <a href="https://github.com/FundingCircle/fc4c">FC4C</a>, an open-source tool for working with FC4 diagrams. (Yeah, the name, I know. I’ll be renaming it soon.)</li>
+            <li>Built <a href="https://github.com/FundingCircle/github-tools">github-tools</a>, a toolset for working with GitHub in a large org with many repos.</li>
+            <li>Released <a href="https://github.com/FundingCircle/learn-you-some-kafka">Learn You Some Kafka!</a> — atomic, bite-size, highly-focused interactive tutorials that teach how to work with Kafka using Ruby or Clojure.</li>
+            <li>Presented <a href="https://www.youtube.com/watch?v=5JpcDKooaIQ">Large Nested JSON with Spec: A Comedy of Errors</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)</li>
+          </ul>
+        <li>2017:
+          <ul><li>Published <a href="http://tech.parkassist.com/blog/2017/01/04/kafka-summit-proposal">Kafka Summit 2017 Talk Proposal</a></li></ul>
         </li>
-        <li>In 2013 I published <a href="https://github.com/aviflax/resourceful">Resourceful</a>, a Clojure library that provides a more concise and more RESTful alternative to declaring routes.</li>
+        <li>2016:
+          <ul>
+            <li>Prototyped <a href="https://github.com/aviflax/omnia">Omnia</a>, a system to search multiple document silos at once</li>
+            <li>Published <a href="http://tech.parkassist.com/blog/2016/10/31/strange-loop-2016-recap">Strange Loop 2016 Recap</a> (blog post)</li>
+          </ul>
+        </li>
+        <li>2014:
+          <ul>
+            <li>Released <a href="http://3things.aviflax.com/">Three Things</a>, a client-side Web app (<a href="http://aviflax.com/post/two-practices-three-things/">backstory involving Jeff Atwood</a>)</li>
+            <li>Presented <a href="https://www.youtube.com/watch?v=HGpDHBzErkg">The impedance mismatch of Web Microframeworks</a> at PyGrunn 2014 (hosted by Paylogic, a subsidiary of SFX)</li>
+            <li>Started collecting <a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">resources for learning stream processing</a></li>
+            <li>Ideated <a href="https://github.com/aviflax/github-digests">GitHub Digests</a>, a system to aggregate GitHub notifications into daily email digests</li>
+          </ul>
+        </li>
+        <li>2013:
+          <ul><li>Published <a href="https://github.com/aviflax/resourceful">Resourceful</a>, a Clojure library that provides a more concise and more RESTful alternative to declaring routes.</li></ul>
+        </li>
         <li>My last major project for Arc90 was to build a new platform for reuters.com:
             <ul>
                 <li>I created <a href="platform-architecture.png">a diagram</a> of the overall architecture of the “Reuters Next” platform</li>
@@ -339,14 +406,8 @@
             </ul>
         </li>
         <li>I sometimes perform technical audits of existing applications or platforms. Here’s <a href="https://gist.github.com/f546704f58f39b29bc7c">one example</a>; I can provide more extensive examples upon request.</li>
-        <li>I sometimes write blog posts:
-          <ul>
-            <li><a href="http://tech.parkassist.com/blog/2017/01/04/kafka-summit-proposal">Kafka Summit 2017 Talk Proposal</a></li>
-            <li><a href="http://tech.parkassist.com/blog/2016/10/31/strange-loop-2016-recap">Strange Loop 2016 Recap</a></li>
-          </ul>
-        </li>
     </ul>
-    <p>I’d be happy provide more examples of my work, such as architecture diagrams and presentations, business analysis, code, etc. Just <a href="#contact">get in touch!</a></p>
+    <p>I’d be happy provide more examples of my work, such as architecture diagrams and presentations, business analysis, code, etc. Please <a href="#contact">get in touch!</a></p>
 </details>
 
 <details id="key-skills">
@@ -359,6 +420,7 @@
         <li>Product design</li>
         <li>Data engineering</li>
         <li>Team/organizational leadership</li>
+        <li>Assessing and improving organizational effectiveness</li>
     </ul>
     <p>See also <a href="#additional-skills">Additional Skills</a> below.</p>
 </details>
@@ -368,6 +430,7 @@
     <ul>
         <li><a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a></li>
         <li><a href="https://clojure.org/">Clojure</a></li>
+        <li><a href="https://www.docker.com/">Docker</a></li>
         <li><a href="https://aws.amazon.com/dynamodb/">DynamoDB</a></li>
         <li><a href="https://golang.org/">Go</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
@@ -449,14 +512,30 @@
     </ul>
 </section>
 
+<!-- I just don’t have time to update the PDF right now.
 <section id="print-version">
   <h2>PDF Version</h2>
-  <p>If you’d like to print or e-mail my résumé, you’re welcome to use <a href="Avi Flax’s Resume (CV).pdf">the PDF version.</p>
+  <p>If you’d like to print or e-mail this résumé, you’re welcome to use <a href="Avi Flax’s Resume (CV).pdf">the PDF version</a>.</p>
+</section>
+-->
+
+<section id="footnotes">
+  <h2>Notes</h2>
+  <ol>
+    <li id="footnote-1">
+      <p>Where by “design” I mean <q cite="https://en.wikipedia.org/wiki/Design">the creation of a plan or convention for the construction of an object, system or measurable human interaction</q><a href="#footnote-1-1" class="footnote_reference"><sup>1</sup></a></sup> — in other words, <q cite="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">design is how it works</q><a href="#footnote-1-2" class="footnote_reference"><sup>2</sup></a></sup>.</p>
+      <ol>
+        <li id="footnote-1-1"><a href="https://www.dictionary.com/browse/design">Cambridge Dictionary of American English</a> via <a href="https://en.wikipedia.org/wiki/Design">Wikipedia</a></li>
+        <li id="footnote-1-2">Steve Jobs via <a href="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">The New York Times Magazine</a> via <a href="https://www.wired.com/2006/10/straight-dope-on-the-ipods-birth/">Wired</a></li>
+      </ol>
+    </li>
+    <li id="footnote-2">See <a href="http://www.writethedocs.org/documentarians/">a short description from Write the Docs</a> and/or <a href="http://blog.thoward37.me/articles/developer-to-documentarian/">one of the stories behind that description</a></li>
+  </ol>
+  <a href="#top">Back to top</a>
 </section>
 
 <footer>
-  <p>* Or something like that. I’m not hung up on titles; I’m more interested in <a href="#statements">what I <i>do</i></a>. If you have a need in that ballpark, please get in touch!</p>
-  <p>Last updated on 20 June 2017.</p>
+  <p>Last updated on 7 June 2018.</p>
 </footer>
 
 </body>
