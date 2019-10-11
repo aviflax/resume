@@ -80,7 +80,7 @@
           content: "…";
         }
 
-        #additional-skills > ul, #key-technologies > ul, #around-the-web > ul {
+        #additional-skills-technologies > ul, #key-technologies > ul, #around-the-web > ul {
             -column-count: 2;
             -column-gap: 10px;
             -webkit-column-count: 2;
@@ -90,7 +90,7 @@
             list-style-position: inside;
         }
 
-        #additional-skills > ul > li {
+        #additional-skills-technologies > ul > li {
             margin-left: 0.1em;
         }
 
@@ -178,27 +178,19 @@
     <h1 id="name">Avi Flax</h1>
     <h2 id="tagline">Software Developer</h2>
     <p id="what-i-do">I design<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a>, build, document, and operate software systems.</p>
-    <ul id="contact" class="contact">
-        <li><a href="mailto:avi@aviflax.com">avi@aviflax.com</a></li>
-    </ul>
 </header>
 
-<section id="statements">
-    <details>
-      <summary><h2>Values</h2></summary>
-      <h3>I believe that:</h3>
-      <ul class="statements">
-        <li>diversity and inclusion are crucial <i>and</i> create rich, healthy, sustainable, productive organizations.</li>
-        <li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> and <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">the Rule of Three</a> apply to docs just as much as code.</li>
-        <li>people can only do great work if they are healthy, growing, supported, and respected.</li>
-        <li>all great processes have one thing in common: they are regularly reviewed and refined.</li>
-        <li>the most important aspect of any technology is its potential to solve problems.</li>
-        <li>technology is a phenomenally powerful tool that we humans have at our disposal to solve problems — if we so choose.</li>
-        <li>we do some of our best thinking in collaboration with others.</li>
-        <li>institutional/communal memory is critical to building sustainable organizations.</li>
-      </ul>
-    </details>
-</section>
+<details id="objective">
+  <summary><h2>Objective</h2></summary>
+  
+  <p>My ideal role would involve designing<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a>, building, documenting, and operating software systems in close collaboration as part of a cross-disciplinary team of peers, mentors, and mentees.</p>
+
+  <p>I can do either high-level or low-level work but I’m happiest when I can alternate between them.</p>
+
+  <p>In addition to working on software <i>systems</i>, I also find myself drawn to optimizing software <i>teams</i> — so it’d be great if that could be a small part of my role as well.</p>
+
+  <p>I’m open to a formal leadership role but ultimately I find bottom-up leadership more compelling.</p>
+</details>
 
 <details id="current-position" class="experience">
   <summary><h2>Current Position</h2></summary>
@@ -213,6 +205,18 @@
       <li>Taken point on designing and implementing a useful information architecture for the corporate wiki</li>
       <li>Conceived, developed, released, and maintain <a href="https://fundingcircle.github.io/fc4-framework/">the FC4 Framework</a>, an open-source framework for authoring, publishing, and maintaining software architecture diagrams (includes a CLI tool written with Clojure)</li>
       <li>Working on improving organizational effectiveness; e.g. communication channels, practices, etc.</li>
+      <li>Technologies, techniques, and tools employed:
+          <ul>
+            <li><a href="https://clojure.org/">Clojure</a></li>
+            <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> (with <a href="https://nodejs.org/en/">Node.js</a>)</li>
+            <li><a href="https://www.docker.com/">Docker</a></li>
+            <li><a href="https://circleci.com/">CircleCI</a></li>
+            <li><a href="https://github.com/features/actions">GitHub Actions</a></li>
+            <li><a href="https://www.writethedocs.org/guide/docs-as-code/">Docs as Code</a></li>
+            <li><a href="https://www.atlassian.com/software/confluence">Confluence</a></li>
+          </ul>
+      </li>
     </ul>
   </section>
 </details>
@@ -352,10 +356,99 @@
     </section>
 </details>
 
+<section id="statements">
+    <details>
+      <summary><h2>Values</h2></summary>
+      <h3>I believe that:</h3>
+      <ul class="statements">
+        <li>diversity and inclusion are crucial <i>and</i> create rich, healthy, sustainable, productive organizations.</li>
+        <li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> and <a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)">the Rule of Three</a> apply to docs just as much as code.</li>
+        <li>people can only do great work if they are healthy, growing, supported, and respected.</li>
+        <li>all great processes have one thing in common: they are regularly reviewed and refined.</li>
+        <li>the most important aspect of any technology is its potential to solve problems.</li>
+        <li>technology is a phenomenally powerful tool that we humans have at our disposal to solve problems — if we so choose.</li>
+        <li>we do some of our best thinking in collaboration with others.</li>
+        <li>institutional/communal memory is critical to building sustainable organizations.</li>
+      </ul>
+    </details>
+</section>
+
+<details id="key-skills">
+    <summary><h2>Key Skills</h2></summary>
+    <ul>
+        <li>Problem analysis</li>
+        <li>Software design, architecture, construction, deployment, and operation</li>
+        <li>Deep expertise in the World Wide Web and HTTP</li>
+        <li>Web API design &amp; development</li>
+        <li>Product design</li>
+        <li>Data engineering</li>
+        <li>Documentation, information architecture</li> 
+        <li>Team/organizational leadership</li>
+        <li>Assessing and improving organizational effectiveness</li>
+        <li>Organizational architecture</li>
+    </ul>
+    <p>See also <a href="#additional-skills-technologies">Additional Skills &amp; Technologies</a> below.</p>
+</details>
+
+<details id="key-technologies">
+    <summary><h2>Key Technologies</h2></summary>
+    <ul>
+        <li><a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a></li>
+        <li><a href="https://clojure.org/">Clojure</a></li>
+        <li><a href="https://www.docker.com/">Docker</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
+        <li><a href="https://kafka.apache.org/">Kafka</a></li>
+        <li><a href="https://aws.amazon.com/kinesis/">Kinesis</a></li>
+        <li><a href="https://kubernetes.io">Kubernetes</a></li>
+        <li><a href="https://aws.amazon.com/lambda/">Lambda (AWS)</a></li>
+        <li><a href="https://www.python.org/">Python</a></li>
+        <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+        <li><a href="https://www.terraform.io/">Terraform</a></li>
+    </ul>
+    <p>See also <a href="#additional-skills-technologies">Additional Skills &amp; Technologies</a> below.</p>
+</details>
+
+<details id="additional-skills-technologies">
+    <summary><h2>Additional Skills &amp; Technologies</h2></summary>
+    <ul id="additional-skills-list">
+        <li>Behavior Driven Development</li>
+        <li>Browser APIs</li>
+        <li>Business analysis</li>
+        <li><a href="http://coffeescript.org">CoffeeScript</a></li>
+        <li><a href="https://couchdb.apache.org">CouchDB</a></li>
+        <li><a href="http://www.datomic.com">Datomic</a></li>
+        <li>DB Design</li>
+        <li>Django</li>
+        <li><a href="https://aws.amazon.com/dynamodb/">DynamoDB</a></li>
+        <li>ElasticSearch</li>
+        <li>Flask</li>
+        <li><a href="https://golang.org/">Go</a> (Golang)</li>
+        <li>Groovy</li>
+        <li>Information architecture</li>
+        <li>JavaScript</li>
+        <li>Markdown</li>
+        <li>MongoDB</li>
+        <li>Node</li>
+        <li>OmniGraffle</li>
+        <li>PostgreSQL</li>
+        <li>Restlet</li>
+        <li>SQL</li>
+        <li>Solr</li>
+        <li>Stripe</li>
+        <li>UX design</li>
+        <li>XML/XSL/XSD/XQuery</li>
+    </ul>
+</details>
+
 <details id="examples">
     <summary><h2>Examples</h2></summary>
     <p>Most of my work is proprietary and private; this selection of things I’ve managed to release publicly doesn’t represent my full skillset.</p>
     <ul>
+        <li>2019:
+          <ul>
+            <li>Posted <a href="https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/">Conference Highlights: Write the Docs Portland 2019</a></li>
+          </ul>
+        </li>
         <li>2018:
           <ul>
             <li>Presented <a href="https://www.youtube.com/watch?v=Vl4KFEJwPPQ">Concurrency via Communication — Large and Small</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)</li>
@@ -398,41 +491,6 @@
     <p>I’d be happy provide more examples of my work, such as architecture diagrams and presentations, business analysis, code, etc. Please <a href="#contact">get in touch!</a></p>
 </details>
 
-<details id="key-skills">
-    <summary><h2>Key Skills</h2></summary>
-    <ul>
-        <li>Problem analysis</li>
-        <li>Software design, architecture, construction, deployment, and operation</li>
-        <li>Deep expertise in the World Wide Web and HTTP</li>
-        <li>Web API design &amp; development</li>
-        <li>Product design</li>
-        <li>Data engineering</li>
-        <li>Documentation, information architecture</li> 
-        <li>Team/organizational leadership</li>
-        <li>Assessing and improving organizational effectiveness</li>
-        <li>Organizational architecture</li>
-    </ul>
-    <p>See also <a href="#additional-skills">Additional Skills</a> below.</p>
-</details>
-
-<details id="key-technologies">
-    <summary><h2>Key Technologies</h2></summary>
-    <ul>
-        <li><a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a></li>
-        <li><a href="https://clojure.org/">Clojure</a></li>
-        <li><a href="https://www.docker.com/">Docker</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
-        <li><a href="https://kafka.apache.org/">Kafka</a></li>
-        <li><a href="https://aws.amazon.com/kinesis/">Kinesis</a></li>
-        <li><a href="https://kubernetes.io">Kubernetes</a></li>
-        <li><a href="https://aws.amazon.com/lambda/">Lambda (AWS)</a></li>
-        <li><a href="https://www.python.org/">Python</a></li>
-        <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
-        <li><a href="https://www.terraform.io/">Terraform</a></li>
-    </ul>
-    <p>See also <a href="#additional-skills">Additional Skills</a> below.</p>
-</details>
-
 <details id="around-the-web">
     <summary><h2>Around the Web</h2></summary>
     <ul>
@@ -442,38 +500,6 @@
         <li><a href="https://www.instapaper.com/p/avi">Instapaper</a></li>
         <li><a href="https://stackoverflow.com/users/7012/avi-flax">Stack Overflow</a></li>
         <li><a href="https://github.com/aviflax">GitHub</a></li>
-    </ul>
-</details>
-
-<details id="additional-skills">
-    <summary><h2>Additional Skills</h2></summary>
-    <ul id="additional-skills-list">
-        <li>Behavior Driven Development</li>
-        <li>Browser APIs</li>
-        <li>Business analysis</li>
-        <li><a href="http://coffeescript.org">CoffeeScript</a></li>
-        <li><a href="https://couchdb.apache.org">CouchDB</a></li>
-        <li><a href="http://www.datomic.com">Datomic</a></li>
-        <li>DB Design</li>
-        <li>Django</li>
-        <li><a href="https://aws.amazon.com/dynamodb/">DynamoDB</a></li>
-        <li>ElasticSearch</li>
-        <li>Flask</li>
-        <li><a href="https://golang.org/">Go</a> (Golang)</li>
-        <li>Groovy</li>
-        <li>Information architecture</li>
-        <li>JavaScript</li>
-        <li>Markdown</li>
-        <li>MongoDB</li>
-        <li>Node</li>
-        <li>OmniGraffle</li>
-        <li>PostgreSQL</li>
-        <li>Restlet</li>
-        <li>SQL</li>
-        <li>Solr</li>
-        <li>Stripe</li>
-        <li>UX design</li>
-        <li>XML/XSL/XSD/XQuery</li>
     </ul>
 </details>
 
@@ -492,7 +518,7 @@
     <h2>Contact Me</h2>
     <p>Thanks for scrolling all the way to the bottom of my résumé! I appreciate your interest. At this point, you might want to get in touch. Please do!</p>
     <ul class="contact">
-        <li><a href="mailto:avi@aviflax.com?subject=Job%20Offer">avi@aviflax.com</a></li>
+        <li><a href="mailto:avi@aviflax.com?subject=Interview%20request">avi@aviflax.com</a></li>
         <li>I’m based in <a href="https://en.wikipedia.org/wiki/White_Plains,_New_York">White Plains, New York</a> but prefer to work as part of a mostly or fully distributed team.</li>
     </ul>
 </section>
@@ -508,18 +534,14 @@
   <h2>Notes</h2>
   <ol>
     <li id="footnote-1">
-      <p>Whereby “design” I mean <q cite="https://en.wikipedia.org/wiki/Design">the creation of a plan or convention for the construction of an object, system or measurable human interaction</q><a href="#footnote-1-1" class="footnote_reference"><sup>1</sup></a></sup> — in other words, <q cite="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">design is how it works</q><a href="#footnote-1-2" class="footnote_reference"><sup>2</sup></a></sup>.</p>
-      <ol>
-        <li id="footnote-1-1"><a href="https://www.dictionary.com/browse/design">Cambridge Dictionary of American English</a> via <a href="https://en.wikipedia.org/wiki/Design">Wikipedia</a></li>
-        <li id="footnote-1-2">Steve Jobs via <a href="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">The New York Times Magazine</a> via <a href="https://www.wired.com/2006/10/straight-dope-on-the-ipods-birth/">Wired</a></li>
-      </ol>
+      <p>Whereby “design” I mean <q cite="https://en.wikipedia.org/wiki/Design">the creation of a plan or convention for the construction of an object, system or measurable human interaction</q> (<a href="https://www.dictionary.com/browse/design">source</a>) — or, more succinctly, <a href="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html"><q cite="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">design is how it works</q></a>.</p>
     </li>
   </ol>
   <a href="#top">Back to top</a>
 </section>
 
 <footer>
-  <p>Last updated on 13 October 2019.</p>
+  <p>Last updated on 10 October 2019.</p>
 </footer>
 
 </body>
