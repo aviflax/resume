@@ -33,7 +33,7 @@
         }
 
         html, body {
-            font-family: "Charter", "Palatino", "Helvetica Neue", "Helvetica";
+            font-family: "Fira Sans";
             font-size: 15pt;
             line-height: 1.2;
         }
@@ -54,16 +54,6 @@
         p, li, blockquote {
           margin-top: 0.75em;
           margin-bottom: 0.75em;
-        }
-
-        #name {
-          font-size: 3em;
-          margin: 0.5em 0 0.25em 0;
-        }
-
-        #tagline {
-          font-weight: normal;
-          font-size: 160%
         }
 
         i > i {
@@ -94,6 +84,25 @@
 
         #additional-skills-technologies > ul > li {
             margin-left: 0.1em;
+        }
+
+        h1 {
+            font-family: "Fira Code";
+        }
+
+        h2 {
+            font-family: "Fira Sans";
+            font-weight: 400; /* 400=normal; 500=medium; 700=bold */
+        }
+
+        #name {
+          font-size: 3em;
+          margin: 0.5em 0 0.25em 0;
+        }
+
+        #tagline {
+          font-weight: 500; /* 400=normal; 500=medium; 700=bold */
+          font-size: 160%
         }
 
         h2, h3, h4, h5, h6, details {
@@ -178,18 +187,21 @@
 
 <header id="top">
     <h1 id="name">Avi Flax</h1>
-    <h2 id="tagline">Software Developer</h2>
-    <!-- Commenting this out for now because it’s redundant with the objective
-    <p id="what-i-do">I design<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a>, build, document, operate, and maintain software systems.</p>
-    -->
+    <h2 id="tagline">Experienced full-cycle software engineer</h2>
 </header>
 
 <details id="objective" open="true">
+  <!-- TODO: maybe replace with “Profile” -->
   <summary><h2>Objective</h2></summary>
   
-  <p>A position designing<a href="#footnote-1" class="footnote_reference"><sup>1</sup></a>,
-     building, documenting, operating, and maintaining software systems in close collaboration with
-     my team and stakeholders.</p>
+  <ul>
+    <li>A <b>hands-on</b> position
+    <li>practicing <b>full-cycle</b> engineering & development
+        <ul><li>including design, implementation, documentation, operations, and maintainenance</li></ul>
+    <li>of software <b>systems or tools</b>
+    <li>that have a <b>real positive impact</b>
+    <li>in <b>close collaboration</b> with my team and users
+  </ul>
 </details>
 
 <!--
