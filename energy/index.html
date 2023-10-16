@@ -12,20 +12,11 @@
         /* The values in local() are “PostScript names” that I retrieved via Font Book on MacOS. */
         @font-face {
             font-family: "Fira Code";
-            font-weight: normal;
-            src:
-              local("FiraCodeRoman-Regular"),
-              url("fonts/Fira Code/FiraCode-Regular.woff2") format("woff2"),
-              url("fonts/Fira Code/FiraCode-Regular.woff") format("woff");
-        }
-
-        @font-face {
-            font-family: "Fira Code";
-            font-weight: bold;
+            font-weight: "bold";
             src:
               local("FiraCodeRoman-Bold"),
-              url("fonts/Fira Code/FiraCode-Bold.woff2") format("woff2"),
-              url("fonts/Fira Code/FiraCode-Bold.woff") format("woff");
+              url("../fonts/Fira Code/FiraCode-Bold.woff2") format("woff2"),
+              url("../fonts/Fira Code/FiraCode-Bold.woff") format("woff");
         }
 
         @font-face {
@@ -33,8 +24,8 @@
             font-weight: 500;
             src:
               local("FiraSans-Medium"),
-              url("fonts/Fira Sans/FiraSans-Medium.woff2") format(woff2),
-              url("fonts/Fira Sans/FiraSans-Medium.woff") format(woff);
+              url("../fonts/Fira Sans/FiraSans-Medium.woff2") format(woff2),
+              url("../fonts/Fira Sans/FiraSans-Medium.woff") format(woff);
         }
 
         @font-face {
@@ -42,8 +33,8 @@
             font-weight: normal;
             src:
               local("FiraSans-Regular"),
-              url("fonts/Fira Sans/FiraSans-Regular.woff2") format(woff2),
-              url("fonts/Fira Sans/FiraSans-Regular.woff") format(woff);
+              url("../fonts/Fira Sans/FiraSans-Regular.woff2") format(woff2),
+              url("../fonts/Fira Sans/FiraSans-Regular.woff") format(woff);
         }
 
         @font-face {
@@ -51,8 +42,8 @@
             font-weight: bold;
             src:
               local("FiraSans-Bold"),
-              url("fonts/Fira Sans/FiraSans-Bold.woff2") format(woff2),
-              url("fonts/Fira Sans/FiraSans-Bold.woff") format(woff);
+              url("../fonts/Fira Sans/FiraSans-Bold.woff2") format(woff2),
+              url("../fonts/Fira Sans/FiraSans-Bold.woff") format(woff);
         }
 
         @font-face {
@@ -60,8 +51,8 @@
             font-style: italic;
             src:
               local("FiraSans-Italic"),
-              url("fonts/Fira Sans/FiraSans-Italic.woff2") format(woff2),
-              url("fonts/Fira Sans/FiraSans-Italic.woff") format(woff);
+              url("../fonts/Fira Sans/FiraSans-Italic.woff2") format(woff2),
+              url("../fonts/Fira Sans/FiraSans-Italic.woff") format(woff);
         }
 
         html, body {
@@ -193,10 +184,6 @@
 
         .experience > section > ul {
           margin-top: 0.5em;
-        }
-
-        code {
-          font-family: "Fira Code";
         }
 
         ul.activities > li {
@@ -599,15 +586,9 @@
     <summary><h2>Examples</h2></summary>
     <p>Most of my work is proprietary and private; this selection of things I’ve managed to release publicly doesn’t represent my full skillset.</p>
     <ul>
-        <li>March 2021:
+        <li>2020
           <ul>
-            <li>Built and launched the website <code>ny.vax.help</code> to help people get
-                appointments for COVID-19 vaccines in New York State.
-                (<a href="https://github.com/aviflax/vax.help">Project repository</a>)
-          </ul>
-        <li>2020:
-          <ul>
-          	<li>Delivered <a href="https://www.youtube.com/watch?v=3i-C7qbRGGQ">Set your data free with model-based architecture diagramming</a> at <a href="https://www.writethedocs.org/conf/">Write the Docs (Portland) 2020</a></li>
+            <li>Delivered <a href="https://www.youtube.com/watch?v=3i-C7qbRGGQ">Set your data free with model-based architecture diagramming</a> at <a href="https://www.writethedocs.org/conf/">Write the Docs (Portland) 2020</a></li>
           </ul>
         </li>
         <li>2019:
@@ -648,7 +629,7 @@
         </li>
         <li>My last major project for Arc90 was to build a new platform for reuters.com:
             <ul>
-                <li>I created <a href="platform-architecture.png">a diagram</a> of the overall architecture of the “Reuters Next” platform</li>
+                <li>I created <a href="../platform-architecture.png">a diagram</a> of the overall architecture of the “Reuters Next” platform</li>
                 <li>I was asked to review a draft of the API spec; I provided <a href="https://gist.github.com/20df21ec725c05a2a199">these notes</a></li>
                 <li>I developed <a href="https://gist.github.com/8c72e7a636bdb09ee555">a document</a> to capture the culture and process of my team, so we could ramp new members up quickly and effectively</li>
                 <li>I determined that the API codebase I had inherited needed to be refactored, and wrote <a href="https://gist.github.com/aviflax/a7b0c12b2173ce523685">this summary</a> to explain why</li>
