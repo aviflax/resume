@@ -252,7 +252,12 @@
 
   <h3>On what kind of software</h3>
   <ul>
-    <li>Anything with a <b>direct positive impact</b> on its users and the organization
+    <li>Anything with a <b>direct positive impact</b> on
+      <script>
+        const energyRelated = document.URL.includes('energy') || document.URL.includes('climate'),
+          html = energyRelated ? '<b>the energy transition</b>' : 'its users and the organization'
+        document.write(html)
+      </script>
   </ul>
 
   <h3>At what kind of org</h3>
