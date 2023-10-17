@@ -8,29 +8,69 @@
     
     <title>Avi Flax » Résumé</title>
     <style>
+        /* Apparently Android browsers only got support for woff2 in September 2023 */
         @font-face {
-            font-family: "Charter";
-            src: url(fonts/charter/charter_regular.woff);
+            font-family: "Fira Code";
+            font-weight: "bold";
+            src:
+              local("FiraCodeRoman-Bold"),
+              url("fonts/Fira Code/FiraCode-Bold.woff2") format("woff2"),
+              url("fonts/Fira Code/FiraCode-Bold.woff") format("woff");
         }
 
         @font-face {
-            font-family: "Charter";
-            src: url(fonts/charter/charter_bold.woff);
+            font-family: "Fira Sans";
+            font-weight: 500;
+            src:
+              local("FiraSans-Medium"),
+              url("fonts/Fira Sans/FiraSans-Medium.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Medium.woff") format(woff);
+        }
+
+        @font-face {
+            font-family: "Fira Sans";
+            font-weight: normal;
+            src:
+              local("Fira Sans"),
+              url("fonts/Fira Sans/FiraSans-Regular.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Regular.woff") format(woff);
+        }
+
+        @font-face {
+            font-family: "Fira Sans";
             font-weight: bold;
+            src:
+              local("FiraSans-Bold"),
+              url("fonts/Fira Sans/FiraSans-Bold.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Bold.woff") format(woff);
         }
 
         @font-face {
-            font-family: "Charter";
-            src: url(fonts/charter/charter_italic.woff);
+            font-family: "Fira Sans";
             font-style: italic;
+            src:
+              local("FiraSans-Italic"),
+              url("fonts/Fira Sans/FiraSans-Italic.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Italic.woff") format(woff);
         }
 
-        @font-face {
-            font-family: "Charter";
-            src: url(fonts/charter/charter_bold_italic.woff);
-            font-weight: bold;
-            font-style: italic;
-        }
+
+/*
+              url("fonts/Fira Sans/FiraSans-Bold.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-BoldItalic.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Medium.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-MediumItalic.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Regular.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-SemiBold.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-SemiBoldItalic.woff2") format(woff2),
+              url("fonts/Fira Sans/FiraSans-Bold.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-BoldItalic.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-Medium.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-MediumItalic.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-Regular.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-SemiBold.woff") format(woff),
+              url("fonts/Fira Sans/FiraSans-SemiBoldItalic.woff") format(woff);
+*/
 
         html, body {
             font-family: "Fira Sans";
@@ -88,11 +128,16 @@
 
         h1 {
             font-family: "Fira Code";
+            font-weight: bold;
         }
 
         h2 {
             font-family: "Fira Sans";
-            font-weight: 400; /* 400=normal; 500=medium; 700=bold */
+            font-weight: normal;
+        }
+
+        h3,h4,h5 {
+            font-weight: normal;
         }
 
         #name {
@@ -101,7 +146,7 @@
         }
 
         #tagline {
-          font-weight: 500; /* 400=normal; 500=medium; 700=bold */
+          font-weight: 500; /* 500=medium (400=normal; 700=bold) */
           font-size: 160%
         }
 
@@ -333,7 +378,7 @@
     </section>
 
     <section id="timehop">
-        <h3>2015: Timehop</h3>
+        <h3><span class="time-frame">2015</span> Timehop</h3>
         <ul>
             <li>Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis and Go (<a href="https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop">slides</a>)</li>
             <li>Designed and implemented sophisticated integration with Twilio for SMS-based signup</li>
@@ -342,14 +387,14 @@
     </section>
 
     <section id="thinkful">
-        <h3>2014: Thinkful</h3>
+        <h3><span class="time-frame">2014</span> Thinkful</h3>
         <ul>
             <li>Designed and implemented an event-driven system to automate Stripe subscription management</li>
         </ul>
     </section>
 
     <section id="sfx">
-      <h3>2013–2014: SFX Entertainment</h3>
+      <h3><span class="time-frame">2013–2014</span> SFX Entertainment</h3>
       <ul>
         <li>SFX acquired Arc90 in 2013 to be its internal app design and development group</li>
         <li>I initially adopted the title CTO, then recruited <a href="https://alexandergrosse.com/">someone amazing</a> to replace me and shifted to <i>Chief Sofware Architect</i></li>
@@ -360,7 +405,7 @@
     </section>
 
     <section id="arc90">
-        <h3>2005–2013: Arc90</h3>
+        <h3><span class="time-frame">2005–2013</span> Arc90</h3>
         <ul>
             <li>Arc90 was a Web application design &amp; development consultancy; it was acquired by SFX Entertainment in 2013</li>
             <li>Wore many hats: developer, architect, team leader, partner, director</li>
@@ -380,14 +425,14 @@
     </section>
 
     <section id="adp">
-        <h3>2001–2004: ADP</h3>
+        <h3><span class="time-frame">2001–2004</span> ADP</h3>
         <ul>
             <li>Refactored, enhanced, and maintained a sophisticated application for producing custom financial documents for on-demand printing</li>
         </ul>
     </section>
 
     <section id="register.com">
-        <h3>2001: Register.com</h3>
+        <h3><span class="time-frame">2001</span> Register.com</h3>
         <ul>
             <li>Team lead position for large high-traffic auction site</li>
             <li>Responsibilities included designing, implementing, and maintaining features; and reengineering site technology and architecture
@@ -396,28 +441,28 @@
     </section>
 
     <section id="rewardsplus">
-        <h3>2000: RewardsPlus</h3>
+        <h3><span class="time-frame">2000</span> RewardsPlus</h3>
         <ul>
             <li>Maintained and enhanced a large-scale online employee benefits enrollment system for diverse clients with diverse needs</li>
         </ul>
     </section>
 
     <section id="wip">
-        <h3>1998–2000: Words In Progress</h3>
+        <h3><span class="time-frame">1998–2000</span> Words In Progress</h3>
         <ul>
             <li>Developed requirements and specifications for high traffic websites directly with clients; crafted application architecture and database design</li>
         </ul>
     </section>
 
     <section id="ics">
-        <h3>1998: Ideal Computer Strategies</h3>
+        <h3><span class="time-frame">1998</span> Ideal Computer Strategies</h3>
         <ul>
             <li>Worked with teams of designers, coders, and project managers to concurrently develop and deploy client websites with basic dynamic features</li>
         </ul>
     </section>
 
     <section id="pcc">
-        <h3>1997–1998: PCC Internet Design</h3>
+        <h3><span class="time-frame">1997–1998</span> PCC Internet Design</h3>
         <ul>
             <li>Founded and managed a small web design shop in Pikesville, MD providing full-service web design and development to small companies in the Baltimore area</li>
         </ul>
@@ -605,7 +650,7 @@
     <h2>Contact Me</h2>
     <p>Thanks for scrolling all the way to the bottom of my résumé! I appreciate your interest. At this point, you might want to get in touch. Please do!</p>
     <ul class="contact">
-        <li><a href="mailto:avi@flaximus.net?subject=Let’s%20Go">avi@flaximus.net</a></li>
+        <li><a href="mailto:work@aviflax.com?subject=Let’s%20Go">work@aviflax.com</a></li>
         <li>I’m based in <a href="https://en.wikipedia.org/wiki/White_Plains,_New_York">White Plains, New York</a>. I prefer to work as part of a mostly or fully distributed team, but I’d be happy to work from an office in the NYC area 1–3 days per week, depending on distance.</li>
     </ul>
 </section>
@@ -626,7 +671,7 @@
 </section>
 
 <footer>
-  <p>last updated: 2023-03-29 • <a href="https://github.com/aviflax/resume">full change history</a></p>
+  <p>last updated: 2023-10-17 • <a href="https://github.com/aviflax/resume">full change history</a></p>
 </footer>
 
 </body>
