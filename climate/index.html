@@ -233,7 +233,13 @@
 
   <h3>On <b>what kind of software</b></h3>
   <ul>
-    <li>Anything with a <b>direct positive</b> impact on <b>the energy transition</b>
+    <li>Anything with a <b>direct positive impact</b> on
+      <script>
+        document.write(
+          document.URL.includes('energy') || document.URL.includes('climate')
+          ? '<b>the energy transition</b>'
+          : 'the organization')
+      </script>
   </ul>
 
   <h3>At <b>what kind of org</b></h3>
@@ -241,7 +247,6 @@
   <ul>
     <li>TO DO
   </ul>
-
 </details>
 
 <!--
