@@ -203,6 +203,29 @@
           margin-bottom: 0.75em;
         }
 
+        table {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+
+        thead th {
+          font-weight: 500;
+          background-color: lightpink;
+        }
+
+        table th, table td {
+          padding: 5pt;
+          border: 1px solid black;
+        }
+
+        tbody tr:nth-child(odd) {
+          background-color: lightcyan;
+        }
+
+        tbody tr:nth-child(even) {
+          background-color: lightgoldenrodyellow;
+        }
+
         /* I have no idea what I’m doing. */
         @media only screen and (min-width: 320px) and (max-width: 768px) {
           body {
@@ -271,9 +294,7 @@
         (email, chat, verbal)
     <li>Invests in stability, sustainability, reliability, etc.
     <li>Regularly reassesses and revises processes and policies
-    <li>Uses tasteful tools (e.g. <a href="https://linear.app">Linear</a> rather than
-        <a href="https://www.atlassian.com/software/jira">Jira</a>;
-        <a href="https://discourse.org">Discourse</a> rather than <a href="https://slack.com">Slack</a>)
+    <li>Uses better tools<a href="#footnote-2" class="footnote_reference">2</a>
   </ul>
 </details>
 
@@ -710,7 +731,62 @@
   <ol>
     <li id="footnote-1">
       <p>Whereby “design” I mean <q cite="https://en.wikipedia.org/wiki/Design">the creation of a plan or convention for the construction of an object, system or measurable human interaction</q> (<a href="https://www.dictionary.com/browse/design">source</a>) — or, more succinctly, <a href="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html"><q cite="https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html">design is how it works</q></a>.</p>
-    
+    <li id="footnote-2">
+      For example:
+      <table>
+        <thead>
+          <tr>
+            <th>Popular Tools</th>
+            <th>Niche but superior alternatives</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://www.atlassian.com/software/jira">Jira</a></td>
+            <td><a href="https://linear.app">Linear</a>,
+                <a href="https://www.shortcut.com/">Shortcut</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://slack.com">Slack</a></td>
+            <td><a href="https://discourse.org">Discourse</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.destroyallsoftware.com/talks/wat">JavaScript</a></td>
+            <td><a href="https://clojure.org/">Clojure</a>,
+                <a href="https://clojurescript.org/">ClojureScript</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://mariadb.org/">MariaDB</a></td>
+            <td><a href="https://www.postgresql.org/">PostgreSQL</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.terraform.io">Terraform</a></td>
+            <td><a href="https://www.pulumi.com/">Pulumi</a></td>
+          </tr>
+          <tr>
+            <td>Google Docs+Sheets,
+                <a href="https://www.atlassian.com/software/confluence">Confluence</a></td>
+            <td><a href="https://www.airtable.com">Airtable</a>,
+                <a href="https://coda.io/">Coda</a>,
+                <a href="https://fibery.io/">Fibery</a>,
+                <a href="https://www.notion.so/">Notion</a></td>
+          </tr>
+          <tr>
+            <td>Google Drawings,
+                <a href="https://www.omnigroup.com/omnigraffle">OmniGraffle</a>,
+                <a href="https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software">Visio</a></td>
+            <td><a href="https://excalidraw.com/">Excalidraw</a>,
+                <a href="https://www.tldraw.com/">tldraw</a>,
+                <a href="https://whimsical.com/">Whimsical</a></td>
+          </tr>
+          <tr>
+            <td>Google Slides, Powerpoint</td>
+            <td><a href="https://www.deckset.com/">Deckset</a>,
+                <a href="https://ia.net/presenter">iA Presenter</a>,
+                <a href="https://pitch.com/">Pitch</a></td>
+          </tr>
+        </tbody>
+      </table>
   </ol>
   <a href="#top">Back to top</a>
 </section>
