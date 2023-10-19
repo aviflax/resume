@@ -12,7 +12,16 @@
         /* The values in local() are “PostScript names” that I retrieved via Font Book on MacOS. */
         @font-face {
             font-family: "Fira Code";
-            font-weight: "bold";
+            font-weight: normal;
+            src:
+              local("FiraCodeRoman-Regular"),
+              url("fonts/Fira Code/FiraCode-Regular.woff2") format("woff2"),
+              url("fonts/Fira Code/FiraCode-Regular.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: "Fira Code";
+            font-weight: bold;
             src:
               local("FiraCodeRoman-Bold"),
               url("fonts/Fira Code/FiraCode-Bold.woff2") format("woff2"),
@@ -184,6 +193,10 @@
 
         .experience > section > ul {
           margin-top: 0.5em;
+        }
+
+        code {
+          font-family: "Fira Code";
         }
 
         ul.activities > li {
