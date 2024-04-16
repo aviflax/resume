@@ -254,6 +254,13 @@
           }
         }
     </style>
+
+    <script>
+      // no blue links when viewing page locally, for easier export
+      if (document.URL.startsWith('file')) {
+        document.head.insertAdjacentHTML('beforeend', `<style>a:visited{color:blue}</style>`)
+      }
+    </script>
 </head>
 <body>
 
