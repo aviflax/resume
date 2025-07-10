@@ -293,10 +293,12 @@
   <ul>
     <li>Anything with a <b>direct positive impact</b> on
       <script>
-        const energyRelated = document.URL.includes('energy') || document.URL.includes('climate');
+        const url = document.URL.toLowerCase();
+        const energyRelated = url.includes('energy') || url.includes('climate');
         const html = energyRelated ? '<b>the energy transition</b>' : 'its users and the organization';
         document.write(html);
       </script>
+    </li>
   </ul>
 
   <h3>At what kind of org</h3>
