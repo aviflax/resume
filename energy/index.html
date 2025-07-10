@@ -6,7 +6,7 @@
 
     <!-- Thanks for checking out my HTML and CSS skillz! This is all hand-rolled, fwiw. -->
 
-    <title>Avi Flax » Experienced full-cycle software engineer</title>
+    <title>Avi Flax » Full-cycle, T-shaped, hands-on software architect/engineer</title>
     <style>
         /* Apparently Android browsers only got support for woff2 in September 2023. */
         /* The values in local() are “PostScript names” that I retrieved via Font Book on MacOS. */
@@ -142,7 +142,8 @@
 
         #tagline {
           font-weight: 500; /* 500=medium (400=normal; 700=bold) */
-          font-size: 160%
+          font-size: 160%;
+          margin-bottom: 1em;
         }
 
         h2, h3, h4, h5, h6, details {
@@ -266,7 +267,11 @@
 
 <header id="top">
     <h1 id="name">Avi Flax</h1>
-    <h2 id="tagline">Experienced full-cycle software engineer</h2>
+    <h2 id="tagline">
+        <a href="https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249">Full-cycle</a>,
+        <a href="https://en.wikipedia.org/wiki/T-shaped_skills">T-shaped</a>,
+        hands-on software architect/engineer
+    </h2>
 </header>
 
 <details id="objective">
@@ -288,9 +293,9 @@
   <ul>
     <li>Anything with a <b>direct positive impact</b> on
       <script>
-        const energyRelated = document.URL.includes('energy') || document.URL.includes('climate'),
-          html = energyRelated ? '<b>the energy transition</b>' : 'its users and the organization'
-        document.write(html)
+        const energyRelated = document.URL.includes('energy') || document.URL.includes('climate');
+        const html = energyRelated ? '<b>the energy transition</b>' : 'its users and the organization';
+        document.write(html);
       </script>
   </ul>
 
@@ -869,7 +874,7 @@
 </section>
 
 <footer>
-  <p>last updated: 2025-03-20 • <a href="https://github.com/aviflax/resume">full change history</a></p>
+  <p>last updated: 2025-07-10 • <a href="https://github.com/aviflax/resume">full change history</a></p>
 </footer>
 
 </body>
