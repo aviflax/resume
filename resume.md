@@ -14,23 +14,22 @@
 <details open>
     <summary><h3>2015–2025</h3></summary>
 
-#### Omne
+#### Omne *(Chief Software Architect)*
 
 * Helped build and evolve the team and its strategy, processes, and culture
 * Designed and built a pre-alpha
           <a href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">
               <abbr title="Enterprise Resource Planning">ERP</abbr></a> system with
           a focus on manufacturing businesses
-* C
 
-#### Trudy
+#### Trudy *(Principal Software Engineer)*
 
 * Designed, implemented, and maintained an internal prompt engineering tool for rapidly testing many
   variations of LLM invocations
 * Designed and implemented a pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to
   enable non-experts to craft, test, and use LLM prompts with multiple LLM providers
 
-#### Latacora
+#### Latacora *(Staff Software Engineer)*
 
 Designed and implemented:
 
@@ -40,19 +39,19 @@ Designed and implemented:
   * CLI tools for exporting and importing that custom business data to/from other tools and systems
     such as <a href="https://fibery.io">Fibery</a> and JIRA
 
-#### Modern Energy
+#### Modern Energy *(Senior Director of Technology)*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas’ ERCOT market
 * Automated wholesale energy trades for a few different markets via <a href="https://apx.com/power-scheduling-energy-accounting-services/">APX MarketSuite</a>
 * Helped bootstrap a new HVAC optimization startup by integrating with <a href="https://www.infisense.com">InfiSense</a> and <a href="https://melrok.com">MelRok</a>
 
-#### Funding Circle
+#### Funding Circle *(Principal Software Engineer)*
 
 * A
 * B
 * C
 
-#### Park Assist
+#### Park Assist *(Principal Software Architect)*
 
 * A
 * B
