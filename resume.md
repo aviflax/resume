@@ -18,24 +18,24 @@
 
 #### 2024–2025: Omne *(Chief Software Architect)*
 
-* Helped build and evolve the team and its strategy, processes, and culture
+* Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha
           <a href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">
               <abbr title="Enterprise Resource Planning">ERP</abbr></a> system with
-          a focus on manufacturing businesses
-* Tech: PostgreSQL, C#, GitHub Actions, Kafka, Azure Cloud
+          a focus on manufacturing customers
+* Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
 
 #### 2023–2024: Trudy *(Principal Software Engineer)*
 
-* Designed, implemented, and maintained an internal prompt engineering tool for rapidly testing many
-  variations of LLM invocations
-* Designed and implemented a pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to
-  enable non-experts to craft, test, and use LLM prompts with multiple LLM providers
+* Designed, implemented, and maintained:
+  * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
+  * A pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to enable non-experts to
+    craft, test, and use LLM prompts with multiple LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, Python, Django, Clojure
 
 #### 2022–2023: Latacora *(Staff Software Engineer)*
 
-* Designed and implemented:
+* Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and <a href="https://www.pulumi.com/">Pulumi</a>
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data
