@@ -83,25 +83,30 @@
 
 #### ADP
 
-* Refactored, enhanced, and maintained a sophisticated application for producing custom financial documents for on-demand printing
+* Refactored, enhanced, and maintained a sophisticated application for producing custom financial
+  documents for on-demand printing
 
 #### register.com
 
 <!-- TODO: compress down to a single bullet -->
 * Team lead position for large high-traffic auction site
-* Responsibilities included designing, implementing, and maintaining features; reengineering site technology and architecture
+* Responsibilities included designing, implementing, and maintaining features; reengineering site
+  technology and architecture
 * Created new internal tools and development procedures
 
 #### RewardsPlus
 
-* Maintained and enhanced a large-scale online employee benefits enrollment system for diverse clients with diverse needs
+* Maintained and enhanced a large-scale online employee benefits enrollment system for diverse
+  clients with diverse needs
 
 #### Words In Progress
 
-* Developed requirements and specifications for high traffic websites directly with clients; crafted application architecture and database design
+* Developed requirements and specifications for high traffic websites directly with clients; crafted
+  application architecture and database design
 
 #### Ideal Computer Strategies
 
-* Worked with teams of designers, coders, and project managers to concurrently develop and deploy client websites with basic dynamic features
+* Worked with teams of designers, coders, and project managers to concurrently develop and deploy
+  client websites with basic dynamic features
 
 </details>
