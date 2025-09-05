@@ -119,6 +119,11 @@ Designed and implemented:
 * Worked with teams of designers, coders, and project managers to concurrently develop and deploy
   client websites with basic dynamic features
 
+#### PCC Internet Design
+
+* Founded and managed a small Web design shop in Baltimore, MD providing full-service Web design
+  and development to small businesses in the area
+
 </details>
 
 ----
