@@ -1,6 +1,6 @@
 # Avi Flax
 
-<span id="tagline">Software engineer/architect</span>
+<span id="tagline">Software engineer/architect, experienced generalist</span>
 
 <!--experienced generalist experience in the Web, data pipelines, continuous delivery, and APIs-->
 
