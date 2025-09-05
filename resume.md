@@ -23,6 +23,7 @@
           <a href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">
               <abbr title="Enterprise Resource Planning">ERP</abbr></a> system with
           a focus on manufacturing businesses
+* Tech: PostgreSQL, C#, GitHub Actions, Kafka, Azure Cloud
 
 #### 2023–2024: Trudy *(Principal Software Engineer)*
 
@@ -30,34 +31,36 @@
   variations of LLM invocations
 * Designed and implemented a pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to
   enable non-experts to craft, test, and use LLM prompts with multiple LLM providers
+* Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, Python, Django, Clojure
 
 #### 2022–2023: Latacora *(Staff Software Engineer)*
 
-Designed and implemented:
-
-* A system that manages access to many AWS accounts via AWS SSO and <a href="https://www.pulumi.com/">Pulumi</a>
-* A system for deploying multiple tools to many AWS accounts via Pulumi
-* A custom database for crucial business data
-  * CLI tools for exporting and importing that custom business data to/from other tools and systems
-    such as <a href="https://fibery.io">Fibery</a> and JIRA
+* Designed and implemented:
+  * A system that manages access to many AWS accounts via AWS SSO and <a href="https://www.pulumi.com/">Pulumi</a>
+  * A system for deploying multiple tools to many AWS accounts via Pulumi
+  * A custom database for crucial business data
+    * CLI tools for exporting and importing that custom business data to/from other tools and systems
+      such as <a href="https://fibery.io">Fibery</a> and JIRA
+* Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### 2020–2021: Modern Energy *(Senior Director of Technology)*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas’ ERCOT market
 * Automated wholesale energy trades for a few different markets via <a href="https://apx.com/power-scheduling-energy-accounting-services/">APX MarketSuite</a>
 * Helped bootstrap a new HVAC optimization startup by integrating with <a href="https://www.infisense.com">InfiSense</a> and <a href="https://melrok.com">MelRok</a>
+* Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
 
 #### 2017–2020: Funding Circle *(Principal Software Engineer)*
 
 * A
 * B
-* C
+* Tech: Clojure, Ruby, Kafka, GitHub Actions
 
 #### 2016–2017: Park Assist *(Principal Software Architect)*
 
 * A
 * B
-* C
+* Tech: Ruby, JRuby, Kafka, SQL Server
 
 </details>
 
