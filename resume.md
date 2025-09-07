@@ -1,7 +1,7 @@
 <style>
   html, body {
       max-width: 8in;
-      font-size: 18pt;
+      font-size: 17pt;
       margin-left: 1rem;
   }
 
@@ -20,8 +20,13 @@
       border-top: 1px solid black;
   }
 
-  li + li {
-      margin-top: 0.75rem;
+  li:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
+  li > ul,
+  li > ol {
+    margin-top: 0.75rem;
   }
 </style>
 
