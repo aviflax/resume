@@ -9,6 +9,11 @@
     summary {
       margin-left: 1rem;
       font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    summary::marker {
+        font-size: 120%;
     }
 
     & > *:not(summary) {
@@ -27,6 +32,10 @@
   li > ul,
   li > ol {
     margin-top: 0.75rem;
+  }
+
+  h4 > em {
+      font-weight: normal;
   }
 </style>
 
@@ -49,13 +58,13 @@
 <details open>
     <summary><h3>2015–2025</h3></summary>
 
-#### 2024–2025: Omne *(Chief Software Architect)*
+#### Omne *Chief Software Architect, 2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha [ERP] system with a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
 
-#### 2023–2024: Trudy *(Principal Software Engineer)*
+#### Trudy *Principal Software Engineer, 2023–2024*
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
@@ -63,7 +72,7 @@
     craft, test, and use LLM prompts with multiple LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, Python, Django, Clojure
 
-#### 2022–2023: Latacora *(Staff Software Engineer)*
+#### Latacora *Staff Software Engineer, 2022–2023*
 
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
@@ -72,20 +81,20 @@
     such as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
-#### 2020–2021: Modern Energy *(Senior Director of Technology)*
+#### Modern Energy *Senior Director of Technology, 2020–2021*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
 * Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense] and [MelRok]
 * Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
 
-#### 2017–2020: Funding Circle *(Principal Software Engineer)*
+#### Funding Circle *Principal Software Engineer, 2017–2020*
 
 * 🔜
 * 🔜
 * Tech: Clojure, Ruby, Kafka, GitHub Actions
 
-#### 2016–2017: Park Assist *(Principal Software Architect)*
+#### Park Assist *Principal Software Architect, 2016–2017*
 
 * 🔜
 * 🔜
