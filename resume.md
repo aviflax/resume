@@ -63,9 +63,8 @@
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
   * A system for deploying multiple tools to many AWS accounts via Pulumi
-  * A custom database for crucial business data
-    * CLI tools for exporting and importing that custom business data to/from other tools and systems
-      such as [Fibery] and JIRA
+  * A custom database for crucial business data &amp; CLI tools for integrating the DB with tools
+    such as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### 2020–2021: Modern Energy *(Senior Director of Technology)*
@@ -77,14 +76,14 @@
 
 #### 2017–2020: Funding Circle *(Principal Software Engineer)*
 
-* A
-* B
+* 🔜
+* 🔜
 * Tech: Clojure, Ruby, Kafka, GitHub Actions
 
 #### 2016–2017: Park Assist *(Principal Software Architect)*
 
-* A
-* B
+* 🔜
+* 🔜
 * Tech: Ruby, JRuby, Kafka, SQL Server
 
 </details>
@@ -106,15 +105,15 @@
 
 #### 2013–2014: SFX
 
-* A
-* B
-* C
+* 🔜
+* 🔜
+* 🔜
 
 #### 2005–2013: Arc90
 
-* A
-* B
-* C
+* 🔜
+* 🔜
+* 🔜
 
 </details>
 
