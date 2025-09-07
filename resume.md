@@ -169,9 +169,12 @@
 
 </details>
 
-----
+
+<div id="email">
 
 [avi@aviflax.com](mailto:avi@aviflax.com)
+
+</div>
 
 
 
