@@ -35,6 +35,7 @@
   }
 
   h4 > em {
+      margin-left: 0.5rem;
       font-weight: normal;
   }
 </style>
