@@ -1,15 +1,16 @@
 # Avi Flax
 
-<span id="tagline">Software engineer/architect, experienced generalist</span>
+<span id="tagline">Software engineer/architect; experienced generalist</span>
 
-<!--experienced generalist experience in the Web, data pipelines, continuous delivery, and APIs-->
 
-<!-- Or Highlights?-->
 ## Summary
 
-* A
-* B
-* C
+* **Deep expertise** in the Web, APIs, stream processing, automated testing, and continuous delivery
+* **Deep experience** in all aspects of software development: requirements, planning, design,
+  implementation, testing, deployment, operations, maintenance
+* **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
+  mission-oriented, thoughtful, thorough
+
 
 ## Experience
 
