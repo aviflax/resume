@@ -105,7 +105,7 @@
 <details>
     <summary><h3>2005–2015</h3></summary>
 
-#### 2015: Timehop
+#### Timehop *2015*
 
 * Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis
   and Go ([slides])
@@ -113,17 +113,17 @@
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
 
-#### 2014: Thinkful
+#### Thinkful *2014*
 
 * Designed and implemented an event-driven system to automate Stripe subscription management
 
-#### 2013–2014: SFX
+#### SFX *2013–2014*
 
 * 🔜
 * 🔜
 * 🔜
 
-#### 2005–2013: Arc90
+#### Arc90 *2005–2013*
 
 * 🔜
 * 🔜
@@ -134,12 +134,12 @@
 <details>
     <summary><h3>1997–2005</h3></summary>
 
-#### 2001–2004: ADP
+#### ADP *2001–2004*
 
 * Refactored, enhanced, and maintained a sophisticated application for producing custom financial
   documents for on-demand printing
 
-#### 2001: register.com
+#### register.com *2001*
 
 <!-- TODO: compress down to a single bullet -->
 * Team lead position for large high-traffic auction site
@@ -147,22 +147,22 @@
   technology and architecture
 * Created new internal tools and development procedures
 
-#### 2000: RewardsPlus
+#### RewardsPlus *2000*
 
 * Maintained and enhanced a large-scale online employee benefits enrollment system for diverse
   clients with diverse needs
 
-#### 1998–2000: Words In Progress
+#### Words In Progress *1998–2000*
 
 * Developed requirements and specifications for high traffic websites directly with clients; crafted
   application architecture and database design
 
-#### 1998: Ideal Computer Strategies
+#### Ideal Computer Strategies *1998*
 
 * Worked with teams of designers, coders, and project managers to concurrently develop and deploy
   client websites with basic dynamic features
 
-#### 1997–1998: PCC Internet Design
+#### PCC Internet Design *1997–1998*
 
 * Founded and managed a small Web design shop in Baltimore, MD providing full-service Web design
   and development to small businesses in the area
