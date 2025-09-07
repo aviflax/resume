@@ -56,7 +56,7 @@
 
 ## Experience
 
-<details open>
+<details>
     <summary><h3>2015–2025</h3></summary>
 
 #### Omne *Chief Software Architect, 2024–2025*
@@ -113,6 +113,7 @@
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
+* Tech: 🔜
 
 #### Thinkful *2014*
 
@@ -123,12 +124,14 @@
 * 🔜
 * 🔜
 * 🔜
+* Tech: 🔜
 
 #### Arc90 *2005–2013*
 
 * 🔜
 * 🔜
 * 🔜
+* Tech: 🔜
 
 </details>
 
@@ -170,6 +173,36 @@
 
 </details>
 
+## Output
+
+<details>
+    <summary><h3>Speaking</h3></summary>
+
+* 2020: <a href="https://www.youtube.com/watch?v=3i-C7qbRGGQ">Set your data free with model-based architecture diagramming</a> at <a href="https://www.writethedocs.org/conf/">Write the Docs (Portland) 2020</a>
+* 2019:
+  * <a href="http://2019.clojure-conj.org/speaker-avi-flax/">(Architecture) Diagrams as Data</a> at Clojure/conj (<a href="https://youtu.be/HmHOYkTVxIg">video</a>
+* 2018:
+  * <a href="https://www.youtube.com/watch?v=Vl4KFEJwPPQ">Concurrency via Communication — Large and Small</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)
+  * <a href="https://www.youtube.com/watch?v=5JpcDKooaIQ">Large Nested JSON with Spec: A Comedy of Errors</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)
+  * <a href="https://youtu.be/eqfSifXaXnw">Specifying Other People’s Data Structures with Spec: an Experience Report</a> at Clojure/nyc
+* 2014:
+  * <a href="https://www.youtube.com/watch?v=HGpDHBzErkg">The impedance mismatch of Web Microframeworks</a> at PyGrunn 2014 (hosted by Paylogic, a subsidiary of SFX)
+
+</details>
+
+<details>
+    <summary><h3>Writing</h3></summary>
+
+🔜
+
+</details>
+
+<details>
+    <summary><h3>Code</h3></summary>
+
+🔜
+
+</details>
 
 <div id="email">
 
