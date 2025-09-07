@@ -21,7 +21,7 @@
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha
-          [<abbr title="Enterprise Resource Planning">ERP</abbr>](https://en.wikipedia.org/wiki/Enterprise_resource_planning) system with
+          [<abbr title="Enterprise Resource Planning">ERP</abbr>][erp] system with
           a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
 
@@ -36,18 +36,18 @@
 #### 2022–2023: Latacora *(Staff Software Engineer)*
 
 * Designed, implemented, and maintained:
-  * A system that manages access to many AWS accounts via AWS SSO and [Pulumi](https://www.pulumi.com/)
+  * A system that manages access to many AWS accounts via AWS SSO and [Pulumi][pulumi]
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data
     * CLI tools for exporting and importing that custom business data to/from other tools and systems
-      such as [Fibery](https://fibery.io) and JIRA
+      such as [Fibery][fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### 2020–2021: Modern Energy *(Senior Director of Technology)*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
-* Automated wholesale energy trades for a few different markets via [APX MarketSuite](https://apx.com/power-scheduling-energy-accounting-services/)
-* Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense](https://www.infisense.com) and [MelRok](https://melrok.com)
+* Automated wholesale energy trades for a few different markets via [APX MarketSuite][apx]
+* Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense][infisense] and [MelRok][melrok]
 * Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
 
 #### 2017–2020: Funding Circle *(Principal Software Engineer)*
@@ -70,7 +70,7 @@
 #### 2015: Timehop
 
 * Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis
-  and Go ([slides](https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop))
+  and Go ([slides][timehop-slides])
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
@@ -134,3 +134,11 @@
 ----
 
 [avi@aviflax.com](mailto:avi@aviflax.com)
+
+[erp]: https://en.wikipedia.org/wiki/Enterprise_resource_planning
+[pulumi]: https://www.pulumi.com/
+[fibery]: https://fibery.io
+[apx]: https://apx.com/power-scheduling-energy-accounting-services/
+[infisense]: https://www.infisense.com
+[melrok]: https://melrok.com
+[timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
