@@ -1,3 +1,30 @@
+<style>
+  html, body {
+      max-width: 8in;
+      font-size: 18pt;
+      margin-left: 1rem;
+  }
+
+  details {
+    summary {
+      margin-left: 1rem;
+      font-size: 1.2rem;
+    }
+
+    & > *:not(summary) {
+        margin-left: 2.5rem;
+    }
+  }
+
+  details + details {
+      border-top: 1px solid black;
+  }
+
+  li + li {
+      margin-top: 0.75rem;
+  }
+</style>
+
 # Avi Flax
 
 <span id="tagline">Software engineer/architect; experienced generalist</span>
@@ -6,10 +33,8 @@
 ## Summary
 
 * **Deep expertise** in the Web, APIs, stream processing, automated testing, and continuous delivery
-
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
-
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
   mission-oriented, thoughtful, thorough
 
