@@ -52,7 +52,8 @@
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
   mission-oriented, thoughtful, thorough
-* **Dedicated** to diversity, equity, inclusion, kindness, community, and compassion
+* **Dedicated** to community, compassion, diversity, empathy, equity, inclusion, justice, kindness,
+  solidarity, and understanding
 
 
 ## Experience
