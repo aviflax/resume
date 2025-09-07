@@ -21,8 +21,7 @@
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha
-          <a href="https://en.wikipedia.org/wiki/Enterprise_resource_planning">
-              <abbr title="Enterprise Resource Planning">ERP</abbr></a> system with
+          [<abbr title="Enterprise Resource Planning">ERP</abbr>](https://en.wikipedia.org/wiki/Enterprise_resource_planning) system with
           a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
 
@@ -37,18 +36,18 @@
 #### 2022–2023: Latacora *(Staff Software Engineer)*
 
 * Designed, implemented, and maintained:
-  * A system that manages access to many AWS accounts via AWS SSO and <a href="https://www.pulumi.com/">Pulumi</a>
+  * A system that manages access to many AWS accounts via AWS SSO and [Pulumi](https://www.pulumi.com/)
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data
     * CLI tools for exporting and importing that custom business data to/from other tools and systems
-      such as <a href="https://fibery.io">Fibery</a> and JIRA
+      such as [Fibery](https://fibery.io) and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### 2020–2021: Modern Energy *(Senior Director of Technology)*
 
-* Helped bootstrap a new Retail Energy Provider (REP) in Texas’ ERCOT market
-* Automated wholesale energy trades for a few different markets via <a href="https://apx.com/power-scheduling-energy-accounting-services/">APX MarketSuite</a>
-* Helped bootstrap a new HVAC optimization startup by integrating with <a href="https://www.infisense.com">InfiSense</a> and <a href="https://melrok.com">MelRok</a>
+* Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
+* Automated wholesale energy trades for a few different markets via [APX MarketSuite](https://apx.com/power-scheduling-energy-accounting-services/)
+* Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense](https://www.infisense.com) and [MelRok](https://melrok.com)
 * Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
 
 #### 2017–2020: Funding Circle *(Principal Software Engineer)*
@@ -71,7 +70,7 @@
 #### 2015: Timehop
 
 * Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis
-  and Go (<a href="https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop">slides</a>)
+  and Go ([slides](https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop))
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
