@@ -24,38 +24,26 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
       h1, h2, h3, h4, h5, h6 { display: inline-block; }
     }
 
-    summary::marker {
-        font-size: 120%;
-    }
+    summary::marker { font-size: 120%; }
 
-    & > *:not(summary) {
-        margin-left: 1rem;
-    }
+    & > *:not(summary) { margin-left: 1rem; }
   }
 
-  details + details {
-      border-top: 1px solid silver;
-  }
   h4 { margin: 2.5rem 0 0 0; }
   summary + h4 { margin-top: 0; }
 
-  li:not(:last-child) {
-    margin-bottom: 1rem;
-  }
+  details + details { border-top: 1px solid silver; }
 
-  li > ul,
-  li > ol {
-    margin-top: 1rem;
-  }
+  li:not(:last-child) { margin-bottom: 1rem; }
+
+  li > ul, li > ol { margin-top: 1rem; }
 
   h4 > em {
       margin-left: 0.5rem;
       font-weight: normal;
   }
 
-  abbr {
-      cursor: help;
-  }
+  abbr { cursor: help; }
 </style>
 
 <header>
