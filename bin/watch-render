@@ -1,0 +1,3 @@
+#!/bin/sh
+
+fswatch resume.md | xargs -n1 bin/render
