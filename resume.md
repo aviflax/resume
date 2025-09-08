@@ -68,7 +68,7 @@ TODO:
 ## Summary
 
 * **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr> (especially the back end),
-  architecture, <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing,
+  <abbr title="Application Programming Interfaces">APIs</abbr>, architecture, stream processing,
   automated testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
