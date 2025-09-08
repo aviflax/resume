@@ -47,7 +47,8 @@
 
 ## Summary
 
-* **Deep expertise** in the Web, APIs, stream processing, automated testing, and continuous delivery
+* **Deep expertise** in the Web, architecture, APIs, stream processing, automated testing, and
+  continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
