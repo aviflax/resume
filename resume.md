@@ -42,6 +42,10 @@
       margin-left: 0.5rem;
       font-weight: normal;
   }
+
+  abbr {
+      cursor: help;
+  }
 </style>
 
 # Avi Flax
@@ -51,14 +55,15 @@
 
 ## Summary
 
-* **Deep expertise** in the Web, architecture, APIs, stream processing, automated testing, and
-  continuous delivery
+* **Deep expertise** in the Web, architecture,
+  <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing, automated
+  testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
   mission-oriented, rigorous, thoughtful, thorough
-* **Dedicated** to community, compassion, diversity, empathy, equity, inclusion, justice, kindness,
-  solidarity, and understanding
+* **Dedicated** to community, compassion, diversity, <!-- egalitarianism, --> empathy, equity,
+  impact, inclusion, justice, kindness, solidarity, and understanding
 
 
 ## Experience
@@ -69,24 +74,28 @@
 #### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
-* Designed and built a pre-alpha [ERP] system with a focus on manufacturing customers
-* Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
+* Designed and built a pre-alpha <abbr title="Enterprise Resource Planning">ERP</abbr> system with a
+  focus on manufacturing customers
+* Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep
 
 #### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
   * A pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to enable non-experts to
-    craft, test, and use LLM prompts with multiple LLM providers
-* Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, Python, Django, Clojure
+    craft, test, and use <abbr title="Large Language Model">LLM</abbr> prompts with multiple LLM
+    providers
+* Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
+  Clojure
 
 #### Latacora *<nobr>Staff Software Engineer</nobr>* *2022–2023*
 
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
   * A system for deploying multiple tools to many AWS accounts via Pulumi
-  * A custom database for crucial business data &amp; CLI tools for integrating the DB with tools
-    such as [Fibery] and JIRA
+  * A custom database for crucial business data &amp;
+    <abbr title="Command-Line Interface">CLI</abbr> tools for integrating the DB with tools such as
+    [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
@@ -116,7 +125,7 @@
 #### Timehop *2015*
 
 * Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis
-  and Go ([slides])
+  and Go (Golang) ([slides])
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
@@ -221,7 +230,6 @@
 
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
-[ERP]: https://en.wikipedia.org/wiki/Enterprise_resource_planning
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
