@@ -67,10 +67,11 @@ TODO:
 * **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr> (especially the back end),
   <abbr title="Application Programming Interfaces">APIs</abbr>, architecture, documentation, stream
   processing, automated testing, and continuous delivery
-* **Deep experience** in all aspects of software development: requirements, planning, design,
+* **Extensive experience** in the end-to-end software development process: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
-* **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
-  mission-oriented, rigorous, thoughtful, thorough
+* **Highly engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
+  mission-oriented, rigorous, thoughtful, thorough <!-- add example? -->
+  <!-- show don’t tell? -->
 * **Dedicated** to <!-- alliteration --> community, compassion, diversity, <!-- egalitarianism, -->
   empathy, equity, impact, inclusion, justice, kindness, solidarity, sustainability
 
