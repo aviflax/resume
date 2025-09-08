@@ -36,6 +36,8 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   details + details {
       border-top: 1px solid silver;
   }
+  h4 { margin: 2.5rem 0 0 0; }
+  summary + h4 { margin-top: 0; }
 
   li:not(:last-child) {
     margin-bottom: 1rem;
