@@ -122,8 +122,8 @@
 
 #### Timehop *2015*
 
-* Refactored a critical and complex system into a loosely-coupled stream-based system using Kinesis
-  and Go (Golang) ([slides])
+* Refactored a critical and complex system into a <nobr>loosely-coupled</nobr> stream-based system
+  using Kinesis and Go (Golang) ([slides])
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
@@ -154,7 +154,8 @@
 #### ADP *2001–2004*
 
 * Refactored, enhanced, and maintained a sophisticated application for producing custom financial
-  documents for on-demand printing
+  documents for <nobr>on-demand</nobr> printing
+* Tech: Microsoft SQL Server, ColdFusion, XSLT, <nobr>XSL-FO</nobr>
 
 #### register.com *2001*
 
@@ -163,26 +164,32 @@
 * Responsibilities included designing, implementing, and maintaining features; reengineering site
   technology and architecture
 * Created new internal tools and development procedures
+* Tech: ColdFusion
 
 #### RewardsPlus *2000*
 
 * Maintained and enhanced a large-scale online employee benefits enrollment system for diverse
   clients with diverse needs
+* Tech: ColdFusion
 
 #### Words In Progress *1998–2000*
 
 * Developed requirements and specifications for high traffic websites directly with clients; crafted
   application architecture and database design
+* Maintained one of the earliest major e-commerce Websites for <nobr>T-Mobile</nobr>
+* Tech: Microsoft Access, ColdFusion, HomeSite
 
 #### Ideal Computer Strategies *1998*
 
 * Worked with teams of designers, coders, and project managers to concurrently develop and deploy
   client websites with basic dynamic features
+* Tech: Microsoft Access, ColdFusion, HomeSite
 
 #### PCC Internet Design *1997–1998*
 
 * Founded and managed a small Web design shop in Baltimore, MD providing full-service Web design
   and development to small businesses in the area
+* Tech: Windows Notepad, HTML
 
 </details>
 
