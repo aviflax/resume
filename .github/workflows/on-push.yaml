@@ -1,0 +1,27 @@
+name: On Push
+
+on: push
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-24.04
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v5
+
+      - run: |
+          bin/render
+          mkdir -p public/resume/
+          mv resume.html public/resume/index.html
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public/
+
+      - uses: actions/deploy-pages@v4
