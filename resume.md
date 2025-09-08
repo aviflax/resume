@@ -46,13 +46,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   abbr { cursor: help; }
 </style>
 
-<header>
-
-# Avi Flax
-
-<span id="tagline">Software engineer/architect; experienced generalist</span>
-
-</header>
+<header><h1>Avi Flax</h1></header>
 
 <!--
 
