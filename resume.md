@@ -245,8 +245,9 @@ TODO:
 ## Contact
 
 * [📧 Email]
+* [Signal]
 * [LinkedIn]
-* <abbr title="In Real Life">IRL</abbr>: White Plains, New York, United States of America
+* <abbr title="In Real Life">IRL</abbr>: White Plains, New York, USA
 
 
 
@@ -264,5 +265,6 @@ TODO:
 [The impedance mismatch of Web Microframeworks]: https://www.youtube.com/watch?v=HGpDHBzErkg
 [Write the Docs]: https://www.writethedocs.org/conf/
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
+[Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
