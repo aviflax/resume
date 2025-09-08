@@ -216,16 +216,12 @@ TODO:
 
 <details><summary><h3>Speaking</h3></summary>
 
-* 2020:
-  * [Set your data free with model-based architecture diagramming] ([Write the Docs])
-* 2019:
-  * [(Architecture) Diagrams as Data] (Clojure/conj)
-* 2018:
-  * [Concurrency via Communication — Large and Small] (Bay Area Clojure Meetup)
-  * [Large Nested JSON with Spec: A Comedy of Errors] (Bay Area Clojure Meetup)
-  * [Specifying Other People's Data Structures with Spec: an Experience Report] (Clojure/nyc)
-* 2014:
-  * [The impedance mismatch of Web Microframeworks] (PyGrunn)
+* [Set your data free with model-based architecture diagramming] ([Write the Docs] 2020)
+* [(Architecture) Diagrams as Data] (Clojure/conj 2019)
+* [Concurrency via Communication — Large and Small] (Bay Area Clojure Meetup 2018)
+* [Large Nested JSON with Spec: A Comedy of Errors] (Bay Area Clojure Meetup 2018)
+* [Specifying Other People's Data Structures with Spec: an Experience Report] (Clojure/nyc 2018)
+* [The impedance mismatch of Web Microframeworks] (PyGrunn 2014)
 
 </details>
 
