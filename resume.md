@@ -65,9 +65,10 @@ TODO:
 
 -->
 
+
 ## Summary
 
-* **Deep expertise** in <abbr title="World Wide Web">the Web</abbr>, architecture,
+* **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr>, architecture,
   <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing, automated
   testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
@@ -209,7 +210,8 @@ TODO:
 
 <details><summary><h3>Speaking</h3></summary>
 
-* 2020: [Set your data free with model-based architecture diagramming] ([Write the Docs])
+* 2020:
+  * [Set your data free with model-based architecture diagramming] ([Write the Docs])
 * 2019:
   * [(Architecture) Diagrams as Data] (Clojure/conj)
 * 2018:
