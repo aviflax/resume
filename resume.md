@@ -185,15 +185,15 @@
 <details>
     <summary><h3>Speaking</h3></summary>
 
-* 2020: <a href="https://www.youtube.com/watch?v=3i-C7qbRGGQ">Set your data free with model-based architecture diagramming</a> at <a href="https://www.writethedocs.org/conf/">Write the Docs (Portland) 2020</a>
+* 2020: [Set your data free with model-based architecture diagramming] ([Write the Docs])
 * 2019:
-  * <a href="http://2019.clojure-conj.org/speaker-avi-flax/">(Architecture) Diagrams as Data</a> at Clojure/conj (<a href="https://youtu.be/HmHOYkTVxIg">video</a>
+  * [(Architecture) Diagrams as Data] (Clojure/conj)
 * 2018:
-  * <a href="https://www.youtube.com/watch?v=Vl4KFEJwPPQ">Concurrency via Communication — Large and Small</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)
-  * <a href="https://www.youtube.com/watch?v=5JpcDKooaIQ">Large Nested JSON with Spec: A Comedy of Errors</a> at the Bay Area Clojure Meetup (hosted by Funding Circle)
-  * <a href="https://youtu.be/eqfSifXaXnw">Specifying Other People’s Data Structures with Spec: an Experience Report</a> at Clojure/nyc
+  * [Concurrency via Communication — Large and Small] (Bay Area Clojure Meetup)
+  * [Large Nested JSON with Spec: A Comedy of Errors] (Bay Area Clojure Meetup)
+  * [Specifying Other People's Data Structures with Spec: an Experience Report] (Clojure/nyc)
 * 2014:
-  * <a href="https://www.youtube.com/watch?v=HGpDHBzErkg">The impedance mismatch of Web Microframeworks</a> at PyGrunn 2014 (hosted by Paylogic, a subsidiary of SFX)
+  * [The impedance mismatch of Web Microframeworks] (PyGrunn)
 
 </details>
 
@@ -220,9 +220,16 @@
 
 
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
+[Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
 [ERP]: https://en.wikipedia.org/wiki/Enterprise_resource_planning
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
+[Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
 [MelRok]: https://melrok.com
 [Pulumi]: https://www.pulumi.com/
+[Set your data free with model-based architecture diagramming]: https://www.youtube.com/watch?v=3i-C7qbRGGQ
+[Specifying Other People's Data Structures with Spec: an Experience Report]: https://youtu.be/eqfSifXaXnw
+[The impedance mismatch of Web Microframeworks]: https://www.youtube.com/watch?v=HGpDHBzErkg
+[Write the Docs]: https://www.writethedocs.org/conf/
+[(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
