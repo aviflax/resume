@@ -225,11 +225,15 @@ TODO:
 
 </details>
 
+
 <details><summary><h3>Writing</h3></summary>
 
-🔜
+* 🔜
+* [Stack Overflow]
+* 🔜
 
 </details>
+
 
 <details><summary><h3>Code</h3></summary>
 
@@ -261,3 +265,4 @@ TODO:
 [Write the Docs]: https://www.writethedocs.org/conf/
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
+[Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
