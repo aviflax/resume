@@ -72,7 +72,7 @@ TODO:
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
   mission-oriented, rigorous, thoughtful, thorough
 * **Dedicated** to <!-- alliteration --> community, compassion, diversity, <!-- egalitarianism, -->
-  empathy, equity, impact, inclusion, justice, kindness, solidarity, sustainability, understanding
+  empathy, equity, impact, inclusion, justice, kindness, solidarity, sustainability
 
 
 ## Experience
