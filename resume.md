@@ -61,6 +61,7 @@ TODO:
   * mentoring
   * education
   * professional development
+  * Experience with remote/distributed teams
 
 -->
 
@@ -68,8 +69,8 @@ TODO:
 ## Summary
 
 * **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr> (especially the back end),
-  <abbr title="Application Programming Interfaces">APIs</abbr>, architecture, stream processing,
-  automated testing, and continuous delivery
+  <abbr title="Application Programming Interfaces">APIs</abbr>, architecture, documentation, stream
+  processing, automated testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
