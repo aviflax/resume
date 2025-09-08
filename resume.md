@@ -2,12 +2,16 @@
   html, body {
       max-width: 8in;
       font-size: 17pt;
-      margin-left: 1rem;
+      margin: 0 auto;
+      padding: 0 0.5rem;
+      font-family: Charter, Times, Serif;
   }
 
   details {
+    margin-left: 0.5rem;
+
     summary {
-      margin-left: 1rem;
+      margin: 0;
       font-size: 1.2rem;
       cursor: pointer;
     }
@@ -17,7 +21,7 @@
     }
 
     & > *:not(summary) {
-        margin-left: 2.5rem;
+        margin-left: 1rem;
     }
   }
 
@@ -26,12 +30,12 @@
   }
 
   li:not(:last-child) {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
   }
 
   li > ul,
   li > ol {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
   }
 
   h4 > em {
@@ -62,13 +66,13 @@
 <details>
     <summary><h3>2015–2025</h3></summary>
 
-#### Omne *Chief Software Architect, 2024–2025*
+#### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha [ERP] system with a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud
 
-#### Trudy *Principal Software Engineer, 2023–2024*
+#### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
@@ -76,7 +80,7 @@
     craft, test, and use LLM prompts with multiple LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, Python, Django, Clojure
 
-#### Latacora *Staff Software Engineer, 2022–2023*
+#### Latacora *<nobr>Staff Software Engineer</nobr>* *2022–2023*
 
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
@@ -85,20 +89,20 @@
     such as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
-#### Modern Energy *Senior Director of Technology, 2020–2021*
+#### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
 * Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense] and [MelRok]
 * Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
 
-#### Funding Circle *Principal Software Engineer, 2017–2020*
+#### Funding Circle *<nobr>Principal Software Engineer</nobr>* *2017–2020*
 
 * 🔜
 * 🔜
 * Tech: Clojure, Ruby, Kafka, GitHub Actions
 
-#### Park Assist *Principal Software Architect, 2016–2017*
+#### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
 
 * 🔜
 * 🔜
