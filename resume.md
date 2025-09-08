@@ -26,7 +26,7 @@
   }
 
   details + details {
-      border-top: 1px solid black;
+      border-top: 1px solid silver;
   }
 
   li:not(:last-child) {
@@ -46,11 +46,23 @@
   abbr {
       cursor: help;
   }
+
+  footer {
+      margin-top: 1rem;
+      border-top: 1px solid silver;
+  }
+
+  li#location::marker { content: "🌎 " }
+  li#email::marker { content: "📧 " }
 </style>
+
+<header>
 
 # Avi Flax
 
 <span id="tagline">Software engineer/architect; experienced generalist</span>
+
+</header>
 
 <!--
 
@@ -235,11 +247,13 @@ TODO:
 
 </details>
 
-<div id="email">
 
-[avi@aviflax.com](mailto:avi@aviflax.com)
-
-</div>
+<footer>
+    <ul>
+        <li id="location">White Plains, New York, United States of America</li>
+        <li id="email">[avi@aviflax.com](mailto:avi@aviflax.com)</li>
+    </ul>
+</footer>
 
 
 
