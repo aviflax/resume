@@ -8,7 +8,7 @@
   }
 
   details {
-    margin-left: 0.5rem;
+    margin-left: 0.75rem;
 
     summary {
       margin: 0;
