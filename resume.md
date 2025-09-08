@@ -52,10 +52,22 @@
 
 <span id="tagline">Software engineer/architect; experienced generalist</span>
 
+<!--
+
+TODO:
+
+* Add somewhere:
+  * “backend” or “back end”
+  * team building
+  * mentoring
+  * education
+  * professional development
+
+-->
 
 ## Summary
 
-* **Deep expertise** in the Web, architecture,
+* **Deep expertise** in <abbr title="World Wide Web">the Web</abbr>, architecture,
   <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing, automated
   testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
