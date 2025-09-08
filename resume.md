@@ -11,7 +11,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
       font-family: Charter, Times, Serif;
   }
 
-  h2 { margin: 3rem 0 0 0; }
+  h2 { margin: 2rem 0 0 0; }
 
   details {
     margin-left: 0.75rem;
