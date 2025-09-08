@@ -48,14 +48,6 @@
   abbr {
       cursor: help;
   }
-
-  footer {
-      margin-top: 1rem;
-      border-top: 1px solid silver;
-  }
-
-  li#location::marker { content: "🌎 " }
-  li#email::marker { content: "📧 " }
 </style>
 
 <header>
@@ -250,20 +242,21 @@ TODO:
 </details>
 
 
-<footer>
-    <ul>
-        <li id="location">White Plains, New York, United States of America</li>
-        <li id="email">[avi@aviflax.com](mailto:avi@aviflax.com)</li>
-    </ul>
-</footer>
+## Contact
+
+* [📧 Email]
+* [LinkedIn]
+* <abbr title="In Real Life">IRL</abbr>: White Plains, New York, United States of America
 
 
 
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
+[📧 Email]: mailto:avi@aviflax.com
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
+[LinkedIn]: https://www.linkedin.com/in/aviflax
 [MelRok]: https://melrok.com
 [Pulumi]: https://www.pulumi.com/
 [Set your data free with model-based architecture diagramming]: https://www.youtube.com/watch?v=3i-C7qbRGGQ
