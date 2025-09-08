@@ -68,8 +68,7 @@
 
 ## Experience
 
-<details>
-    <summary><h3>2015–2025</h3></summary>
+<details><summary><h3>2015–2025</h3></summary>
 
 #### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
@@ -119,8 +118,7 @@
 
 </details>
 
-<details>
-    <summary><h3>2005–2015</h3></summary>
+<details><summary><h3>2005–2015</h3></summary>
 
 #### Timehop *2015*
 
@@ -151,8 +149,7 @@
 
 </details>
 
-<details>
-    <summary><h3>1997–2005</h3></summary>
+<details><summary><h3>1997–2005</h3></summary>
 
 #### ADP *2001–2004*
 
@@ -191,8 +188,7 @@
 
 ## Output
 
-<details>
-    <summary><h3>Speaking</h3></summary>
+<details><summary><h3>Speaking</h3></summary>
 
 * 2020: [Set your data free with model-based architecture diagramming] ([Write the Docs])
 * 2019:
@@ -206,15 +202,13 @@
 
 </details>
 
-<details>
-    <summary><h3>Writing</h3></summary>
+<details><summary><h3>Writing</h3></summary>
 
 🔜
 
 </details>
 
-<details>
-    <summary><h3>Code</h3></summary>
+<details><summary><h3>Code</h3></summary>
 
 🔜
 
