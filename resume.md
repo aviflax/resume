@@ -74,8 +74,8 @@ TODO:
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
   mission-oriented, rigorous, thoughtful, thorough
-* **Dedicated** to community, compassion, diversity, <!-- egalitarianism, --> empathy, equity,
-  impact, inclusion, justice, kindness, solidarity, and understanding
+* **Dedicated** to <!-- alliteration --> community, compassion, diversity, <!-- egalitarianism, -->
+  empathy, equity, impact, inclusion, justice, kindness, solidarity, and understanding
 
 
 ## Experience
