@@ -1,5 +1,5 @@
 ---
-title: Avi Flax: Software engineer/architect; experienced generalist
+title: "Avi Flax: Software engineer/architect; experienced generalist"
 ---
 
 <style>

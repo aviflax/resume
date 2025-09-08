@@ -13,13 +13,12 @@ jobs:
     runs-on: ubuntu-24.04
     environment: github-pages
     steps:
-      - name: Install pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
-
       - uses: actions/checkout@v5
-      - run: bin/render
+
+      - name: Render Markdown
+        uses: docker://pandoc/minimal:3.8.0.0-static
+        with:
+          args: "--standalone --css='' resume.md -o public/resume/index.html"
 
       - uses: actions/upload-pages-artifact@v4
         with:
