@@ -1,3 +1,7 @@
+---
+title: Avi Flax: Software engineer/architect; experienced generalist
+---
+
 <style>
   html, body {
       max-width: 8in;

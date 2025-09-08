@@ -19,11 +19,7 @@ jobs:
           sudo apt-get install -y pandoc
 
       - uses: actions/checkout@v5
-
-      - run: |
-          bin/render
-          mkdir -p public/resume/
-          mv resume.html public/resume/index.html
+      - run: bin/render
 
       - uses: actions/upload-pages-artifact@v4
         with:
