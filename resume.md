@@ -57,7 +57,6 @@
 TODO:
 
 * Add somewhere:
-  * “backend” or “back end”
   * team building
   * mentoring
   * education
@@ -68,9 +67,9 @@ TODO:
 
 ## Summary
 
-* **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr>, architecture,
-  <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing, automated
-  testing, and continuous delivery
+* **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr> (especially the back end),
+  architecture, <abbr title="Application Programming Interfaces">APIs</abbr>, stream processing,
+  automated testing, and continuous delivery
 * **Deep experience** in all aspects of software development: requirements, planning, design,
   implementation, testing, deployment, operations, maintenance
 * **Deeply engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
