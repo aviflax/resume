@@ -1,7 +1,7 @@
 <style>
   html, body {
       max-width: 8in;
-      font-size: 17pt;
+      font-size: 16pt;
       margin: 0 auto;
       padding: 0 0.5rem;
       font-family: Charter, Times, Serif;
