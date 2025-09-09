@@ -31,11 +31,8 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
   h4 { margin: 2.5rem 0 0 0; }
   summary + h4 { margin-top: 0; }
-
   details + details { border-top: 1px solid silver; }
-
   li:not(:last-child) { margin-bottom: 1rem; }
-
   li > ul, li > ol { margin-top: 1rem; }
 
   h4 > em {
@@ -45,11 +42,17 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
   @page {
     size: A4;
-    margin: 0.1in;
+    margin: 0.5cm 0.5cm 1cm 0.5cm;
+
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-family: Charter, Times, Serif;
+      font-size: 8pt;
+    }
   }
 
   @media print {
-    summary { break-after: avoid; }
+    summary, h2 { break-after: avoid; }
     section { break-inside: avoid; }
     body { font-size: 12pt; }
 
@@ -57,6 +60,10 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
       font-size: large;
       margin-bottom: 0;
     }
+
+    li:not(:last-child) { margin-bottom: 0.5rem; }
+    li > ul, li > ol { margin-top: 0.5rem; }
+    h4 { margin: 1rem 0; }
   }
 </style>
 
@@ -267,11 +274,9 @@ TODO:
 </details>
 
 
-<section>
-
 ## Output
 
-<details><summary><h3>Speaking</h3></summary>
+<section><details><summary><h3>Speaking</h3></summary>
 
 * [(Architecture) Diagrams as Data] <br> &nbsp;&nbsp; Clojure/conj (2019)
 * [Set your data free with model-based architecture diagramming] <br> &nbsp;&nbsp; Write the Docs Portland (2020)
@@ -281,9 +286,7 @@ TODO:
 * [Stream Data Processing with Kinesis and Go at Timehop][timehop-slides] <br> &nbsp;&nbsp; GolangNYC (2015)
 * [The impedance mismatch of Web Microframeworks] <br> &nbsp;&nbsp; PyGrunn (2014)
 
-</details>
-
-<section>
+</details></section>
 
 
 <section><details><summary><h3>Writing</h3></summary>
