@@ -199,8 +199,8 @@ TODO:
 
 <details><summary><h3>Speaking</h3></summary>
 
-* [Set your data free with model-based architecture diagramming] ([Write the Docs] 2020)
 * [(Architecture) Diagrams as Data] (Clojure/conj 2019)
+* [Set your data free with model-based architecture diagramming] ([Write the Docs] 2020)
 * [Concurrency via Communication — Large and Small] (Bay Area Clojure Meetup 2018)
 * [Large Nested JSON with Spec: A Comedy of Errors] (Bay Area Clojure Meetup 2018)
 * [Specifying Other People's Data Structures with Spec: an Experience Report] (Clojure/nyc 2018)
@@ -211,19 +211,21 @@ TODO:
 
 <details><summary><h3>Writing</h3></summary>
 
-* 🔜
-* [Stack Overflow]
-* 🔜
+* [A discussion with my CEO] on the value of code in the LLM era (1 June 2025)
+* [Conference Highlights: Write the Docs Portland 2019] (2019)
+* A collection of [resources for learning stream processing] (2014–2017)
+* [Stack Overflow] (2008–)
 
 </details>
 
 
 <details><summary><h3>Code</h3></summary>
 
-* In March 2021 I built and launched the website <code>ny.vax.help</code> to help people get
-  appointments for COVID-19 vaccines in New York State ([repo][vax-help-repo])
-* In 2018 I released released [FC4], an open-source framework for authoring software architecture
-  diagrams
+* I’m currently working on [a side project]: an app to help community organizers create digital
+  calendars for their community programs
+* In 2021 I built and launched the website <code>ny.vax.help</code> to help people get appointments
+  for COVID-19 vaccines in New York State ([repo][vax-help-repo])
+* In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
 
 </details>
 
@@ -237,8 +239,11 @@ TODO:
 
 
 
+[A discussion with my CEO]: https://gist.github.com/aviflax/80129718328ef064bb299ccd3b5f3a56
+[a side project]: https://github.com/aviflax/communitycal
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
+[Conference Highlights: Write the Docs Portland 2019]: https://web.archive.org/web/20220605064728/https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/
 [Email]: mailto:avi@aviflax.com
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
@@ -251,6 +256,7 @@ TODO:
 [The impedance mismatch of Web Microframeworks]: https://www.youtube.com/watch?v=HGpDHBzErkg
 [Write the Docs]: https://www.writethedocs.org/conf/
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
+[resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
