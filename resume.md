@@ -199,19 +199,19 @@ TODO:
 
 <details><summary><h3>Speaking</h3></summary>
 
-* [(Architecture) Diagrams as Data] (Clojure/conj 2019)
-* [Set your data free with model-based architecture diagramming] ([Write the Docs] 2020)
-* [Concurrency via Communication — Large and Small] (Bay Area Clojure Meetup 2018)
-* [Large Nested JSON with Spec: A Comedy of Errors] (Bay Area Clojure Meetup 2018)
-* [Specifying Other People's Data Structures with Spec: an Experience Report] (Clojure/nyc 2018)
-* [The impedance mismatch of Web Microframeworks] (PyGrunn 2014)
+* [(Architecture) Diagrams as Data] <br> &nbsp;&nbsp; Clojure/conj (2019)
+* [Set your data free with model-based architecture diagramming] <br> &nbsp;&nbsp; Write the Docs Portland (2020)
+* [Concurrency via Communication — Large and Small] <br> &nbsp;&nbsp; Bay Area Clojure Meetup (2018)
+* [Large Nested JSON with Spec: A Comedy of Errors] <br> &nbsp;&nbsp; Bay Area Clojure Meetup (2018)
+* [Specifying Other People's Data Structures with Spec] <br> &nbsp;&nbsp; Clojure/nyc (2018)
+* [The impedance mismatch of Web Microframeworks] <br> &nbsp;&nbsp; PyGrunn (2014)
 
 </details>
 
 
 <details><summary><h3>Writing</h3></summary>
 
-* [A discussion with my CEO] on the value of code in the LLM era (1 June 2025)
+* [A discussion with my CEO] on the value of code in the LLM era (June 2025)
 * [Conference Highlights: Write the Docs Portland 2019] (2019)
 * A collection of [resources for learning stream processing] (2014–2017)
 * [Stack Overflow] (2008–)
@@ -223,7 +223,7 @@ TODO:
 
 * I’m currently working on [a side project]: an app to help community organizers create digital
   calendars for their community programs
-* In 2021 I built and launched the website <code>ny.vax.help</code> to help people get appointments
+* In 2021 I built and launched the Web app <code>ny.vax.help</code> to help people get appointments
   for COVID-19 vaccines in New York State ([repo][vax-help-repo])
 * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
 
@@ -252,9 +252,8 @@ TODO:
 [MelRok]: https://melrok.com
 [Pulumi]: https://www.pulumi.com/
 [Set your data free with model-based architecture diagramming]: https://www.youtube.com/watch?v=3i-C7qbRGGQ
-[Specifying Other People's Data Structures with Spec: an Experience Report]: https://youtu.be/eqfSifXaXnw
+[Specifying Other People's Data Structures with Spec]: https://youtu.be/eqfSifXaXnw
 [The impedance mismatch of Web Microframeworks]: https://www.youtube.com/watch?v=HGpDHBzErkg
-[Write the Docs]: https://www.writethedocs.org/conf/
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
 [resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
