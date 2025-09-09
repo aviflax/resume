@@ -42,8 +42,6 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
       margin-left: 0.5rem;
       font-weight: normal;
   }
-
-  abbr { cursor: help; }
 </style>
 
 <header><h1>Avi Flax</h1></header>
@@ -64,16 +62,13 @@ TODO:
 
 ## Summary
 
-* **Deep expertise** in <abbr title="The World Wide Web!">the Web</abbr> (especially the back end),
-  <abbr title="Application Programming Interfaces">APIs</abbr>, architecture, documentation, stream
-  processing, automated testing, and continuous delivery
-* **Extensive experience** in the end-to-end software development process: requirements, planning, design,
-  implementation, testing, deployment, operations, maintenance
-* **Highly engaged:** collaborative, conscientious, curious, diligent, driven, meticulous,
-  mission-oriented, rigorous, thoughtful, thorough <!-- add example? -->
-  <!-- show don’t tell? -->
-* **Dedicated** to <!-- alliteration --> community, compassion, diversity, <!-- egalitarianism, -->
-  empathy, equity, impact, inclusion, justice, kindness, solidarity, sustainability
+* **Deep expertise** in the Web (especially the back end), APIs, architecture, documentation,
+  stream processing, automated testing, and continuous delivery
+* **Extensive experience** in the end-to-end software development process: requirements, planning,
+  design, implementation, testing, deployment, operations, maintenance
+* **Highly engaged:** collaborative, conscientious, curious, diligent, meticulous, mission-oriented
+  <!-- add example? --> <!-- show don’t tell? -->
+* **Dedicated** to diversity, efficiency, equity, inclusion, justice, kindness, & sustainability
 
 
 ## Experience
@@ -83,17 +78,15 @@ TODO:
 #### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
-* Designed and built a pre-alpha <abbr title="Enterprise Resource Planning">ERP</abbr> system with a
-  focus on manufacturing customers
+* Designed and built a pre-alpha ERP system with a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep
 
 #### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
-  * A pre-alpha <abbr title="Software as a Service">SaaS</abbr> product to enable non-experts to
-    craft, test, and use <abbr title="Large Language Model">LLM</abbr> prompts with multiple LLM
-    providers
+  * A pre-alpha SaaS product to enable non-experts to craft, test, and use LLM prompts with
+    multiple LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
   Clojure
 
@@ -102,9 +95,8 @@ TODO:
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
   * A system for deploying multiple tools to many AWS accounts via Pulumi
-  * A custom database for crucial business data &amp;
-    <abbr title="Command-Line Interface">CLI</abbr> tools for integrating the DB with tools such as
-    [Fibery] and JIRA
+  * A custom database for crucial business data & CLI tools for integrating the DB with tools such
+    as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions
 
 #### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
@@ -235,16 +227,16 @@ TODO:
 
 ## Contact
 
-* [📧 Email]
-* [Signal]
-* [LinkedIn]
-* <abbr title="In Real Life">IRL</abbr>: White Plains, New York, USA
+* 📧 [Email]
+* 💬 [Signal]
+* 🔗 [LinkedIn]
+* 🌎 White Plains, New York, USA
 
 
 
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
-[📧 Email]: mailto:avi@aviflax.com
+[Email]: mailto:avi@aviflax.com
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
