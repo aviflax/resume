@@ -8,11 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Cache apt lists and apt-fast
+      - name: Cache apt lists, apt-fast, and downloaded fonts
         uses: actions/cache@v4
         with:
           path: |
             ~/.cache/apt-fast
+            ~/downloads
           key: ${{ runner.os }}-apt-fast-${{ hashFiles('/etc/apt/sources.list') }}
 
       - name: Install tools
@@ -29,18 +30,15 @@ jobs:
 
       - name: 'Install font: Charter'
         run: |
-          # Create fonts directory if it doesn't exist
+          mkdir -p ~/downloads
+          cd ~/downloads
+          wget --no-clobber "https://practicaltypography.com/fonts/Charter 210112.zip"
+
           mkdir -p ~/.local/share/fonts
-
-          # Download Charter font files
           cd ~/.local/share/fonts
-          wget -q "https://practicaltypography.com/fonts/Charter%20210112.zip"
+          cp "~/downloads/Charter 210112.zip" ./
 
-          # Extract and clean up
           unzip -q "Charter 210112.zip"
-          rm "Charter 210112.zip"
-
-          # Refresh font cache
           fc-cache -fv
 
       - name: Render HMTL + PDF
