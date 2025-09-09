@@ -79,7 +79,7 @@ TODO:
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha ERP system with a focus on manufacturing customers
-* Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep
+* Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
 
 #### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
 
@@ -97,26 +97,30 @@ TODO:
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data & CLI tools for integrating the DB with tools such
     as [Fibery] and JIRA
-* Tech: Clojure, AWS, Pulumi, GitHub Actions
+* Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
 #### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
 * Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense] and [MelRok]
-* Tech: Clojure, Kafka, Airflow, Python, Google Workspace APIs, Pulumi
+* Tech: Clojure, Kafka, Airflow, Python, Docker, Pulumi, Google Workspace APIs
 
 #### Funding Circle *<nobr>Principal Software Engineer</nobr>* *2017–2020*
 
-* 🔜
-* 🔜
-* Tech: Clojure, Ruby, Kafka, GitHub Actions
+* Leveled-up documentation & knowledge sharing at a 250-person software product org
+* Conceived, built, released, and maintained [FC4], an open-source framework for authoring software architecture diagrams
+* Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
 
 #### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
 
-* 🔜
-* 🔜
-* Tech: Ruby, JRuby, Kafka, SQL Server
+* Designed, built, maintained, and operated:
+  * Stream data pipelines conveying data from sites around the world to a central data center
+  * Stream data topologies for high-throughput & low-latency data processing
+* Leveled-up engineering culture & practices, e.g. introduced infrastructure-as-code, immutable
+  infrastructure, and continuous delivery
+* Tech: Ruby, JRuby, Kafka, Kafka Streams, SQL Server, Kubernetes, AWS, Terraform, CircleCI,
+  Ansible, Datadog
 
 </details>
 
@@ -242,6 +246,7 @@ TODO:
 [A discussion with my CEO]: https://gist.github.com/aviflax/80129718328ef064bb299ccd3b5f3a56
 [a side project]: https://github.com/aviflax/communitycal
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
+[C4 Model]: https://c4model.com
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
 [Conference Highlights: Write the Docs Portland 2019]: https://web.archive.org/web/20220605064728/https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/
 [Email]: mailto:avi@aviflax.com
@@ -259,5 +264,6 @@ TODO:
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
+[Structurizr]: https://structurizr.com
 [FC4]: https://github.com/aviflax/fc4
 [vax-help-repo]: https://github.com/aviflax/vax.help
