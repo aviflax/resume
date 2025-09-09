@@ -8,18 +8,20 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Cache apt packages
+      - name: Cache apt lists and apt-fast
         uses: actions/cache@v4
         with:
-          path: /var/cache/apt/archives
-          key: ${{ runner.os }}-apt-
-          restore-keys: |
-            ${{ runner.os }}-apt-
+          path: |
+            /var/lib/apt/lists
+            ~/.cache/apt-fast
+          key: ${{ runner.os }}-apt-fast-${{ hashFiles('/etc/apt/sources.list') }}
 
-      - name: Install Deps
+      - name: Install apt-fast and packages
         run: |
+          sudo add-apt-repository -y ppa:apt-fast/stable
           sudo apt-get update
-          sudo apt install -y --no-install-recommends pandoc weasyprint
+          sudo apt-get install -y apt-fast
+          sudo apt-fast install -y --no-install-recommends pandoc weasyprint
 
       - name: Render HMTL + PDF
         run: |
