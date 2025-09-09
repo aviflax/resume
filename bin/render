@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pandoc --to 'html5' --standalone --css='' resume.md -o public/resume/index.html
