@@ -31,16 +31,39 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
   h4 { margin: 2.5rem 0 0 0; }
   summary + h4 { margin-top: 0; }
-
   details + details { border-top: 1px solid silver; }
-
   li:not(:last-child) { margin-bottom: 1rem; }
-
   li > ul, li > ol { margin-top: 1rem; }
 
   h4 > em {
-      margin-left: 0.5rem;
-      font-weight: normal;
+    margin-left: 0.5rem;
+    font-weight: normal;
+  }
+
+  @page {
+    size: A4;
+    margin: 0.5cm 0.5cm 1cm 0.5cm;
+
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-family: Charter, Times, Serif;
+      font-size: 8pt;
+    }
+  }
+
+  @media print {
+    summary, h2 { break-after: avoid; }
+    section { break-inside: avoid; }
+    body { font-size: 12pt; }
+
+    summary > h3 {
+      font-size: large;
+      margin-bottom: 0;
+    }
+
+    li:not(:last-child) { margin-bottom: 0.5rem; }
+    li > ul, li > ol { margin-top: 0.5rem; }
+    h4 { margin: 1rem 0; }
   }
 </style>
 
@@ -59,6 +82,7 @@ TODO:
 
 -->
 
+<section>
 
 ## Summary
 
@@ -70,16 +94,23 @@ TODO:
   <!-- add example? --> <!-- show don’t tell? -->
 * **Dedicated** to diversity, efficiency, equity, inclusion, justice, kindness, & sustainability
 
+</section>
 
 ## Experience
 
 <details><summary><h3>2015–2025</h3></summary>
+
+<section>
 
 #### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built a pre-alpha ERP system with a focus on manufacturing customers
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
+
+</section>
+
+<section>
 
 #### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
 
@@ -90,6 +121,8 @@ TODO:
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
   Clojure
 
+</section><section>
+
 #### Latacora *<nobr>Staff Software Engineer</nobr>* *2022–2023*
 
 * Designed, implemented, and maintained:
@@ -99,6 +132,8 @@ TODO:
     as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
+</section><section>
+
 #### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
@@ -106,12 +141,16 @@ TODO:
 * Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense] and [MelRok]
 * Tech: Clojure, Kafka, Airflow, Python, Docker, Pulumi, Google Workspace APIs
 
+</section><section>
+
 #### Funding Circle *<nobr>Principal Software Engineer</nobr>* *2017–2020*
 
 * Leveled-up documentation & knowledge sharing at a 250-person software product org
 * Conceived, built, released, and maintained [FC4], an open-source framework for authoring software
   architecture diagrams
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
+
+</section><section>
 
 #### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
 
@@ -123,9 +162,13 @@ TODO:
 * Tech: Ruby, JRuby, Kafka, Kafka Streams, SQL Server, Kubernetes, AWS, Terraform, CircleCI,
   Ansible, Datadog
 
+</section>
+
 </details>
 
 <details><summary><h3>2005–2015</h3></summary>
+
+<section>
 
 #### Timehop *2015*
 
@@ -135,10 +178,14 @@ TODO:
   * A tool for quickly processing billions of records
 * Tech: Go (Golang), AWS, Redis, DynamoDB, Kinesis
 
+</section><section>
+
 #### Thinkful *2014*
 
 * Designed and implemented an event-driven system to automate Stripe subscription management
 * Tech: Python, Django
+
+</section><section>
 
 #### SFX Entertainment *CTO* *2013–2014*
 
@@ -146,6 +193,8 @@ TODO:
   * With multiple teams: platform, Web, iOS, Android
 * Recruited key team members
 * Tech: Clojure, REST APIs, AWS
+
+</section><section>
 
 #### Arc90 *2005–2013*
 
@@ -162,15 +211,21 @@ TODO:
 * Tech: [ColdFusion], Groovy, Java, Python, [XQuery], [XSLT], [XSD], [Relax NG], [eXist],
   [MarkLogic], MongoDB, SQL Server, AWS
 
+</section>
+
 </details>
 
 <details><summary><h3>1997–2005</h3></summary>
+
+<section>
 
 #### ADP *2001–2004*
 
 * Refactored, enhanced, and maintained a sophisticated application for producing custom financial
   documents for <nobr>on-demand</nobr> printing
 * Tech: Microsoft SQL Server, ColdFusion, XSLT, <nobr>XSL-FO</nobr>
+
+</section><section>
 
 #### register.com *2001*
 
@@ -181,11 +236,15 @@ TODO:
 * Created new internal tools and development procedures
 * Tech: ColdFusion
 
+</section><section>
+
 #### RewardsPlus *2000*
 
 * Maintained and enhanced a large-scale online employee benefits enrollment system for diverse
   clients with diverse needs
 * Tech: ColdFusion
+
+</section><section>
 
 #### Words In Progress *1998–2000*
 
@@ -194,11 +253,15 @@ TODO:
 * Maintained one of the earliest major e-commerce Websites for <nobr>T-Mobile</nobr>
 * Tech: Microsoft Access, ColdFusion, HomeSite
 
+</section><section>
+
 #### Ideal Computer Strategies *1998*
 
 * Worked with teams of designers, coders, and project managers to concurrently develop and deploy
   client websites with basic dynamic features
 * Tech: Microsoft Access, ColdFusion, HomeSite
+
+</section><section>
 
 #### PCC Internet Design *1997–1998*
 
@@ -206,11 +269,14 @@ TODO:
   and development to small businesses in the area
 * Tech: Windows Notepad, HTML
 
+</section>
+
 </details>
+
 
 ## Output
 
-<details><summary><h3>Speaking</h3></summary>
+<section><details><summary><h3>Speaking</h3></summary>
 
 * [(Architecture) Diagrams as Data] <br> &nbsp;&nbsp; Clojure/conj (2019)
 * [Set your data free with model-based architecture diagramming] <br> &nbsp;&nbsp; Write the Docs Portland (2020)
@@ -220,20 +286,20 @@ TODO:
 * [Stream Data Processing with Kinesis and Go at Timehop][timehop-slides] <br> &nbsp;&nbsp; GolangNYC (2015)
 * [The impedance mismatch of Web Microframeworks] <br> &nbsp;&nbsp; PyGrunn (2014)
 
-</details>
+</details></section>
 
 
-<details><summary><h3>Writing</h3></summary>
+<section><details><summary><h3>Writing</h3></summary>
 
 * [A discussion with my CEO] on the value of code in the LLM era (June 2025)
 * [Conference Highlights: Write the Docs Portland 2019] (2019)
 * A collection of [resources for learning stream processing] (2014–2017)
 * [Stack Overflow] (2008–)
 
-</details>
+</section></details>
 
 
-<details><summary><h3>Code</h3></summary>
+<section><details><summary><h3>Code</h3></summary>
 
 * I’m currently working on [a side project]: an app to help community organizers create digital
   calendars for their community programs
@@ -241,8 +307,10 @@ TODO:
   for COVID-19 vaccines in New York State ([repo][vax-help-repo])
 * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
 
-</details>
+</section></details>
 
+
+<section>
 
 ## Contact
 
@@ -251,6 +319,7 @@ TODO:
 * 🔗 [LinkedIn]
 * 🌎 White Plains, New York, USA
 
+</section>
 
 
 [A discussion with my CEO]: https://gist.github.com/aviflax/80129718328ef064bb299ccd3b5f3a56

@@ -2,26 +2,62 @@ name: On Push
 
 on: push
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
-  publish:
-    name: Publish
+  render:
     runs-on: ubuntu-24.04
-    environment: github-pages
     steps:
       - uses: actions/checkout@v5
 
-      - name: Render Markdown
-        uses: docker://pandoc/minimal:3.8.0.0-static
+      - name: Cache apt lists, apt-fast, and downloaded fonts
+        uses: actions/cache@v4
         with:
-          args: "--standalone --css='' resume.md -o public/resume/index.html"
+          path: |
+            ~/.cache/apt-fast
+            ~/downloads
+          key: ${{ runner.os }}-apt-fast-${{ hashFiles('/etc/apt/sources.list') }}
 
-      - uses: actions/upload-pages-artifact@v4
+      - name: Install tools
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          # Enable (hopefully) fast installation
+          sudo add-apt-repository -y ppa:apt-fast/stable
+          sudo apt-get update
+          sudo apt-get install -y apt-fast
+
+          # Install our tools
+          sudo apt-fast install -y --no-install-recommends pandoc weasyprint
+
+      - name: 'Install font: Charter'
+        run: |
+          mkdir -p ~/downloads
+          cd ~/downloads
+          wget --no-clobber "https://practicaltypography.com/fonts/Charter 210112.zip"
+
+          mkdir -p ~/.local/share/fonts
+          cd ~/.local/share/fonts
+          cp "$HOME/downloads/Charter 210112.zip" ./
+
+          unzip -q "Charter 210112.zip"
+          fc-cache -fv
+
+      - name: Render HMTL + PDF
+        run: |
+          bin/render-html
+          bin/render-pdf
+
+      - name: Create deployment artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public/
 
+  publish:
+    if: github.ref_name == 'main'
+    needs: render
+    runs-on: ubuntu-24.04
+    environment: github-pages
+    permissions:
+      pages: write
+      id-token: write
+    steps:
       - uses: actions/deploy-pages@v4

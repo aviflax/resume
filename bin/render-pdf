@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -eu
+
+current_month_year=$(date "+%b %Y")
+
+weasyprint public/resume/index.html "public/resume/pdf/Avi Flax’s Resume ($current_month_year).pdf"
