@@ -105,7 +105,7 @@ TODO:
 #### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
 
 * Built and refined the team and its strategy, processes, and culture
-* Designed and built a pre-alpha ERP system with a focus on manufacturing customers
+* Designed and built an ERP system for the manufacturing market
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
 
 </section>
@@ -116,8 +116,8 @@ TODO:
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
-  * A pre-alpha SaaS product to enable non-experts to craft, test, and use LLM prompts with
-    multiple LLM providers
+  * A prototype SaaS product to enable non-experts to craft, test, and use LLM prompts with multiple
+    LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
   Clojure
 
@@ -155,7 +155,7 @@ TODO:
 #### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
 
 * Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
-* Designed, built, maintained, and operated tream data topologies for high-throughput & low-latency
+* Designed, built, maintained, and operated stream data topologies for high-throughput & low-latency
   data processing
 * Leveled-up engineering culture & practices, e.g. introduced infrastructure-as-code, immutable
   infrastructure, and continuous delivery
@@ -189,7 +189,7 @@ TODO:
 
 #### SFX Entertainment *CTO* *2013–2014*
 
-* Lead the design and implementation of an ambitious new-from-the-ground-up streaming music platform
+* Led the design and implementation of an ambitious new-from-the-ground-up streaming music platform
   * With multiple teams: platform, Web, iOS, Android
 * Recruited key team members
 * Tech: Clojure, REST APIs, AWS
