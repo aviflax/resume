@@ -149,10 +149,18 @@ TODO:
 
 #### Arc90 *2005–2013*
 
-* 🔜
-* 🔜
-* 🔜
-* Tech: 🔜
+* Wore many hats: developer, architect, tech lead, director, partner
+* Worked with teams to design, build, and maintain sophisticated software platforms, including:
+  * A Web/SOA insurance platform covering all key aspects of policy origination and management
+  * A Web-based search engine and reference platform for engineers
+  * A Web API at the heart of a new-from-the-ground-up news distribution platform for Reuters
+* Conducted technical audits of clients’ acquisition targets
+* Helped manage the business
+* Managed client relationships
+* Invested much time and effort in recruiting and retaining exceptional team members
+* Started practice of regular company-wide code review
+* Tech: [ColdFusion], Groovy, Java, Python, [XQuery], [XSLT], [XSD], [Relax NG], [eXist],
+  [MarkLogic], MongoDB, SQL Server, AWS
 
 </details>
 
@@ -249,19 +257,23 @@ TODO:
 [a side project]: https://github.com/aviflax/communitycal
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [C4 Model]: https://c4model.com
+[ColdFusion]: https://en.wikipedia.org/wiki/Adobe_ColdFusion
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
 [Conference Highlights: Write the Docs Portland 2019]: https://web.archive.org/web/20220605064728/https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/
 [Email]: mailto:avi@aviflax.com
+[eXist]: https://en.wikipedia.org/wiki/EXist
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
 [LinkedIn]: https://www.linkedin.com/in/aviflax
+[MarkLogic]: https://en.wikipedia.org/wiki/MarkLogic
 [MelRok]: https://melrok.com
 [Pulumi]: https://www.pulumi.com/
 [Set your data free with model-based architecture diagramming]: https://www.youtube.com/watch?v=3i-C7qbRGGQ
 [Specifying Other People's Data Structures with Spec]: https://youtu.be/eqfSifXaXnw
 [The impedance mismatch of Web Microframeworks]: https://www.youtube.com/watch?v=HGpDHBzErkg
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
+[Relax NG]: https://en.wikipedia.org/wiki/RELAX_NG
 [resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
@@ -269,3 +281,6 @@ TODO:
 [Structurizr]: https://structurizr.com
 [FC4]: https://github.com/aviflax/fc4
 [vax-help-repo]: https://github.com/aviflax/vax.help
+[XQuery]: https://en.wikipedia.org/wiki/XQuery
+[XSD]: https://en.wikipedia.org/wiki/XML_Schema_(W3C)
+[XSLT]: https://en.wikipedia.org/wiki/XSLT
