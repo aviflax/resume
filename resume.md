@@ -140,12 +140,12 @@ TODO:
 * Designed and implemented an event-driven system to automate Stripe subscription management
 * Tech: Python, Django
 
-#### SFX *2013–2014*
+#### SFX Entertainment *CTO* *2013–2014*
 
-* 🔜
-* 🔜
-* 🔜
-* Tech: 🔜
+* Lead the design and implementation of an ambitious new-from-the-ground-up streaming music platform
+  * With multiple teams: platform, Web, iOS, Android
+* Recruited key team members
+* Tech: Clojure, REST APIs, AWS
 
 #### Arc90 *2005–2013*
 
