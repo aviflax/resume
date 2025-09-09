@@ -1,3 +1,9 @@
 #!/bin/sh
 
+set -eu
+
+export SHORTSHA=$(git rev-parse --short HEAD)
+export FULLSHA=$(git rev-parse HEAD)
+export UPDATED=$(date +"%d %b %Y")
+
 fswatch resume.md | xargs -n1 bin/render-html

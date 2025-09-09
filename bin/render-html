@@ -1,12 +1,10 @@
 #!/bin/sh
 
-shortsha=$(git rev-parse --short HEAD)
-fullsha=$(git rev-parse HEAD)
-updated=$(date +"%d %b %Y")
+set -eu
 
-sed -e "s/\\\$shortsha\\\$/$shortsha/g" \
-    -e "s/\\\$fullsha\\\$/$fullsha/g" \
-    -e "s/\\\$updated\\\$/$updated/g" \
+sed -e "s/\\\$shortsha\\\$/$SHORTSHA/g" \
+    -e "s/\\\$fullsha\\\$/$FULLSHA/g" \
+    -e "s/\\\$updated\\\$/$UPDATED/g" \
     resume.md \
   | pandoc --from markdown \
            --to 'html5' \

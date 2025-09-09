@@ -8,25 +8,16 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Cache apt lists, apt-fast, and downloaded fonts
+      - name: Cache downloaded fonts
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.cache/apt-fast
-            ~/downloads
-          key: ${{ runner.os }}-apt-fast-${{ hashFiles('/etc/apt/sources.list') }}
+          path: ~/downloads
+          key: ${{ runner.os }}-downloaded-fonts
 
-      - name: Install tools
-        env:
-          DEBIAN_FRONTEND: noninteractive
-        run: |
-          # Enable (hopefully) fast installation
-          sudo add-apt-repository -y ppa:apt-fast/stable
-          sudo apt-get update
-          sudo apt-get install -y apt-fast
-
-          # Install our tools
-          sudo apt-fast install -y --no-install-recommends pandoc weasyprint
+      - name: Install Weasyprint
+        # We’re using pip to install Weasyprint, rather than apt, because this is (a) faster, and
+        # (b) is a way easier method to get the latest version of Weasyprint.
+        run: pip3 install weasyprint==66.0
 
       - name: 'Install font: Charter'
         run: |
@@ -41,10 +32,25 @@ jobs:
           unzip -q "Charter 210112.zip"
           fc-cache -fv
 
-      - name: Render HMTL + PDF
+      - name: Render HTML from Markdown with Pandoc
+        # We’re using Docker to run Pandoc, rather than install it via apt, because this is much
+        # faster.
         run: |
-          bin/render-html
-          bin/render-pdf
+          shortsha=$(git rev-parse --short HEAD)
+          fullsha=$(git rev-parse HEAD)
+          updated=$(date +"%d %b %Y")
+
+          docker run --volume "$(pwd):$(pwd)" \
+                     --workdir "$(pwd)" \
+                     --env "SHORTSHA=$shortsha" \
+                     --env "FULLSHA=$fullsha" \
+                     --env "UPDATED=$updated" \
+                     --entrypoint /bin/sh \
+                     pandoc/core:3.7 \
+                     bin/render-html
+
+      - name: Render PDF from HTML with Weasyprint
+        run: bin/render-pdf
 
       - name: Create deployment artifact
         uses: actions/upload-pages-artifact@v4
