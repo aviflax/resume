@@ -25,8 +25,12 @@ jobs:
           bin/render-html
           bin/render-pdf
 
-      - uses: actions/upload-pages-artifact@v4
+      - name: Create GitHub Pages deployment artifact
+        if: github.ref_name == 'main'
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public/
 
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        if: github.ref_name == 'main'
+        uses: actions/deploy-pages@v4
