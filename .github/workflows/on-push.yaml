@@ -36,7 +36,7 @@ jobs:
 
           mkdir -p ~/.local/share/fonts
           cd ~/.local/share/fonts
-          cp "~/downloads/Charter 210112.zip" ./
+          cp "$HOME/downloads/Charter 210112.zip" ./
 
           unzip -q "Charter 210112.zip"
           fc-cache -fv
