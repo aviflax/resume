@@ -1,3 +1,15 @@
 #!/bin/sh
 
-pandoc --to 'html5' --standalone --css='' resume.md -o public/resume/index.html
+shortsha=$(git rev-parse --short HEAD)
+fullsha=$(git rev-parse HEAD)
+updated=$(date +"%d %b %Y")
+
+sed -e "s/\\\$shortsha\\\$/$shortsha/g" \
+    -e "s/\\\$fullsha\\\$/$fullsha/g" \
+    -e "s/\\\$updated\\\$/$updated/g" \
+    resume.md \
+  | pandoc --from markdown \
+           --to 'html5' \
+           --standalone \
+           --css='' \
+  > public/resume/index.html

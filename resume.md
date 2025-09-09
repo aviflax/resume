@@ -40,6 +40,12 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     font-weight: normal;
   }
 
+  footer {
+      border-top: 1px solid silver;
+      margin-top: 2rem;
+      font-size: small;
+  }
+
   @page {
     size: A4;
     margin: 0.5cm 0.5cm 1cm 0.5cm;
@@ -320,6 +326,14 @@ TODO:
 * 🌎 White Plains, New York, USA
 
 </section>
+
+
+<footer>
+
+Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commit/$fullsha$)
+
+</footer>
+
 
 
 [A discussion with my CEO]: https://gist.github.com/aviflax/80129718328ef064bb299ccd3b5f3a56
