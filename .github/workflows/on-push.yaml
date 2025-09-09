@@ -2,16 +2,9 @@ name: On Push
 
 on: push
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
-  publish:
-    name: Publish
+  render:
     runs-on: ubuntu-24.04
-    environment: github-pages
     steps:
       - uses: actions/checkout@v5
 
@@ -31,6 +24,13 @@ jobs:
         with:
           path: public/
 
-      - name: Deploy to GitHub Pages
-        if: github.ref_name == 'main'
-        uses: actions/deploy-pages@v4
+  publish:
+    if: github.ref_name == 'main'
+    needs: render
+    runs-on: ubuntu-24.04
+    environment: github-pages
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/deploy-pages@v4
