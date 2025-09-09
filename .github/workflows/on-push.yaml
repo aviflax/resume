@@ -15,10 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Render Markdown
-        uses: docker://pandoc/minimal:3.8.0.0-static
-        with:
-          args: "--standalone --css='' resume.md -o public/resume/index.html"
+      - name: Install Deps
+        run: |
+          sudo apt-get update
+          sudo apt install pandoc weasyprint
+
+      - name: Render HMTL + PDF
+        run: |
+          bin/render-html
+          bin/render-pdf
 
       - uses: actions/upload-pages-artifact@v4
         with:
