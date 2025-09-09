@@ -220,7 +220,10 @@ TODO:
 
 <details><summary><h3>Code</h3></summary>
 
-🔜
+* In March 2021 I built and launched the website <code>ny.vax.help</code> to help people get
+  appointments for COVID-19 vaccines in New York State ([repo][vax-help-repo])
+* In 2018 I released released [FC4], an open-source framework for authoring software architecture
+  diagrams
 
 </details>
 
@@ -251,3 +254,5 @@ TODO:
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
+[FC4]: https://github.com/aviflax/fc4
+[vax-help-repo]: https://github.com/aviflax/vax.help
