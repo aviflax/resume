@@ -39,12 +39,25 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   li > ul, li > ol { margin-top: 1rem; }
 
   h4 > em {
-      margin-left: 0.5rem;
-      font-weight: normal;
+    margin-left: 0.5rem;
+    font-weight: normal;
   }
 
-  @page { size: legal; }
-  section { break-inside: avoid; }
+  @page {
+    size: A4;
+    margin: 0.1in;
+  }
+
+  @media print {
+    summary { break-after: avoid; }
+    section { break-inside: avoid; }
+    body { font-size: 12pt; }
+
+    summary > h3 {
+      font-size: large;
+      margin-bottom: 0;
+    }
+  }
 </style>
 
 <header><h1>Avi Flax</h1></header>
