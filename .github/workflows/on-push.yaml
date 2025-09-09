@@ -12,7 +12,6 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            /var/lib/apt/lists
             ~/.cache/apt-fast
           key: ${{ runner.os }}-apt-fast-${{ hashFiles('/etc/apt/sources.list') }}
 
