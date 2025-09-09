@@ -20,13 +20,6 @@ jobs:
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-          # exclude man pages and documentation
-          sudo mkdir -p /etc/dpkg/dpkg.conf.d/
-          sudo cat > /etc/dpkg/dpkg.conf.d/01_nodoc << 'EOF'
-          path-exclude /usr/share/man/*
-          path-exclude /usr/share/doc/*
-          EOF
-
           # Enable (hopefully) fast installation
           sudo add-apt-repository -y ppa:apt-fast/stable
           sudo apt-get update
@@ -34,6 +27,22 @@ jobs:
 
           # Install our tools
           sudo apt-fast install -y --no-install-recommends pandoc weasyprint
+
+      - name: 'Install font: Charter'
+        run: |
+          # Create fonts directory if it doesn't exist
+          mkdir -p ~/.local/share/fonts
+
+          # Download Charter font files
+          cd ~/.local/share/fonts
+          wget -q "https://practicaltypography.com/fonts/Charter%20210112.zip"
+
+          # Extract and clean up
+          unzip -q "Charter 210112.zip"
+          rm "Charter 210112.zip"
+
+          # Refresh font cache
+          fc-cache -fv
 
       - name: Render HMTL + PDF
         run: |
