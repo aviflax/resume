@@ -109,14 +109,15 @@ TODO:
 #### Funding Circle *<nobr>Principal Software Engineer</nobr>* *2017–2020*
 
 * Leveled-up documentation & knowledge sharing at a 250-person software product org
-* Conceived, built, released, and maintained [FC4], an open-source framework for authoring software architecture diagrams
+* Conceived, built, released, and maintained [FC4], an open-source framework for authoring software
+  architecture diagrams
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
 
 #### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
 
-* Designed, built, maintained, and operated:
-  * Stream data pipelines conveying data from sites around the world to a central data center
-  * Stream data topologies for high-throughput & low-latency data processing
+* Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
+* Designed, built, maintained, and operated tream data topologies for high-throughput & low-latency
+  data processing
 * Leveled-up engineering culture & practices, e.g. introduced infrastructure-as-code, immutable
   infrastructure, and continuous delivery
 * Tech: Ruby, JRuby, Kafka, Kafka Streams, SQL Server, Kubernetes, AWS, Terraform, CircleCI,
@@ -128,16 +129,16 @@ TODO:
 
 #### Timehop *2015*
 
-* Refactored a critical and complex system into a <nobr>loosely-coupled</nobr> stream-based system
-  using Kinesis and Go (Golang) ([slides])
+* Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
 * Designed and implemented:
   * A sophisticated integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
-* Tech: 🔜
+* Tech: Go (Golang), AWS, Redis, DynamoDB, Kinesis
 
 #### Thinkful *2014*
 
 * Designed and implemented an event-driven system to automate Stripe subscription management
+* Tech: Python, Django
 
 #### SFX *2013–2014*
 
@@ -208,6 +209,7 @@ TODO:
 * [Concurrency via Communication — Large and Small] <br> &nbsp;&nbsp; Bay Area Clojure Meetup (2018)
 * [Large Nested JSON with Spec: A Comedy of Errors] <br> &nbsp;&nbsp; Bay Area Clojure Meetup (2018)
 * [Specifying Other People's Data Structures with Spec] <br> &nbsp;&nbsp; Clojure/nyc (2018)
+* [Stream Data Processing with Kinesis and Go at Timehop][timehop-slides] <br> &nbsp;&nbsp; GolangNYC (2015)
 * [The impedance mismatch of Web Microframeworks] <br> &nbsp;&nbsp; PyGrunn (2014)
 
 </details>
@@ -262,7 +264,7 @@ TODO:
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
 [resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
-[slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
+[timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
 [Structurizr]: https://structurizr.com
 [FC4]: https://github.com/aviflax/fc4
