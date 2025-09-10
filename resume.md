@@ -30,7 +30,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   }
 
   h4 { margin: 2.5rem 0 0 0; }
-  summary + h4 { margin-top: 0; }
+  summary + section > h4 { margin-top: 0; }
   details + details { border-top: 1px solid silver; }
   li:not(:last-child) { margin-bottom: 1rem; }
   li > ul, li > ol { margin-top: 1rem; }
@@ -70,6 +70,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     li:not(:last-child) { margin-bottom: 0.5rem; }
     li > ul, li > ol { margin-top: 0.5rem; }
     h4 { margin: 1rem 0; }
+    summary + section > h4 { margin-top: 0.5rem; }
   }
 </style>
 
