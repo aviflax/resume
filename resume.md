@@ -31,6 +31,8 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
   h4 { margin: 2.5rem 0 0 0; }
   summary + section > h4 { margin-top: 0; }
+  summary + ul { margin-top: 0; }
+  section h4 + ul { margin-top: 0.5rem; }
   details + details { border-top: 1px solid silver; }
   li:not(:last-child) { margin-bottom: 1rem; }
   li > ul, li > ol { margin-top: 1rem; }
@@ -58,19 +60,14 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   }
 
   @media print {
+    body { font-size: 12pt; }
     summary, h2 { break-after: avoid; }
     section { break-inside: avoid; }
-    body { font-size: 12pt; }
-
-    summary > h3 {
-      font-size: large;
-      margin-bottom: 0;
-    }
-
+    section h4 + ul { margin-top: 0; }
+    summary > h3 { font-size: large; }
     li:not(:last-child) { margin-bottom: 0.5rem; }
     li > ul, li > ol { margin-top: 0.5rem; }
-    h4 { margin: 1rem 0; }
-    summary + section > h4 { margin-top: 0.5rem; }
+    h4 { margin: 1.5rem 0 0.4rem 0; }
   }
 </style>
 
