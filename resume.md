@@ -298,7 +298,8 @@ TODO:
 
 <section><details><summary><h3>Writing</h3></summary>
 
-* [A discussion with my CEO] on the value of code in the LLM era (June 2025)
+* [A discussion with my CEO] on the value of code in the LLM era <nobr>(June 2025)</nobr>
+* [Some of my favorite resources on software design and development] (2021)
 * [Conference Highlights: Write the Docs Portland 2019] (2019)
 * A collection of [resources for learning stream processing] (2014–2017)
 * [Stack Overflow] (2008–)
@@ -346,6 +347,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [Conference Highlights: Write the Docs Portland 2019]: https://web.archive.org/web/20220605064728/https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/
 [Email]: mailto:avi@aviflax.com
 [eXist]: https://en.wikipedia.org/wiki/EXist
+[FC4]: https://github.com/aviflax/fc4
 [Fibery]: https://fibery.io
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
@@ -360,10 +362,10 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [Relax NG]: https://en.wikipedia.org/wiki/RELAX_NG
 [resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
-[timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
+[Some of my favorite resources on software design and development]: https://gist.github.com/aviflax/7ce52beecd986bb02f8a055c488c88af
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
 [Structurizr]: https://structurizr.com
-[FC4]: https://github.com/aviflax/fc4
+[timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [vax-help-repo]: https://github.com/aviflax/vax.help
 [XQuery]: https://en.wikipedia.org/wiki/XQuery
 [XSD]: https://en.wikipedia.org/wiki/XML_Schema_(W3C)
