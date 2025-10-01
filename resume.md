@@ -38,7 +38,8 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   li > ul, li > ol { margin-top: 1rem; }
 
   h4 > em {
-    margin-left: 0.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     font-weight: normal;
   }
 
@@ -106,7 +107,7 @@ TODO:
 
 <section>
 
-#### Omne *<nobr>Chief Software Architect</nobr>* *2024–2025*
+#### **2024–2025** *<nobr>Chief Software Architect</nobr>* Omne
 
 * Built and refined the team and its strategy, processes, and culture
 * Designed and built an ERP system for the manufacturing market
@@ -116,7 +117,7 @@ TODO:
 
 <section>
 
-#### Trudy *<nobr>Principal Software Engineer</nobr>* *2023–2024*
+#### **2023–2024** *<nobr>Principal Software Engineer</nobr>* Trudy
 
 * Designed, implemented, and maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
@@ -127,7 +128,7 @@ TODO:
 
 </section><section>
 
-#### Latacora *<nobr>Staff Software Engineer</nobr>* *2022–2023*
+#### **2022–2023** *<nobr>Staff Software Engineer</nobr>* Latacora
 
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
@@ -138,7 +139,7 @@ TODO:
 
 </section><section>
 
-#### Modern Energy *<nobr>Senior Director of Technology</nobr>* *2020–2021*
+#### **2020–2021** *<nobr>Senior Director of Technology</nobr>* Modern Energy
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
@@ -147,7 +148,7 @@ TODO:
 
 </section><section>
 
-#### Funding Circle *<nobr>Principal Software Engineer</nobr>* *2017–2020*
+#### **2017–2020** *<nobr>Principal Software Engineer</nobr>* Funding Circle
 
 * Leveled-up documentation & knowledge sharing at a 250-person software product org
 * Conceived, built, released, and maintained [FC4], an open-source framework for authoring software
@@ -156,7 +157,7 @@ TODO:
 
 </section><section>
 
-#### Park Assist *<nobr>Principal Software Architect</nobr>* *2016–2017*
+#### **2016–2017** *<nobr>Principal Software Architect</nobr>* Park Assist
 
 * Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
 * Designed, built, maintained, and operated stream data topologies for high-throughput & low-latency
@@ -174,7 +175,7 @@ TODO:
 
 <section>
 
-#### Timehop *2015*
+#### **2015** *&nbsp;* Timehop
 
 * Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
 * Designed and implemented:
@@ -184,14 +185,14 @@ TODO:
 
 </section><section>
 
-#### Thinkful *2014*
+#### **2014** *&nbsp;* Thinkful
 
 * Designed and implemented an event-driven system to automate Stripe subscription management
 * Tech: Python, Django
 
 </section><section>
 
-#### SFX Entertainment *CTO* *2013–2014*
+#### **2013–2014** *CTO* SFX Entertainment
 
 * Led the design and implementation of an ambitious new-from-the-ground-up streaming music platform
   * With multiple teams: platform, Web, iOS, Android
@@ -200,7 +201,7 @@ TODO:
 
 </section><section>
 
-#### Arc90 *2005–2013*
+#### **2005–2013** *&nbsp;* Arc90
 
 * Wore many hats: developer, architect, tech lead, director, partner
 * Worked with teams to design, build, and maintain sophisticated software platforms, including:
@@ -223,7 +224,7 @@ TODO:
 
 <section>
 
-#### ADP *2001–2004*
+#### **2001–2004** *&nbsp;* ADP
 
 * Refactored, enhanced, and maintained a sophisticated application for producing custom financial
   documents for <nobr>on-demand</nobr> printing
@@ -231,7 +232,7 @@ TODO:
 
 </section><section>
 
-#### register.com *2001*
+#### **2001** *&nbsp;* register.com
 
 <!-- TODO: compress down to a single bullet -->
 * Team lead position for large high-traffic auction site
@@ -242,7 +243,7 @@ TODO:
 
 </section><section>
 
-#### RewardsPlus *2000*
+#### **2000** *&nbsp;* RewardsPlus
 
 * Maintained and enhanced a large-scale online employee benefits enrollment system for diverse
   clients with diverse needs
@@ -250,7 +251,7 @@ TODO:
 
 </section><section>
 
-#### Words In Progress *1998–2000*
+#### **1998–2000** *&nbsp;* Words In Progress
 
 * Developed requirements and specifications for high traffic websites directly with clients; crafted
   application architecture and database design
@@ -259,7 +260,7 @@ TODO:
 
 </section><section>
 
-#### Ideal Computer Strategies *1998*
+#### **1998** *&nbsp;* Ideal Computer Strategies
 
 * Worked with teams of designers, coders, and project managers to concurrently develop and deploy
   client websites with basic dynamic features
@@ -267,7 +268,7 @@ TODO:
 
 </section><section>
 
-#### PCC Internet Design *1997–1998*
+#### **1997–1998** *&nbsp;* PCC Internet Design
 
 * Founded and managed a small Web design shop in Baltimore, MD providing full-service Web design
   and development to small businesses in the area
