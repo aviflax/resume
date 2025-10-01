@@ -1,9 +1,11 @@
 #!/bin/sh
 
-set -eu
+set -eu pipefail
 
-export SHORTSHA=$(git rev-parse --short HEAD)
-export FULLSHA=$(git rev-parse HEAD)
-export UPDATED=$(date +"%d %b %Y")
+SHORTSHA="$(git rev-parse --short HEAD)"
+FULLSHA="$(git rev-parse HEAD)"
+UPDATED="$(date +"%d %b %Y")"
+
+export SHORTSHA FULLSHA UPDATED
 
 fswatch resume.md | xargs -n1 bin/render-html

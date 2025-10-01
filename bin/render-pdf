@@ -1,5 +1,5 @@
 #!/bin/sh
 
-set -eu
+set -eu pipefail
 
 weasyprint public/resume/index.html "public/resume/pdf/Avi Flax’s Resume.pdf"

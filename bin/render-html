@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eu pipefail
 
 sed -e "s/\\\$shortsha\\\$/$SHORTSHA/g" \
     -e "s/\\\$fullsha\\\$/$FULLSHA/g" \
