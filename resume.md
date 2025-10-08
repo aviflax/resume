@@ -157,7 +157,7 @@ TODO:
 
 </section><section>
 
-#### **2016–2017** *<nobr>Principal Software Architect</nobr>* Park Assist
+#### **2015–2017** *<nobr>Principal Software Architect</nobr>* Park Assist
 
 * Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
 * Designed, built, maintained, and operated stream data topologies for high-throughput & low-latency
