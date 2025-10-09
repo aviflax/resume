@@ -1,7 +1,7 @@
 #!/usr/bin/env bb
 
 #_{:clj-kondo/ignore [:namespace-name-mismatch]}
-(ns render-markdown
+(ns script
   (:require [babashka.fs :as fs])
   (:require [babashka.process :refer [shell]])
   (:require [clojure.string :as str]))
