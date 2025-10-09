@@ -307,8 +307,8 @@ TODO:
 
 <section><details><summary><h3>Code</h3></summary>
 
-* I’m currently working on [a side project]: an app to help community organizers create digital
-  calendars for their community programs
+* I’m currently working on a side project: [a Web app][communitycal-repo] to help community
+  organizers create digital calendars for their community programs
 * In 2021 I built and launched the Web app <code>ny.vax.help</code> to help people get appointments
   for COVID-19 vaccines in New York State ([repo][vax-help-repo])
 * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
@@ -337,10 +337,10 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 
 
 [A discussion with my CEO]: https://gist.github.com/aviflax/80129718328ef064bb299ccd3b5f3a56
-[a side project]: https://github.com/aviflax/communitycal
 [APX MarketSuite]: https://apx.com/power-scheduling-energy-accounting-services/
 [C4 Model]: https://c4model.com
 [ColdFusion]: https://en.wikipedia.org/wiki/Adobe_ColdFusion
+[communitycal-repo]: https://github.com/aviflax/communitycal
 [Concurrency via Communication — Large and Small]: https://www.youtube.com/watch?v=Vl4KFEJwPPQ
 [Conference Highlights: Write the Docs Portland 2019]: https://web.archive.org/web/20220605064728/https://engineering.fundingcircle.com/blog/2019/06/06/write-the-docs-portland-2019/
 [Email]: mailto:avi@aviflax.com
