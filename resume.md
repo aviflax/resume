@@ -60,6 +60,10 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     }
   }
 
+  @media screen {
+    #web-version-section { display: none; }
+  }
+
   @media print {
     body { font-size: 12pt; }
     summary, h2 { break-after: avoid; }
@@ -69,6 +73,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     li:not(:last-child) { margin-bottom: 0.5rem; }
     li > ul, li > ol { margin-top: 0.5rem; }
     h4 { margin: 1.5rem 0 0.4rem 0; }
+    #download-section { display: none; }
   }
 </style>
 
@@ -316,6 +321,24 @@ TODO:
 </section></details>
 
 
+<section id="download-section">
+    
+## Download
+
+Please feel free to download [the PDF version] of this document.
+
+</section>
+
+
+<section id="web-version-section">
+
+## Canonical Version
+
+The canonical version of this document is available at [https://aviflax.dev/resume](https://aviflax.dev/resume)
+
+</section>
+
+
 <section>
 
 ## Contact
@@ -363,6 +386,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [Some of my favorite resources on software design and development]: https://gist.github.com/aviflax/7ce52beecd986bb02f8a055c488c88af
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
 [Structurizr]: https://structurizr.com
+[the PDF version]: ./pdf/Avi Flax’s Resume.pdf
 [timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
 [vax-help-repo]: https://github.com/aviflax/vax.help
 [XQuery]: https://en.wikipedia.org/wiki/XQuery
