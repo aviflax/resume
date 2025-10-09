@@ -1,9 +1,9 @@
 #!/usr/bin/env bb
 
 #_{:clj-kondo/ignore [:namespace-name-mismatch]}
-(ns render-html
+(ns render-markdown
+  (:require [babashka.fs :as fs])
   (:require [babashka.process :refer [shell]])
-  (:require [clojure.java.io :as io])
   (:require [clojure.string :as str]))
 
 (let [shortsha (-> (shell {:out :string} "git rev-parse --short HEAD") :out)
@@ -13,11 +13,8 @@
       replaced (-> content
                    (str/replace "{shortsha}" shortsha)
                    (str/replace "{fullsha}" fullsha)
-                   (str/replace "{updated}" updated))]
-  (shell ["pandoc"
-          "--from=markdown"
-          "--to=html5"
-          "--standalone"
-          "--css="]
-         {:in replaced
-          :out (io/file "public/resume/index.html")}))
+                   (str/replace "{updated}" updated))
+      out-dir (fs/create-temp-dir {:prefix "resume"})
+      out-file (fs/create-temp-file {:dir out-dir :prefix "resume" :suffix ".md"})]
+  (spit (fs/file out-file) replaced)
+  (println (str out-file)))
