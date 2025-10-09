@@ -2,23 +2,22 @@
 
 #_{:clj-kondo/ignore [:namespace-name-mismatch]}
 (ns render-html
-  (:require [babashka.process :refer [process]])
+  (:require [babashka.process :refer [shell]])
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as str]))
 
-(let [shortsha (System/getenv "SHORTSHA")
-      fullsha (System/getenv "FULLSHA")
-      updated (System/getenv "UPDATED")
-      content (slurp "resume.md")
+(let [shortsha (-> (shell {:out :string} "git rev-parse --short HEAD") :out)
+      fullsha  (-> (shell {:out :string} "git rev-parse HEAD") :out)
+      updated  (-> (shell {:out :string} "date +\"%d %b %Y\"") :out) ;; TODO replace with Java expr
+      content  (slurp "resume.md")
       replaced (-> content
-                   (str/replace #"\$shortsha\$" shortsha)
-                   (str/replace #"\$fullsha\$" fullsha)
-                   (str/replace #"\$updated\$" updated))
-      pandoc (process ["pandoc"
-                       "--from=markdown"
-                       "--to=html5"
-                       "--standalone"
-                       "--css="]
-                      {:in replaced
-                       :out (io/file "public/resume/index.html")})]
-  @pandoc)
+                   (str/replace "{shortsha}" shortsha)
+                   (str/replace "{fullsha}" fullsha)
+                   (str/replace "{updated}" updated))]
+  (shell ["pandoc"
+          "--from=markdown"
+          "--to=html5"
+          "--standalone"
+          "--css="]
+         {:in replaced
+          :out (io/file "public/resume/index.html")}))

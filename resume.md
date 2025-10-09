@@ -353,7 +353,7 @@ The canonical version of this document is available at [https://aviflax.dev/resu
 
 <footer>
 
-Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commit/$fullsha$)
+Last modified {updated} via [{shortsha}](https://github.com/aviflax/resume/commit/{fullsha})
 
 </footer>
 
