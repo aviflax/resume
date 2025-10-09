@@ -1,13 +1,24 @@
-#!/bin/sh
+#!/usr/bin/env bb
 
-set -eu pipefail
+#_{:clj-kondo/ignore [:namespace-name-mismatch]}
+(ns render-html
+  (:require [babashka.process :refer [process]])
+  (:require [clojure.java.io :as io])
+  (:require [clojure.string :as str]))
 
-sed -e "s/\\\$shortsha\\\$/$SHORTSHA/g" \
-    -e "s/\\\$fullsha\\\$/$FULLSHA/g" \
-    -e "s/\\\$updated\\\$/$UPDATED/g" \
-    resume.md \
-  | pandoc --from markdown \
-           --to 'html5' \
-           --standalone \
-           --css='' \
-  > public/resume/index.html
+(let [shortsha (System/getenv "SHORTSHA")
+      fullsha (System/getenv "FULLSHA")
+      updated (System/getenv "UPDATED")
+      content (slurp "resume.md")
+      replaced (-> content
+                   (str/replace #"\$shortsha\$" shortsha)
+                   (str/replace #"\$fullsha\$" fullsha)
+                   (str/replace #"\$updated\$" updated))
+      pandoc (process ["pandoc"
+                       "--from=markdown"
+                       "--to=html5"
+                       "--standalone"
+                       "--css="]
+                      {:in replaced
+                       :out (io/file "public/resume/index.html")})]
+  @pandoc)
