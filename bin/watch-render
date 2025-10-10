@@ -1,5 +1,5 @@
 #!/bin/sh
 
-set -eu pipefail
+set -eu -o pipefail
 
 fswatch resume.md | xargs -n1 bin/md-to-html

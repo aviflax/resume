@@ -40,6 +40,7 @@ jobs:
       - name: Interpolate values into Markdown
         run: |
           interpolated_path="$(bin/interpolate-md)"
+          echo "MD_PATH=$interpolated_path" >> $GITHUB_ENV
 
       - name: Render HTML from Markdown with Pandoc
         # We’re using Docker to run Pandoc, rather than install it via apt, because this is much
@@ -49,7 +50,7 @@ jobs:
                      --workdir "$(pwd)" \
                      --entrypoint /bin/sh \
                      pandoc/core:3.7 \
-                     bin/md-to-html
+                     bin/md-to-html "$MD_PATH"
 
       - name: Render PDF from HTML with Weasyprint
         run: bin/html-to-pdf

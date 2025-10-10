@@ -1,8 +1,13 @@
 #!/bin/sh
 
-set -eu pipefail
+set -eu -o pipefail
 
-interpolated_path="$(bin/interpolate)"
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <path-to-interpolated-md-file>"
+    exit 1
+fi
+
+interpolated_path="$1"
 
 cat "$interpolated_path" \
   | pandoc --from markdown \
