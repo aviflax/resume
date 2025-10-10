@@ -32,25 +32,27 @@ jobs:
           unzip -q "Charter 210112.zip"
           fc-cache -fv
 
+      - name: Install clojure tools
+        uses: DeLaGuardo/setup-clojure@13.4
+        with:
+          bb: 1.12.209
+      
+      - name: Interpolate values into Markdown
+        run: |
+          interpolated_path="$(bin/interpolate-md)"
+
       - name: Render HTML from Markdown with Pandoc
         # We’re using Docker to run Pandoc, rather than install it via apt, because this is much
         # faster.
         run: |
-          shortsha=$(git rev-parse --short HEAD)
-          fullsha=$(git rev-parse HEAD)
-          updated=$(date +"%d %b %Y")
-
           docker run --volume "$(pwd):$(pwd)" \
                      --workdir "$(pwd)" \
-                     --env "SHORTSHA=$shortsha" \
-                     --env "FULLSHA=$fullsha" \
-                     --env "UPDATED=$updated" \
                      --entrypoint /bin/sh \
                      pandoc/core:3.7 \
-                     bin/render-html
+                     bin/md-to-html
 
       - name: Render PDF from HTML with Weasyprint
-        run: bin/render-pdf
+        run: bin/html-to-pdf
 
       - name: Create deployment artifact
         uses: actions/upload-pages-artifact@v4

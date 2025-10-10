@@ -2,4 +2,4 @@
 
 set -eu pipefail
 
-fswatch resume.md | xargs -n1 bin/render-html
+fswatch resume.md | xargs -n1 bin/md-to-html

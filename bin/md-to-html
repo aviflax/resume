@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -eu pipefail
+
+interpolated_path="$(bin/interpolate)"
+
+cat "$interpolated_path" \
+  | pandoc --from markdown \
+           --to html5 \
+           --standalone \
+           --css '' \
+  > public/resume/index.html
