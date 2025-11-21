@@ -13,6 +13,17 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
   h2 { margin: 2rem 0 0 0; }
 
+  header {
+    h1 { margin-bottom: 0.3em; }
+    
+    h2#tagline {
+      margin-top: 0;
+      padding-top: 0;
+      font-size: 130%;
+      font-weight: normal;
+    }
+  }
+
   details {
     margin-left: 0.75rem;
 
@@ -77,7 +88,10 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   }
 </style>
 
-<header><h1>Avi Flax</h1></header>
+<header>
+    <h1>Avi Flax</h1>
+    <h2 id="tagline">Software Engineer/Architect</h2>
+</header>
 
 <!--
 
