@@ -4,11 +4,11 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
 <style>
   html, body {
-      max-width: 8in;
-      font-size: 16pt;
-      margin: 0 auto;
-      padding: 0 0.5rem;
-      font-family: Charter, Times, Serif;
+    max-width: 8in;
+    font-size: 16pt;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    font-family: Charter, Times, Serif;
   }
 
   h2 { margin: 2rem 0 0 0; }
@@ -55,9 +55,9 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
   }
 
   footer {
-      border-top: 1px solid silver;
-      margin-top: 2rem;
-      font-size: small;
+    border-top: 1px solid silver;
+    margin-top: 2rem;
+    font-size: small;
   }
 
   @page {
@@ -89,8 +89,8 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 </style>
 
 <header>
-    <h1>Avi Flax</h1>
-    <h2 id="tagline">Software Engineer/Architect</h2>
+  <h1>Avi Flax</h1>
+  <h2 id="tagline">Software Engineer/Architect</h2>
 </header>
 
 <!--
