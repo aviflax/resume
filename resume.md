@@ -110,14 +110,26 @@ TODO:
 
 ## Summary
 
+* Hands-on engineering leader
+* Designed, built, and owned systems from zero to scale
+* Managed growth, practices, and processes of teams and orgs
+* Experience in B2B, SaaS, B2C, infrastructure, security, insurance, news, research, energy, IoT,
+  LLM prompt engineering, data pipelines, platforms, Web APIs
+* Introduced practices to teams+orgs: continuous delivery, infrastructure-as-code, automated
+  testing, code review, pair programming, automated deployments
+* Mentored 
+
+<!--
+
 * **Deep expertise** in the Web (especially the back end), APIs, architecture, documentation,
   data pipelines, stream processing, automated testing, cloud infrastructure, infrastructure-as-code,
   automated deployments, and continuous delivery
 * **Extensive experience** in the end-to-end software development process: requirements, planning,
   design, implementation, testing, deployment, operations, support, maintenance
 * **Highly engaged:** collaborative, conscientious, curious, diligent, meticulous, mission-oriented
-  <!-- add example? --> <!-- show don’t tell? -->
 * **Dedicated** to diversity, efficiency, equity, inclusion, justice, kindness, & sustainability
+
+-->
 
 </section>
 
