@@ -3,6 +3,38 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 ---
 
 <style>
+  @font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_regular.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_italic.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_bold.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_bold_italic.woff2') format('woff2');
+  }
+
   html, body {
     max-width: 8in;
     font-size: 16pt;
