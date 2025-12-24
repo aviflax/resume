@@ -3,6 +3,38 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 ---
 
 <style>
+  @font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_regular.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_italic.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_bold.woff2') format('woff2');
+  }
+    
+  @font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('fonts/Charter/charter_bold_italic.woff2') format('woff2');
+  }
+
   html, body {
     max-width: 8in;
     font-size: 16pt;
@@ -64,6 +96,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     size: A4;
     margin: 0.5cm 0.5cm 1cm 0.5cm;
 
+    /* This has little-to-no support in browsers but is supported by Weasyprint. */
     @bottom-center {
       content: counter(page) " / " counter(pages);
       font-family: Charter, Times, Serif;

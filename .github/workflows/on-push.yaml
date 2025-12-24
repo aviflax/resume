@@ -6,31 +6,12 @@ jobs:
   render:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
-
-      - name: Cache downloaded fonts
-        uses: actions/cache@v4
-        with:
-          path: ~/downloads
-          key: ${{ runner.os }}-downloaded-fonts
+      - uses: actions/checkout@v6
 
       - name: Install Weasyprint
         # We’re using pip to install Weasyprint, rather than apt, because this is (a) faster, and
         # (b) is a way easier method to get the latest version of Weasyprint.
-        run: pip3 install weasyprint==66.0
-
-      - name: 'Install font: Charter'
-        run: |
-          mkdir -p ~/downloads
-          cd ~/downloads
-          wget --no-clobber "https://practicaltypography.com/fonts/Charter 210112.zip"
-
-          mkdir -p ~/.local/share/fonts
-          cd ~/.local/share/fonts
-          cp "$HOME/downloads/Charter 210112.zip" ./
-
-          unzip -q "Charter 210112.zip"
-          fc-cache -fv
+        run: pip3 install weasyprint==67.0
 
       - name: Render HTML from Markdown with Pandoc
         # We’re using Docker to run Pandoc, rather than install it via apt, because this is much
@@ -46,7 +27,7 @@ jobs:
                      --env "FULLSHA=$fullsha" \
                      --env "UPDATED=$updated" \
                      --entrypoint /bin/sh \
-                     pandoc/core:3.7 \
+                     pandoc/core:3.8.3 \
                      bin/render-html
 
       - name: Render PDF from HTML with Weasyprint
