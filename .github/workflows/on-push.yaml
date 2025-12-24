@@ -6,12 +6,12 @@ jobs:
   render:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Install Weasyprint
         # We’re using pip to install Weasyprint, rather than apt, because this is (a) faster, and
         # (b) is a way easier method to get the latest version of Weasyprint.
-        run: pip3 install weasyprint==66.0
+        run: pip3 install weasyprint==67.0
 
       - name: Render HTML from Markdown with Pandoc
         # We’re using Docker to run Pandoc, rather than install it via apt, because this is much
@@ -27,7 +27,7 @@ jobs:
                      --env "FULLSHA=$fullsha" \
                      --env "UPDATED=$updated" \
                      --entrypoint /bin/sh \
-                     pandoc/core:3.7 \
+                     pandoc/core:3.8.3 \
                      bin/render-html
 
       - name: Render PDF from HTML with Weasyprint
