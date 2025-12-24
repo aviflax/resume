@@ -96,6 +96,7 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
     size: A4;
     margin: 0.5cm 0.5cm 1cm 0.5cm;
 
+    /* This has little-to-no support in browsers but is supported by Weasyprint. */
     @bottom-center {
       content: counter(page) " / " counter(pages);
       font-family: Charter, Times, Serif;
