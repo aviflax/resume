@@ -1,5 +1,5 @@
 ---
-pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
+pagetitle: "Avi Flax: Software { Engineer&nbsp;∪&nbsp;Architect&nbsp;∪&nbsp;Leader }"
 ---
 
 <style>
@@ -123,34 +123,34 @@ pagetitle: "Avi Flax: Software engineer/architect; experienced generalist"
 
 <header>
   <h1>Avi Flax</h1>
-  <h2 id="tagline">Software Engineer/Architect</h2>
+  <h2 id="tagline">Software { Engineer&nbsp;∪&nbsp;Architect&nbsp;∪&nbsp;Leader }</h2>
 </header>
-
-<!--
-
-TODO:
-
-* Add somewhere:
-  * team building
-  * mentoring
-  * education
-  * professional development
-  * Experience with remote/distributed teams
-
--->
 
 <section>
 
 ## Summary
 
-* **Deep expertise** in the Web (especially the back end), APIs, architecture, documentation,
-  data pipelines, stream processing, automated testing, cloud infrastructure, infrastructure-as-code,
-  automated deployments, and continuous delivery
-* **Extensive experience** in the end-to-end software development process: requirements, planning,
-  design, implementation, testing, deployment, operations, support, maintenance
-* **Highly engaged:** collaborative, conscientious, curious, diligent, meticulous, mission-oriented
-  <!-- add example? --> <!-- show don’t tell? -->
-* **Dedicated** to diversity, efficiency, equity, inclusion, justice, kindness, & sustainability
+* I’ve **designed, built, maintained,&nbsp;&amp;&nbsp;operated** many successful, sophisticated
+  **software&nbsp;systems&nbsp;&amp;&nbsp;products,** including:
+  * An LLM prompt engineering tool
+  * A system that manages secure, auditable access to many different AWS accounts
+  * An open-source tool for data-driven architecture diagrams
+  * A streaming IoT data pipeline
+  * A streaming product metrics pipeline
+  * Many sophisticated RESTful Web APIs
+  * A Web/SOA insurance platform covering all key aspects of policy origination &amp; management
+  * A Web-based search engine &amp; reference platform for engineers
+  * A Web API at the heart of a new-from-the-ground-up API-centric (hybrid) publishing platform
+    for a prominent news agency
+* I’ve **built, managed,&nbsp;&amp;&nbsp;supported** many successful, sophisticated
+  **software&nbsp;engineering teams&nbsp;&amp;&nbsp;orgs,** for example I’ve:
+  * Helped grow &amp; optimize engineering orgs via hiring/firing, mentoring, professional
+    development programs, &amp; regular refactoring
+  * Leveled-up engineering culture &amp; practices, e.g. introduced automated testing, code review,
+    continuous delivery, infrastructure-as-code, &amp; immutable infrastructure at many engineering
+    orgs
+  * Leveled-up documentation &amp; knowledge sharing at multiple orgs, including a 250-person
+    globally-distributed engineering org
 
 </section>
 
@@ -186,7 +186,7 @@ TODO:
 * Designed, implemented, and maintained:
   * A system that manages access to many AWS accounts via AWS SSO and [Pulumi]
   * A system for deploying multiple tools to many AWS accounts via Pulumi
-  * A custom database for crucial business data & CLI tools for integrating the DB with tools such
+  * A custom database for crucial business data &amp; CLI tools for integrating the DB with tools such
     as [Fibery] and JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
@@ -203,7 +203,7 @@ TODO:
 
 #### **2017–2020** *<nobr>Principal Software Engineer</nobr>* Funding Circle
 
-* Leveled-up documentation & knowledge sharing at a 250-person software product org
+* Leveled-up documentation &amp; knowledge sharing at a 250-person software product org
 * Conceived, built, released, and maintained [FC4], an open-source framework for authoring software
   architecture diagrams
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
@@ -215,7 +215,7 @@ TODO:
 * Rewrote a critical data pipeline using stream processing to reduce latency and improve reliability
 * Designed, built, maintained, and operated stream data topologies for high-throughput & low-latency
   data processing
-* Leveled-up engineering culture & practices, e.g. introduced infrastructure-as-code, immutable
+* Leveled-up engineering culture &amp; practices, e.g. introduced infrastructure-as-code, immutable
   infrastructure, and continuous delivery
 * Tech: Ruby, JRuby, Kafka, Kafka Streams, SQL Server, Kubernetes, AWS, Terraform, CircleCI,
   Ansible, Datadog
