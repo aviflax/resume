@@ -1,5 +1,5 @@
 ---
-pagetitle: "Avi Flax: Software { Engineer&nbsp;∪&nbsp;Architect&nbsp;∪&nbsp;Leader }"
+pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 ---
 
 <style>
@@ -124,7 +124,7 @@ pagetitle: "Avi Flax: Software { Engineer&nbsp;∪&nbsp;Architect&nbsp;∪&nbsp;
 
 <header>
   <h1>Avi Flax</h1>
-  <h2 id="tagline">Software { Engineer&nbsp;∪&nbsp;Architect&nbsp;∪&nbsp;Leader }</h2>
+  <h2 id="tagline">Software Engineer/Architect/Leader</h2>
 </header>
 
 <!-- NOTE: you (I) might be tempted to use &nbsp; in certain places. Just FYI, that renders oddly
