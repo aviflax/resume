@@ -135,22 +135,19 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Summary
 
-* I’ve **designed, built, maintained, &amp; operated** many successful, sophisticated
+* I’ve **designed, built, maintained, &amp; operated** many successful
   **<no-br>software systems &amp; products,</no-br>** including:
   * An LLM prompt engineering tool
-  * A system that manages secure, auditable access to many different AWS accounts
+  * A system for managing access to many different AWS accounts
   * An open-source tool for data-driven architecture diagrams
-  * A streaming IoT data pipeline
-  * A streaming product metrics pipeline
-  * Many sophisticated RESTful Web APIs
+  * Streaming data pipelines for IoT events, sensor readings, product metrics, etc.
+  * Many RESTful Web APIs
   * A Web/SOA insurance platform covering all key aspects of <no-br>policy origination &amp; management</no-br>
-  * A Web-based search <no-br>engine &amp; reference</no-br> platform for engineers
-  * A Web API at the heart of a new-from-the-ground-up API-centric (hybrid) publishing platform
-    for a prominent news agency
-* I’ve **built, <no-br>managed, &amp; supported</no-br>** many successful, sophisticated
+  * A Web API at the heart of an API-centric (hybrid) publishing platform
+* I’ve **built, <no-br>managed, &amp; supported</no-br>** many successful
   **<no-br>software engineering</no-br> <no-br>teams &amp; orgs;</no-br>** for example I’ve:
   * Helped <no-br>grow &amp; optimize</no-br> engineering orgs via hiring/firing, mentoring, professional
-    development <no-br>programs, &amp; regular</no-br> refactoring
+    development <no-br>programs, &amp; regular</no-br> refactoring of team structures
   * Leveled-up engineering culture &amp; practices, e.g. introduced automated testing, code review,
     continuous delivery, infrastructure-as-code, &amp; immutable infrastructure
   * Leveled-up documentation &amp; knowledge sharing at multiple orgs
