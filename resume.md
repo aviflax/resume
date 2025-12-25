@@ -232,7 +232,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * Rewrote a critical data pipeline using stream processing to reduce latency &amp; improve reliability
 * Designed &amp; implemented:
-  * A sophisticated integration with Twilio for SMS-based signup
+  * An integration with Twilio for SMS-based signup
   * A tool for quickly processing billions of records
 * Tech: Go (Golang), AWS, Redis, DynamoDB, Kinesis
 
@@ -257,7 +257,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 #### **2005–2013** *&nbsp;* Arc90
 
 * Wore many hats: developer, architect, tech lead, director, partner
-* Worked with teams to design, build, &amp; maintain sophisticated software platforms, including:
+* Worked with teams to design, build, &amp; maintain advanced software platforms, including:
   * A Web/SOA insurance platform covering all key aspects of policy origination &amp; management
   * A Web-based search engine &amp; reference platform for engineers
   * A Web API at the heart of a new-from-the-ground-up news distribution platform for Reuters
@@ -279,9 +279,9 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 #### **2001–2004** *&nbsp;* ADP
 
-* Refactored, enhanced, &amp; maintained a sophisticated application for producing custom financial
-  documents for <nobr>on-demand</nobr> printing
-* Tech: Microsoft SQL Server, ColdFusion, XSLT, <nobr>XSL-FO</nobr>
+* Refactored, enhanced, &amp; maintained a system for producing custom financial documents for
+  on-demand printing
+* Tech: Microsoft SQL Server, ColdFusion, XSLT, XSL-FO
 
 </section><section>
 
