@@ -160,7 +160,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section>
 
-#### **2024–2025** *<nobr>Chief Software Architect</nobr>* Omne
+#### **2024–2025** *<no-br>Chief Software Architect</no-br>* Omne
 
 * Built &amp; refined the team &amp; its strategy, processes, &amp; culture
 * Designed &amp; built an ERP system for the manufacturing market
@@ -170,7 +170,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section>
 
-#### **2023–2024** *<nobr>Principal Software Engineer</nobr>* Trudy
+#### **2023–2024** *<no-br>Principal Software Engineer</no-br>* Trudy
 
 * Designed, implemented, &amp; maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
@@ -181,7 +181,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section>
 
-#### **2022–2023** *<nobr>Staff Software Engineer</nobr>* Latacora
+#### **2022–2023** *<no-br>Staff Software Engineer</no-br>* Latacora
 
 * Designed, implemented, &amp; maintained:
   * A system that manages access to many AWS accounts via AWS SSO &amp; [Pulumi]
@@ -192,7 +192,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section>
 
-#### **2020–2021** *<nobr>Senior Director of Technology</nobr>* Modern Energy
+#### **2020–2021** *<no-br>Senior Director of Technology</no-br>* Modern Energy
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
@@ -201,7 +201,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section>
 
-#### **2017–2020** *<nobr>Principal Software Engineer</nobr>* Funding Circle
+#### **2017–2020** *<no-br>Principal Software Engineer</no-br>* Funding Circle
 
 * Leveled-up documentation &amp; knowledge sharing at a 250-person software product org
 * Conceived, built, released, &amp; maintained [FC4], an open-source framework for authoring software
@@ -210,7 +210,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section>
 
-#### **2015–2017** *<nobr>Principal Software Architect</nobr>* Park Assist
+#### **2015–2017** *<no-br>Principal Software Architect</no-br>* Park Assist
 
 * Rewrote a critical data pipeline using stream processing to reduce latency &amp; improve reliability
 * Designed, built, maintained, &amp; operated stream data topologies for high-throughput & low-latency
@@ -308,7 +308,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * Developed requirements &amp; specifications for high traffic websites directly with clients; crafted
   application architecture &amp; database design
-* Maintained one of the earliest major e-commerce Websites for <nobr>T-Mobile</nobr>
+* Maintained one of the earliest major e-commerce Websites for <no-br>T-Mobile</no-br>
 * Tech: Microsoft Access, ColdFusion, HomeSite
 
 </section><section>
@@ -356,7 +356,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section><details><summary><h3>Writing</h3></summary>
 
-* [A discussion with my CEO] on the value of code in the LLM era <nobr>(June 2025)</nobr>
+* [A discussion with my CEO] on the value of code in the LLM era <no-br>(June 2025)</no-br>
 * [Some of my favorite resources on software design &amp; development] (2021)
 * [Conference Highlights: Write the Docs Portland 2019] (2019)
 * A collection of [resources for learning stream processing] (2014–2017)
