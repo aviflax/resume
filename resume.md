@@ -93,15 +93,8 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   @page {
-    size: A4;
+    size: 8in 146cm;
     margin: 0.3cm 0.25cm 0.5cm 0.25cm;
-
-    /* This has little-to-no support in browsers but is supported by Weasyprint. */
-    @bottom-center {
-      content: counter(page) " / " counter(pages);
-      font-family: Charter, Times, Serif;
-      font-size: 8pt;
-    }
   }
 
   @media screen {
