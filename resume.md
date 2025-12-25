@@ -73,12 +73,14 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   no-br { white-space: nowrap; } /* According to the Mozilla MDN HTML reference, nobr is deprecated */
-  h4 { margin: 1.5rem 0 0 0; }
+  h4 { margin: 2.5rem 0 0.5rem 0; }
   summary + section > h4 { margin-top: 0; }
   summary + ul { margin-top: 0; }
   section h4 + ul { margin-top: 0.4rem; }
   li { margin: 0.75rem 0; }  
   li ul li:last-child, li ol li:last-child { margin-bottom: 1rem; }
+  li:first-child { margin-top: 0; }
+  li ul li:first-child, li ol li:first-child { margin-top: 0.75rem; }
 
   h4 > em {
     margin-left: 0.75rem;
