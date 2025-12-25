@@ -94,7 +94,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
   @page {
     size: A4;
-    margin: 0.3cm 0.25cm 0.5cm 0.25cm;
+    margin: 1cm 0.25cm 0.5cm 0.25cm;
 
     /* This has little-to-no support in browsers but is supported by Weasyprint. */
     @bottom-center {
@@ -111,6 +111,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
   @media print {
     body { font-size: 12pt; }
+    header, h1 { margin-top: 0; }
     summary, h2 { break-after: avoid; }
     section { break-inside: avoid; }
     section h4 + ul { margin-top: 0; }
