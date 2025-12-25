@@ -77,8 +77,8 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   summary + section > h4 { margin-top: 0; }
   summary + ul { margin-top: 0; }
   section h4 + ul { margin-top: 0.4rem; }
-  li:not(:last-child) { margin-bottom: 0.5rem; }
-  li > ul, li > ol { margin-top: 1rem; }
+  li { margin: 0.75rem 0; }  
+  li ul li:last-child, li ol li:last-child { margin-bottom: 1rem; }
 
   h4 > em {
     margin-left: 0.75rem;
