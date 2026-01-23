@@ -1,6 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
-set -eu pipefail
+set -euo pipefail
+
+SHORTSHA="$(git rev-parse --short HEAD)"
+FULLSHA="$(git rev-parse HEAD)"
+UPDATED="$(date +"%d %b %Y")"
 
 sed -e "s/\\\$shortsha\\\$/$SHORTSHA/g" \
     -e "s/\\\$fullsha\\\$/$FULLSHA/g" \
