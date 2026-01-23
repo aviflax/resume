@@ -399,6 +399,10 @@ The canonical version of this document is available at [https://aviflax.dev/resu
 
 <section>
 
+## Availability &amp; Booking
+
+You can check my availability and/or book a call on [my booking page].
+
 ## Contact
 
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
@@ -435,6 +439,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [LinkedIn]: https://www.linkedin.com/in/aviflax
 [MarkLogic]: https://en.wikipedia.org/wiki/MarkLogic
 [MelRok]: https://melrok.com
+[my booking page]: https://aviflax.dev/book-me
 [Pulumi]: https://www.pulumi.com/
 [Set your data free with model-based architecture diagramming]: https://www.youtube.com/watch?v=3i-C7qbRGGQ
 [Specifying Other People's Data Structures with Spec]: https://youtu.be/eqfSifXaXnw
