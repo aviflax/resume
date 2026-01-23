@@ -2,4 +2,11 @@
 
 set -euo pipefail
 
+SHORTSHA="$(git rev-parse --short HEAD)"
+FULLSHA="$(git rev-parse HEAD)"
+UPDATED="$(date +"%d %b %Y")"
+
+# Export these env vars because render-html needs them
+export SHORTSHA FULLSHA UPDATED
+
 fswatch resume.md | xargs -n1 bin/render-html

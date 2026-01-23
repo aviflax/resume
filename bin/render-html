@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-SHORTSHA="$(git rev-parse --short HEAD)"
-FULLSHA="$(git rev-parse HEAD)"
-UPDATED="$(date +"%d %b %Y")"
+## This script needs the environment variables SHORTSHA, FULLSHA, and UPDATED to be externally set;
+## we cannot set them here in this script because to do so we’d need to run git, and git is not
+## installed on the Pandoc container image that we use for our CD job that invokes this script.
 
 sed -e "s/\\\$shortsha\\\$/$SHORTSHA/g" \
     -e "s/\\\$fullsha\\\$/$FULLSHA/g" \
