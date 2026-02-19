@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -euo pipefail
+
+SHORTSHA="$(git rev-parse --short HEAD)"
+FULLSHA="$(git rev-parse HEAD)"
+UPDATED="$(date +"%d %b %Y")"
+
+export SHORTSHA FULLSHA UPDATED
+
+bin/render-html && bin/render-pdf
