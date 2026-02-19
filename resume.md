@@ -159,7 +159,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Experience
 
-<details><summary><h3>2015–2025</h3></summary>
+<details open><summary><h3>Recent Experience</h3></summary>
 
 <section>
 
@@ -227,7 +227,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </details>
 
-<details><summary><h3>2005–2015</h3></summary>
+<details><summary><h3>Prior Experience</h3></summary>
 
 <section>
 
@@ -271,14 +271,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Started practice of regular company-wide code review
 * Tech: [ColdFusion], Groovy, Java, Python, [XQuery], [XSLT], [XSD], [Relax NG], [eXist],
   [MarkLogic], MongoDB, SQL Server, AWS
-
-</section>
-
-</details>
-
-<details><summary><h3>1997–2005</h3></summary>
-
-<section>
 
 #### **2001–2004** *&nbsp;* ADP
 
