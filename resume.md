@@ -37,7 +37,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
   html, body {
     max-width: 10in;
-    font-size: 16pt;
+    font-size: 14pt;
     margin: 0 auto;
     padding: 0 0.5rem;
     font-family: Charter, Times, Serif;
