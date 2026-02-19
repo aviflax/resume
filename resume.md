@@ -305,31 +305,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   clients with diverse needs
 * Tech: ColdFusion
 
-</section><section>
-
-#### **1998–2000** *&nbsp;* Words In Progress
-
-* Developed requirements &amp; specifications for high traffic websites directly with clients; crafted
-  application architecture &amp; database design
-* Maintained one of the earliest major e-commerce Websites for <no-br>T-Mobile</no-br>
-* Tech: Microsoft Access, ColdFusion, HomeSite
-
-</section><section>
-
-#### **1998** *&nbsp;* Ideal Computer Strategies
-
-* Worked with teams of designers, coders, &amp; project managers to concurrently develop &amp; deploy
-  client websites with basic dynamic features
-* Tech: Microsoft Access, ColdFusion, HomeSite
-
-</section><section>
-
-#### **1997–1998** *&nbsp;* PCC Internet Design
-
-* Founded &amp; managed a small Web design shop in Baltimore, MD providing full-service Web design
-  &amp; development to small businesses in the area
-* Tech: Windows Notepad, HTML
-
 </section>
 
 </details>
