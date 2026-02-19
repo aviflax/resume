@@ -95,7 +95,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   @page {
-    size: legal;
+    size: A4;
     margin: 1cm 0.25cm 0.5cm 0.25cm;
 
     /* This has little-to-no support in browsers but is supported by Weasyprint. */
