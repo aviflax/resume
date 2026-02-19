@@ -115,13 +115,14 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
     body { font-size: 12pt; }
     header, h1 { margin-top: 0; }
     summary, h2 { break-after: avoid; }
-    section { break-inside: avoid; }
+    summary.experience { display: none; }
+    section { margin-bottom: 3em; break-inside: avoid; }
     section h4 + ul { margin-top: 0; }
     summary > h3 { font-size: large; }
     li:not(:last-child) { margin-bottom: 0.5rem; }
     li > ul, li > ol { margin-top: 0.5rem; }
     h4 { margin: 1.5rem 0 0.4rem 0; }
-    #download-section { display: none; }
+    .omit-from-pdf { display: none; }
   }
 </style>
 
@@ -159,7 +160,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Experience
 
-<details open><summary><h3>Recent Experience</h3></summary>
+<details open><summary class="experience"><h3>Recent Experience</h3></summary>
 
 <section>
 
@@ -227,7 +228,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </details>
 
-<details><summary><h3>Prior Experience</h3></summary>
+<details><summary class="experience"><h3>Prior Experience</h3></summary>
 
 <section>
 
@@ -289,7 +290,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Created new internal tools &amp; development procedures
 * Tech: ColdFusion
 
-</section><section>
+</section><section class="omit-from-pdf">
 
 #### **2000** *&nbsp;* RewardsPlus
 
@@ -346,7 +347,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 </section></details>
 
 
-<section id="download-section">
+<section class="omit-from-pdf">
     
 ## Download
 
