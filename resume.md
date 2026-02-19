@@ -116,7 +116,8 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
     header, h1 { margin-top: 0; }
     summary, h2 { break-after: avoid; }
     summary.experience { display: none; }
-    section { margin-bottom: 3em; break-inside: avoid; }
+    section { break-inside: avoid; }
+    section.experience { margin-bottom: 3em; }
     section h4 + ul { margin-top: 0; }
     summary > h3 { font-size: large; }
     li:not(:last-child) { margin-bottom: 0.5rem; }
@@ -162,7 +163,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <details open><summary class="experience"><h3>Recent Experience</h3></summary>
 
-<section>
+<section class="experience">
 
 #### **2024–2025** *<no-br>Chief Software Architect</no-br>* Omne
 
@@ -172,7 +173,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section>
 
-<section>
+<section class="experience">
 
 #### **2023–2024** *<no-br>Principal Software Engineer</no-br>* Trudy
 
@@ -183,7 +184,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
   Clojure
 
-</section><section>
+</section><section class="experience">
 
 #### **2022–2023** *<no-br>Staff Software Engineer</no-br>* Latacora
 
@@ -194,7 +195,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
     as [Fibery] &amp; JIRA
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
-</section><section>
+</section><section class="experience">
 
 #### **2020–2021** *<no-br>Senior Director of Technology</no-br>* Modern Energy
 
@@ -203,7 +204,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Helped bootstrap a new HVAC optimization startup by integrating with [InfiSense] &amp; [MelRok]
 * Tech: Clojure, Kafka, Airflow, Python, Docker, Pulumi, Google Workspace APIs
 
-</section><section>
+</section><section class="experience">
 
 #### **2017–2020** *<no-br>Principal Software Engineer</no-br>* Funding Circle
 
@@ -212,7 +213,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   architecture diagrams
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
 
-</section><section>
+</section><section class="experience">
 
 #### **2015–2017** *<no-br>Principal Software Architect</no-br>* Park Assist
 
@@ -230,7 +231,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <details><summary class="experience"><h3>Prior Experience</h3></summary>
 
-<section>
+<section class="experience">
 
 #### **2015** *&nbsp;* Timehop
 
@@ -240,14 +241,14 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   * A tool for quickly processing billions of records
 * Tech: Go (Golang), AWS, Redis, DynamoDB, Kinesis
 
-</section><section>
+</section><section class="experience">
 
 #### **2014** *&nbsp;* Thinkful
 
 * Designed &amp; implemented an event-driven system to automate Stripe subscription management
 * Tech: Python, Django
 
-</section><section>
+</section><section class="experience">
 
 #### **2013–2014** *CTO* SFX Entertainment
 
@@ -256,7 +257,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Recruited key team members
 * Tech: Clojure, REST APIs, AWS
 
-</section><section>
+</section><section class="experience">
 
 #### **2005–2013** *&nbsp;* Arc90
 
@@ -279,7 +280,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   on-demand printing
 * Tech: Microsoft SQL Server, ColdFusion, XSLT, XSL-FO
 
-</section><section>
+</section><section class="experience">
 
 #### **2001** *&nbsp;* register.com
 
@@ -290,7 +291,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Created new internal tools &amp; development procedures
 * Tech: ColdFusion
 
-</section><section class="omit-from-pdf">
+</section><section class="experience omit-from-pdf">
 
 #### **2000** *&nbsp;* RewardsPlus
 
