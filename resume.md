@@ -305,6 +305,16 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Output
 
+<section><details><summary><h3>Writing</h3></summary>
+
+* [A discussion with my CEO] on the value of code in the LLM era <no-br>(June 2025)</no-br>
+* [Some of my favorite resources on software design &amp; development] (2021)
+* [Conference Highlights: Write the Docs Portland 2019] (2019)
+* A collection of [resources for learning stream processing] (2014–2017)
+* [Stack Overflow] (2008–)
+
+</section></details>
+
 <section><details><summary><h3>Speaking</h3></summary>
 
 * [Set your data free with model-based architecture diagramming]
@@ -323,18 +333,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   (PyGrunn, 2014)
 
 </details></section>
-
-
-<section><details><summary><h3>Writing</h3></summary>
-
-* [A discussion with my CEO] on the value of code in the LLM era <no-br>(June 2025)</no-br>
-* [Some of my favorite resources on software design &amp; development] (2021)
-* [Conference Highlights: Write the Docs Portland 2019] (2019)
-* A collection of [resources for learning stream processing] (2014–2017)
-* [Stack Overflow] (2008–)
-
-</section></details>
-
 
 <section><details><summary><h3>Code</h3></summary>
 
@@ -356,15 +354,6 @@ Please feel free to download [the PDF version] of this document.
 </section>
 
 
-<section id="web-version-section">
-
-## Canonical Version
-
-The canonical version of this document is available at [https://aviflax.dev/resume](https://aviflax.dev/resume)
-
-</section>
-
-
 <section>
 
 ## Availability &amp; Booking
@@ -379,6 +368,15 @@ You can check my availability and/or book a call on [my booking page].
   <div>🔗 [LinkedIn]</div>
   <div><no-br>🌎 White Plains, NY</no-br></div>
 </div>
+
+</section>
+
+
+<section id="web-version-section">
+
+## Canonical Version
+
+The canonical version of this document is available at [https://aviflax.dev/resume](https://aviflax.dev/resume)
 
 </section>
 
