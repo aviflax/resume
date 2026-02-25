@@ -136,6 +136,18 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
      in our current PDF-rendering pipeline. (The non-breaking spaces are rendered as extra-wide for
      some annoying reason.) -->
 
+
+<section>
+
+## Objective
+
+* **A long-term position**
+  * At a growing, stable org with a high-trust, human-centered culture
+  * With a mix of hands-on systems work and leadership work
+
+</section>
+
+
 <section>
 
 ## Summary
@@ -169,6 +181,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * Built &amp; refined the team &amp; its strategy, processes, &amp; culture
 * Designed &amp; built an ERP system for the manufacturing market
+* Ended due to layoffs
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
 
 </section>
@@ -177,6 +190,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 #### **2023–2024** *<no-br>Principal Software Engineer</no-br>* Trudy
 
+* A limited-term contracting engagement
 * Designed, implemented, &amp; maintained:
   * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
   * A prototype SaaS product to enable non-experts to craft, test, &amp; use LLM prompts with multiple
@@ -193,6 +207,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data &amp; CLI tools for integrating the DB with tools such
     as [Fibery] &amp; JIRA
+* Ended due to layoffs
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
 </section><section class="experience">
@@ -211,6 +226,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Leveled-up documentation &amp; knowledge sharing at a 250-person software product org
 * Conceived, built, released, &amp; maintained [FC4], an open-source framework for authoring software
   architecture diagrams
+* Ended due to layoffs (related to the COVID-19 pandemic)
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
 
 </section><section class="experience">
