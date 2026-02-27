@@ -95,8 +95,15 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   @page {
-    size: 130mm 2000mm;
-    margin: 1cm 0.25cm 0.5cm 0.25cm;
+    size: 130mm 200mm;
+    margin: 0.5cm 0.1cm;
+
+    /* This has little-to-no support in browsers but is supported by Weasyprint. */
+    @bottom-center {
+      content: counter(page);
+      font-family: Charter, Times, Serif;
+      font-size: 8pt;
+    }
   }
 
   @media screen {
@@ -107,13 +114,11 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   @media print {
     body {
       font-size: 12pt;
-      line-height: 1.4; /* MDN recommends 1.5 for accessibility. */
+      line-height: 1.3; /* MDN recommends 1.5 for accessibility. */
     }
 
     header, h1 { margin-top: 0; }
-    summary, h2 { break-after: avoid; }
     summary.experience { display: none; }
-    section { break-inside: avoid; }
     section.experience { margin-bottom: 3em; }
     section h4 + ul { margin-top: 0; }
     summary > h3 { font-size: large; }

@@ -4,6 +4,4 @@ set -euo pipefail
 
 echo '⚠️  Converting index.html to PDF -- sure hope it''s up-to-date!'
 
-weasyprint public/resume/index.html - \
-  | bin/trim-pdf \
-  > "public/resume/pdf/Avi Flax’s Resume.pdf"
+weasyprint public/resume/index.html "public/resume/pdf/Avi Flax’s Resume.pdf"
