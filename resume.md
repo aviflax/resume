@@ -95,7 +95,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   @page {
-    size: 9in;
+    size: 130mm 2000mm;
     margin: 1cm 0.25cm 0.5cm 0.25cm;
 
     /* This has little-to-no support in browsers but is supported by Weasyprint. */
@@ -142,8 +142,8 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 ## Objective
 
 * **A long-term position**
-  * At a growing, stable org with a high-trust, human-centered culture
-  * With a mix of hands-on systems work and leadership work
+  * At a growing, stable org with a high&#8209;trust, human&#8209;centered culture
+  * With a mix of hands&#8209;on systems work and leadership work
 
 </section>
 
@@ -156,7 +156,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   **<no-br>software systems &amp; products,</no-br>** including:
   * An LLM prompt engineering tool
   * A system for managing access to many different AWS accounts
-  * An open-source tool for data-driven architecture diagrams
+  * An open-source tool for data&#8209;driven architecture diagrams
   * Streaming data pipelines for IoT events, sensor readings, product metrics, etc.
   * Many RESTful Web APIs
   * A Web/SOA insurance platform covering all key aspects of <no-br>policy origination &amp; management</no-br>
