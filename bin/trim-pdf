@@ -1,0 +1,32 @@
+#!/usr/bin/env uv run --script
+
+# /// script
+# dependencies = ["pikepdf"]
+# ///
+
+import subprocess, re, sys, pikepdf
+from io import BytesIO
+
+input_bytes = sys.stdin.buffer.read()
+
+# Get bounding box from Ghostscript
+result = subprocess.run(
+    ["gs", "-sBATCH", "-sNOPAUSE", "-sDEVICE=bbox", "-f", "-"],
+    input=input_bytes, capture_output=True
+)
+match = re.search(r"%%HiResBoundingBox: ([\d.]+) ([\d.]+) ([\d.]+) ([\d.]+)", result.stderr.decode())
+
+margin = 10
+x0, y0, x1, y1 = [float(v) for v in match.groups()]
+x0 -= margin
+y0 -= margin
+x1 += margin
+y1 += margin
+
+# Crop the page
+pdf = pikepdf.open(BytesIO(input_bytes))
+
+for page in pdf.pages:
+    page.mediabox = [x0, y0, x1, y1]
+
+pdf.save(sys.stdout.buffer)

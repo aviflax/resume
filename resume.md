@@ -97,13 +97,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   @page {
     size: 130mm 2000mm;
     margin: 1cm 0.25cm 0.5cm 0.25cm;
-
-    /* This has little-to-no support in browsers but is supported by Weasyprint. */
-    @bottom-center {
-      content: counter(page) " / " counter(pages);
-      font-family: Charter, Times, Serif;
-      font-size: 8pt;
-    }
   }
 
   @media screen {
@@ -112,7 +105,11 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   }
 
   @media print {
-    body { font-size: 12pt; }
+    body {
+      font-size: 12pt;
+      line-height: 1.4; /* MDN recommends 1.5 for accessibility. */
+    }
+
     header, h1 { margin-top: 0; }
     summary, h2 { break-after: avoid; }
     summary.experience { display: none; }
@@ -166,7 +163,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   * Helped <no-br>grow &amp; optimize</no-br> engineering orgs via hiring/firing, mentoring, professional
     development <no-br>programs, &amp; regular</no-br> refactoring of team structures
   * Leveled-up engineering culture &amp; practices, e.g. introduced automated testing, code review,
-    continuous delivery, infrastructure-as-code, &amp; immutable infrastructure
+    continuous delivery, infrastructure-as-code, <no-br>&amp; immutable infrastructure</no-br>
   * Leveled-up documentation &amp; knowledge sharing at multiple orgs
 
 </section>
@@ -179,7 +176,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 #### **2024–2025** *<no-br>Chief Software Architect</no-br>* Omne
 
-* Built &amp; refined the team &amp; its strategy, processes, &amp; culture
+* Built &amp; refined the team &amp; its strategy, processes, <no-br>&amp; culture</no-br>
 * Designed &amp; built an ERP system for the manufacturing market
 * Ended due to layoffs
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
@@ -294,7 +291,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * Refactored, enhanced, &amp; maintained a system for producing custom financial documents for
   on-demand printing
-* Tech: Microsoft SQL Server, ColdFusion, XSLT, XSL-FO
+* Tech: Microsoft SQL Server, ColdFusion, XSLT, <no-br>XSL-FO</no-br>
 
 </section><section class="experience">
 
@@ -380,9 +377,9 @@ You can check my availability and/or book a call on [my booking page].
 ## Contact
 
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>📧 [Email]</div>
-  <div>💬 [Signal]</div>
-  <div>🔗 [LinkedIn]</div>
+  <div><no-br>📧 [Email]</no-br></div>
+  <div><no-br>💬 [Signal]</no-br></div>
+  <div><no-br>🔗 [LinkedIn]</no-br></div>
   <div><no-br>🌎 White Plains, NY</no-br></div>
 </div>
 
@@ -393,7 +390,8 @@ You can check my availability and/or book a call on [my booking page].
 
 ## Canonical Version
 
-The canonical version of this document is available at [https://aviflax.dev/resume](https://aviflax.dev/resume)
+The canonical version of this document is available at
+<no-br>[https://aviflax.dev/resume](https://aviflax.dev/resume)</no-br>
 
 </section>
 
