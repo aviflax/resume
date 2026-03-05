@@ -203,7 +203,8 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * A limited-term contracting engagement
 * Designed, implemented, &amp; maintained:
-  * An internal prompt engineering tool for rapidly testing many variations of LLM invocations
+  * An internal prompt engineering tool that enabled non-engineers to conduct rapid structured
+    testing of many variations of LLM API invocations
   * A prototype SaaS product to enable non-experts to craft, test, &amp; use LLM prompts with multiple
     LLM providers
 * Tech: JavaScript, Google Apps Script, Google Workspace APIs, PostgreSQL, HTMX, Python, Django,
