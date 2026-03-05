@@ -181,7 +181,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 #### 2025– *Principal* <no-br>Tolerable Software</no-br>
 
-* Building new iPhone apps using Swift &amp; SwiftUI with AI coding agents (e.g. Claude Code)
+* Building new iPhone apps with Swift, SwiftUI, and AI coding agents (e.g. Claude Code)
 * First product will be [FolderTunes]
 
 </section>
