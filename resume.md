@@ -335,10 +335,14 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section><details open><summary><h3>Code</h3></summary>
 
-* Swift
+* Swift, SwiftUI, iOS
   * I recently (2026) used an AI coding agent to build [a CLI tool][shrink-videos] to transcode
     certain videos in my Apple Photos library
-* Clojure
+* Web, [htmx]
+  * I recently (2026) created [a single-page website for my new iPhone app][FolderTunes]; it uses
+    [htmx] to submit <no-br>beta invite</no-br> requests to a custom server-side Web API (which is
+    hosted on [Val Town])
+* Clojure, Web
   * In 2025 I worked on a side project: [a Web app][communitycal-repo] to help community organizers
     create digital calendars for their community programs
   * In 2021 I built &amp; launched the Web app <code>ny.vax.help</code> to help people get
@@ -433,6 +437,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [FC4]: https://github.com/aviflax/fc4
 [Fibery]: https://fibery.io
 [FolderTunes]: https://foldertunes.app
+[htmx]: https://htmx.org
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
 [LinkedIn]: https://www.linkedin.com/in/aviflax
@@ -453,6 +458,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [Structurizr]: https://structurizr.com
 [the PDF version]: ./pdf/Avi Flax’s Resume.pdf
 [timehop-slides]: https://speakerdeck.com/aviflax/stream-data-processing-with-kinesis-and-go-at-timehop
+[Val Town]: https://www.val.town
 [vax-help-repo]: https://github.com/aviflax/vax.help
 [XQuery]: https://en.wikipedia.org/wiki/XQuery
 [XSD]: https://en.wikipedia.org/wiki/XML_Schema_(W3C)
