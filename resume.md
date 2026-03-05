@@ -333,7 +333,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Output
 
-<section><details><summary><h3>Code</h3></summary>
+<section><details open><summary><h3>Code</h3></summary>
 
 * Swift
   * I recently (2026) used an AI coding agent to build [a CLI tool][shrink-videos] to transcode
