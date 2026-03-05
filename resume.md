@@ -220,7 +220,13 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Ended due to layoffs
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
-</section><section class="experience">
+</section>
+
+</details>
+
+<details><summary class="experience"><h3>Prior Experience</h3></summary>
+
+<section class="experience">
 
 #### **2020–2021** *<no-br>Senior Director of Technology</no-br>* Modern Energy
 
@@ -251,13 +257,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Tech: Ruby, JRuby, Kafka, Kafka Streams, SQL Server, Kubernetes, AWS, Terraform, CircleCI,
   Ansible, Datadog
 
-</section>
-
-</details>
-
-<details><summary class="experience"><h3>Prior Experience</h3></summary>
-
-<section class="experience">
+</section><section class="experience">
 
 #### **2015** *&nbsp;* Timehop
 
