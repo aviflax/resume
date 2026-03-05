@@ -324,6 +324,20 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 ## Output
 
+<section><details><summary><h3>Code</h3></summary>
+
+* Swift
+  * I recently (2026) used an AI coding agent to build [a CLI tool][shrink-videos] to transcode
+    certain videos in my Apple Photos library
+* Clojure
+  * In 2025 I worked on a side project: [a Web app][communitycal-repo] to help community organizers
+    create digital calendars for their community programs
+  * In 2021 I built &amp; launched the Web app <code>ny.vax.help</code> to help people get
+    appointments for COVID-19 vaccines in New York State ([repo][vax-help-repo])
+  * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
+
+</section></details>
+
 <section><details><summary><h3>Writing</h3></summary>
 
 * [A discussion with my CEO] on the value of code in the LLM era <no-br>(June 2025)</no-br>
@@ -352,21 +366,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   (PyGrunn, 2014)
 
 </details></section>
-
-<section><details><summary><h3>Code</h3></summary>
-
-* Swift
-  * I recently (2026) used an AI coding agent to build [a CLI tool][shrink-videos] to transcode
-    certain videos in my Apple Photos library
-* Clojure
-  * In 2025 I worked on a side project: [a Web app][communitycal-repo] to help community organizers
-    create digital calendars for their community programs
-  * In 2021 I built &amp; launched the Web app <code>ny.vax.help</code> to help people get
-    appointments for COVID-19 vaccines in New York State ([repo][vax-help-repo])
-  * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
-
-</section></details>
-
 
 <section class="omit-from-pdf">
     
