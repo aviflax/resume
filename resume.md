@@ -182,6 +182,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 #### 2025– *Principal* <no-br>Tolerable Software</no-br>
 
 * Building new iPhone apps using Swift &amp; SwiftUI with AI coding agents (e.g. Claude Code)
+* First product will be [FolderTunes]
 
 </section>
 
@@ -431,6 +432,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [eXist]: https://en.wikipedia.org/wiki/EXist
 [FC4]: https://github.com/aviflax/fc4
 [Fibery]: https://fibery.io
+[FolderTunes]: https://foldertunes.app
 [InfiSense]: https://www.infisense.com
 [Large Nested JSON with Spec: A Comedy of Errors]: https://www.youtube.com/watch?v=5JpcDKooaIQ
 [LinkedIn]: https://www.linkedin.com/in/aviflax
