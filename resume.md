@@ -355,11 +355,15 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section><details><summary><h3>Code</h3></summary>
 
-* I’m currently working on a side project: [a Web app][communitycal-repo] to help community
-  organizers create digital calendars for their community programs
-* In 2021 I built &amp; launched the Web app <code>ny.vax.help</code> to help people get appointments
-  for COVID-19 vaccines in New York State ([repo][vax-help-repo])
-* In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
+* Swift
+  * I recently (2026) used an AI coding agent to build [a CLI tool][shrink-videos] to transcode
+    certain videos in my Apple Photos library
+* Clojure
+  * In 2025 I worked on a side project: [a Web app][communitycal-repo] to help community organizers
+    create digital calendars for their community programs
+  * In 2021 I built &amp; launched the Web app <code>ny.vax.help</code> to help people get
+    appointments for COVID-19 vaccines in New York State ([repo][vax-help-repo])
+  * In 2018 I released [FC4], an open-source framework for authoring software architecture diagrams
 
 </section></details>
 
@@ -433,6 +437,7 @@ Last modified $updated$ via [$shortsha$](https://github.com/aviflax/resume/commi
 [(Architecture) Diagrams as Data]: https://youtu.be/HmHOYkTVxIg
 [Relax NG]: https://en.wikipedia.org/wiki/RELAX_NG
 [resources for learning stream processing]: https://gist.github.com/aviflax/7f453a41a06a200a2f5d
+[shrink-videos]: https://github.com/aviflax/shrink-videos
 [Signal]: https://signal.me/#eu/mm1ogKZ9za21IbeckQ-45ax_5rif1WVN2z5q0Z3Mieh-JmSMtotIbKuir5jc36UY
 [Some of my favorite resources on software design &amp; development]: https://gist.github.com/aviflax/7ce52beecd986bb02f8a055c488c88af
 [Stack Overflow]: https://stackoverflow.com/users/7012/avi-flax
