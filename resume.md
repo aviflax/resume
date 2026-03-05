@@ -179,6 +179,14 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section class="experience">
 
+#### 2025– *Principal* <no-br>Tolerable Software</no-br>
+
+* Building new iPhone apps using Swift &amp; SwiftUI with AI coding agents (e.g. Claude Code)
+
+</section>
+
+<section class="experience">
+
 #### **2024–2025** *<no-br>Chief Software Architect</no-br>* Omne
 
 * Built &amp; refined the team &amp; its strategy, processes, <no-br>&amp; culture</no-br>
