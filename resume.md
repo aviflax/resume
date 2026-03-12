@@ -192,7 +192,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 * Built &amp; refined the team &amp; its strategy, processes, <no-br>&amp; culture</no-br>
 * Designed &amp; built an ERP system for the manufacturing market
-* Ended due to layoffs
 * Tech: PostgreSQL, C#, Playwright, GitHub Actions, Kafka, Azure Cloud, Terraform, Bicep, Docker
 
 </section>
@@ -201,7 +200,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 #### **2023–2024** *<no-br>Principal Software Engineer</no-br>* Trudy
 
-* A limited-term contracting engagement
 * Designed, implemented, &amp; maintained:
   * An internal prompt engineering tool that enabled non-engineers to conduct rapid structured
     testing of many variations of LLM API invocations
@@ -219,7 +217,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
   * A system for deploying multiple tools to many AWS accounts via Pulumi
   * A custom database for crucial business data &amp; CLI tools for integrating the DB with tools such
     as [Fibery] &amp; JIRA
-* Ended due to layoffs
 * Tech: Clojure, AWS, Pulumi, GitHub Actions, Docker
 
 </section>
@@ -244,7 +241,6 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 * Leveled-up documentation &amp; knowledge sharing at a 250-person software product org
 * Conceived, built, released, &amp; maintained [FC4], an open-source framework for authoring software
   architecture diagrams
-* Ended due to layoffs (related to the COVID-19 pandemic)
 * Tech: Clojure, Ruby, Kafka, GitHub Actions, Docker, [C4 Model], [Structurizr]
 
 </section><section class="experience">
