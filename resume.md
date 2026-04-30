@@ -227,7 +227,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 <section class="experience">
 
-#### **2020–2021** *<no-br>Senior Director of Technology</no-br>* Modern Energy
+#### **2020–2021** *<no-br>Director of Technology</no-br>* <no-br>Modern Energy</no-br>
 
 * Helped bootstrap a new Retail Energy Provider (REP) in Texas' ERCOT market
 * Automated wholesale energy trades for a few different markets via [APX MarketSuite]
@@ -236,7 +236,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section class="experience">
 
-#### **2017–2020** *<no-br>Principal Software Engineer</no-br>* Funding Circle
+#### **2017–2020** *<no-br>Principal Software Engineer</no-br>* <no-br>Funding Circle</no-br>
 
 * Leveled-up documentation &amp; knowledge sharing at a 250-person software product org
 * Conceived, built, released, &amp; maintained [FC4], an open-source framework for authoring software
@@ -245,7 +245,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section class="experience">
 
-#### **2015–2017** *<no-br>Principal Software Architect</no-br>* Park Assist
+#### **2015–2017** *<no-br>Principal Software Architect</no-br>* <no-br>Park Assist</no-br>
 
 * Rewrote a critical data pipeline using stream processing to reduce latency &amp; improve reliability
 * Designed, built, maintained, &amp; operated stream data topologies for high-throughput & low-latency
@@ -274,7 +274,7 @@ pagetitle: "Avi Flax: Software Engineer/Architect/Leader"
 
 </section><section class="experience">
 
-#### **2013–2014** *CTO* SFX Entertainment
+#### **2013–2014** *CTO* <no-br>SFX Entertainment</no-br>
 
 * Led the design &amp; implementation of an ambitious new-from-the-ground-up streaming music platform
   * With multiple teams: platform, Web, iOS, Android
